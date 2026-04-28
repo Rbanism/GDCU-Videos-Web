@@ -1,7 +1,8 @@
-name: Render and Publish Quarto
 on:
   push:
     branches: [ main ]
+
+name: Render and Publish
 
 jobs:
   build-deploy:
@@ -18,6 +19,6 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages  # MUST BE gh-pages, NEVER main
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
