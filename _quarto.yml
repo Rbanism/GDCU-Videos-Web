@@ -3,7 +3,7 @@ project:
   output-dir: _site 
 
 website:
-  title: "My New Project"
+  title: "GDCU Quarto Book Website"
   sidebar:
     style: docked
     contents:
