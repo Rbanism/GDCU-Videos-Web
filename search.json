@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "GDCU Videos Quarto Book",
+    "objectID": "D1P2.html",
+    "href": "D1P2.html",
+    "title": "Day 1 Part 2",
     "section": "",
-    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?"
+  },
+  {
+    "objectID": "D1P2.html#explore-dataset",
+    "href": "D1P2.html#explore-dataset",
+    "title": "Day 1 Part 2",
+    "section": "",
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?"
+  },
+  {
+    "objectID": "D1P2.html#dataframe-manipulation-with-dplyr",
+    "href": "D1P2.html#dataframe-manipulation-with-dplyr",
+    "title": "Day 1 Part 2",
+    "section": "Dataframe manipulation with dplyr",
+    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nChallenge question\nhow to get all info about a country?"
+  },
+  {
+    "objectID": "D1P2.html#group-and-summarize",
+    "href": "D1P2.html#group-and-summarize",
+    "title": "Day 1 Part 2",
+    "section": "Group and summarize",
+    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n[Group and summarize descriptions]()\n\nMultiple groups and summary variables"
+  },
+  {
+    "objectID": "D1P2.html#frequencies",
+    "href": "D1P2.html#frequencies",
+    "title": "Day 1 Part 2",
+    "section": "Frequencies",
+    "text": "Frequencies\nIntroduction to frequencies"
+  },
+  {
+    "objectID": "D1P2.html#mutate",
+    "href": "D1P2.html#mutate",
+    "title": "Day 1 Part 2",
+    "section": "Mutate",
+    "text": "Mutate\nMutate function"
+  },
+  {
+    "objectID": "D1P2.html#data-visualization",
+    "href": "D1P2.html#data-visualization",
+    "title": "Day 1 Part 2",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function"
+  },
+  {
+    "objectID": "D1P2.html#writing-data",
+    "href": "D1P2.html#writing-data",
+    "title": "Day 1 Part 2",
+    "section": "Writing data",
+    "text": "Writing data\nSaving the plot\nUsing help documentation"
+  },
+  {
+    "objectID": "D1P2.html#saving-the-data",
+    "href": "D1P2.html#saving-the-data",
+    "title": "Day 1 Part 2",
+    "section": "Saving the data",
+    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet."
   },
   {
     "objectID": "index.html",
@@ -125,5 +181,12 @@
     "crumbs": [
       "Day 1 Part 1"
     ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "GDCU Videos Quarto Book",
+    "section": "",
+    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
   }
 ]
