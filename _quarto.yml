@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site 
+
+website:
+  title: "GDCU Videos Quarto Book"
+  sidebar:
+    style: "docked"
+    contents:
+      - index.qmd
+      - D1Pt2.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: right
