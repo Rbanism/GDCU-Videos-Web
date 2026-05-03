@@ -159,7 +159,7 @@ how to get all info about a country?
 
 Check the detailed descriptions from the carpentries regarding group and summarize with a challenge.
 
-[**Group and summarize descriptions**](<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>)
+\[**Group and summarize descriptions**\](<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>)
 
 ### [Multiple groups and summary variables](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#multiple-groups-and-summary-variables)
 
