@@ -64,7 +64,7 @@ An introduction to ncol and nrow functions.
 Can we get the summaries for all countries?
 
 ```{=html}
-<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4b001bb148034e2b9b6dcd6fee1806b81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4b001bb148034e2b9b6dcd6fee1806b81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
 ## Dataframe manipulation with dplyr
@@ -124,7 +124,7 @@ What is the order of operation if we write it based on that structure?
 A follow-up question from the previous question
 
 ```{=html}
-<iframe title="" width="500" height="800" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10eebc780a204ce499195875ae8a78ed1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10eebc780a204ce499195875ae8a78ed1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
 ### Challenge
@@ -159,7 +159,7 @@ how to get all info about a country?
 
 Check the detailed descriptions from the carpentries regarding group and summarize with a challenge.
 
-\[**Group and summarize descriptions**\](<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>)
+\[**Group and summarize descriptions**\](<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>)
 
 ### [Multiple groups and summary variables](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#multiple-groups-and-summary-variables)
 
