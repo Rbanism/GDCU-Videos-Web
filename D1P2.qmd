@@ -1,0 +1,240 @@
+---
+title: "Day 1 Part 2"
+format: html
+---
+
+## Explore Dataset
+
+Check the information of data frame basics and explore the dataset.
+
+[**Reading data**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8d90123cf284477d900366f8b2ac24dd1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+[**Exploring dataset**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#exploring-dataset)
+
+```{=html}
+<iframe title width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/49677d70699545a9912cda18f30184f91d" allowfullscreen msallowfullscreen allow="fullscreen">
+
+</iframe>
+```
+
+[**First look at the dataset**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#first-look-at-the-dataset)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/87495c55e71547cf841cfc4c995ecd821d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### The dollar sign
+
+See how to use the dollar sign (\$) in your script.
+
+[**Using dollar sign**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#dollar-sign)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b85d7dee8914426c863e4d6623da013f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Can we use factor function to convert character vector?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0a13097283e54f5c9938a29d86c5a3ff1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+**Answer**
+
+```{=html}
+<iframe title="" width="8000" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7e2a9eaad4764883b65cb8ced17ce3ca1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+An introduction to ncol and nrow functions.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/35694041a0134b1ea48d21389c2eb6981d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### **Question**
+
+Can we get the summaries for all countries?
+
+```{=html}
+<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4b001bb148034e2b9b6dcd6fee1806b81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Dataframe manipulation with dplyr
+
+### Select function
+
+[**Introducing the select function.**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#select)
+
+### Tip
+
+When choosing the select function, you may face error saying tidyverse is not installed.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f6f19930db774879b91aea1815cd5d3f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Pipes
+
+[**Introducing the pipe**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#pipe)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/863f48574bd34adb9d5b6211a2d1f7c71d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+A tip when you're using pipes is to read your code with indentations.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/56751a83ddcd4559ae14ee5a3accd5531d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Why use a pipe instead of doing things step by step?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8bbdd187ceeb428d91a2613f7ff2cae01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Filter
+
+[**Introduction to filter**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#filter)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf79939b5b6d4bd688e6dfc5fb28d0341d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+What is the order of operation if we write it based on that structure?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2d015b7312bd44f9925828eefccbbaf31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+A follow-up question from the previous question
+
+```{=html}
+<iframe title="" width="500" height="800" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10eebc780a204ce499195875ae8a78ed1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge description
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/711abc6648cb406aa6fe7174a21027fa1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/55875a3b3acc47ad9de17d2671ec9daf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+You can also check the alternative solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b60ad5c8dcf04f2cbb52e8d2931f4f171d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Challenge question
+
+how to get all info about a country?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Group and summarize
+
+Check the detailed descriptions from the carpentries regarding group and summarize with a challenge.
+
+\[**Group and summarize descriptions**\](<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>)
+
+### [Multiple groups and summary variables](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#multiple-groups-and-summary-variables)
+
+## Frequencies
+
+[**Introduction to frequencies**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#frequencies)
+
+## Mutate
+
+[**Mutate function**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#mutate)
+
+## Data Visualization
+
+[**Introduction to data visualization**](https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html)
+
+```{=html}
+<iframe title="GDCU_D1P2_Data_Visual_Intro" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ece75cd0629441bab1384abe1001727a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+[Don't forget to take a quick look at the cheatsheet](https://github.com/carpentries-incubator/r-geospatial-urban/blob/main/instructors/cheatsheet/GDCU2025_cheatsheet.pdf)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/117fa28d37bf41789f800d123d9dae711d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Second part of the data visualization
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/daed8b040a8743198fa3fb679d915d061d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Third part of the data visualization. Creating a summary plot for the data using the [**mutate function**](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#mutate).
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/61205c4b2a06439f85c6b33af505c34a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+How did we know there's the continent of America in the dataset?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/dc0b69395a0f4deda06df7ed1ab7c3461d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+fourth part of data visualization, coloring.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/37a446990d1046199ef79711af3f1c2b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Color scale
+
+Color scale and viridis function
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/830776c1da5740d5884fac2e50ef8cb71d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Writing data
+
+[**Saving the plot**](https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#saving-the-plot)
+
+[**Using help documentation**](https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#using-help-documentation)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/894b2ec6611c48ebbe796397d07ffe1f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Saving the data
+
+[**write.csv function description.**](https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#saving-the-data)
+
+Also, check the cheatsheet.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f5bb4878663a42b1957ec864bb34688b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
