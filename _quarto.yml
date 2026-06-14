@@ -9,6 +9,8 @@ website:
     contents:
       - index.qmd
       - sections/D1P2.qmd
+      - sections/D1P3.qmd
+      - sections/D1P4.qmd
 
 format:
   html:
