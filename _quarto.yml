@@ -11,6 +11,10 @@ website:
       - sections/D1P2.qmd
       - sections/D1P3.qmd
       - sections/D1P4.qmd
+      - sections/D2P1.qmd
+      - sections/D2P2.qmd
+      - sections/D2P3.qmd
+      - sections/D2P4.qmd
 
 format:
   html:
