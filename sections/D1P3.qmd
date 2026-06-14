@@ -113,8 +113,6 @@ Challenge described
 <iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a23d5a31ccfa4810b42c31768dd8806b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-#### Solution
-
 Challenge solution explained
 
 ```{=html}
@@ -129,7 +127,7 @@ Does it make a difference to open (double-click) a file using the GUI?
 <iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d35b9712c52347bab7f5ec2e1e1e57751d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-#### Solution pt.2
+Solution part 2
 
 ```{=html}
 <iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6641de1cd9e94d6f949f096521d938761d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
