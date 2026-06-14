@@ -1,102 +1,5 @@
 [
   {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "GDCU Videos Quarto Book",
-    "section": "",
-    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
-  },
-  {
-    "objectID": "sections/D1P2.html",
-    "href": "sections/D1P2.html",
-    "title": "Day 1 Part 2",
-    "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#explore-dataset",
-    "href": "sections/D1P2.html#explore-dataset",
-    "title": "Day 1 Part 2",
-    "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "title": "Day 1 Part 2",
-    "section": "Dataframe manipulation with dplyr",
-    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nChallenge question\nhow to get all info about a country?",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#group-and-summarize",
-    "href": "sections/D1P2.html#group-and-summarize",
-    "title": "Day 1 Part 2",
-    "section": "Group and summarize",
-    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#frequencies",
-    "href": "sections/D1P2.html#frequencies",
-    "title": "Day 1 Part 2",
-    "section": "Frequencies",
-    "text": "Frequencies\nIntroduction to frequencies",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#mutate",
-    "href": "sections/D1P2.html#mutate",
-    "title": "Day 1 Part 2",
-    "section": "Mutate",
-    "text": "Mutate\nMutate function",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#data-visualization",
-    "href": "sections/D1P2.html#data-visualization",
-    "title": "Day 1 Part 2",
-    "section": "Data Visualization",
-    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#writing-data",
-    "href": "sections/D1P2.html#writing-data",
-    "title": "Day 1 Part 2",
-    "section": "Writing data",
-    "text": "Writing data\nSaving the plot\nUsing help documentation",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#saving-the-data",
-    "href": "sections/D1P2.html#saving-the-data",
-    "title": "Day 1 Part 2",
-    "section": "Saving the data",
-    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
-    "crumbs": [
-      "Day 1 Part 2"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Day 1 Part 1",
@@ -215,5 +118,221 @@
     "crumbs": [
       "Day 1 Part 1"
     ]
+  },
+  {
+    "objectID": "sections/D1P2.html",
+    "href": "sections/D1P2.html",
+    "title": "Day 1 Part 2",
+    "section": "",
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#explore-dataset",
+    "href": "sections/D1P2.html#explore-dataset",
+    "title": "Day 1 Part 2",
+    "section": "",
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "title": "Day 1 Part 2",
+    "section": "Dataframe manipulation with dplyr",
+    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nChallenge question\nhow to get all info about a country?",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#group-and-summarize",
+    "href": "sections/D1P2.html#group-and-summarize",
+    "title": "Day 1 Part 2",
+    "section": "Group and summarize",
+    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#frequencies",
+    "href": "sections/D1P2.html#frequencies",
+    "title": "Day 1 Part 2",
+    "section": "Frequencies",
+    "text": "Frequencies\nIntroduction to frequencies",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#mutate",
+    "href": "sections/D1P2.html#mutate",
+    "title": "Day 1 Part 2",
+    "section": "Mutate",
+    "text": "Mutate\nMutate function",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#data-visualization",
+    "href": "sections/D1P2.html#data-visualization",
+    "title": "Day 1 Part 2",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#writing-data",
+    "href": "sections/D1P2.html#writing-data",
+    "title": "Day 1 Part 2",
+    "section": "Writing data",
+    "text": "Writing data\nSaving the plot\nUsing help documentation",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#saving-the-data",
+    "href": "sections/D1P2.html#saving-the-data",
+    "title": "Day 1 Part 2",
+    "section": "Saving the data",
+    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
+    "crumbs": [
+      "Day 1 Part 2"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "GDCU Videos Quarto Book",
+    "section": "",
+    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "objectID": "sections/D1P4.html",
+    "href": "sections/D1P4.html",
+    "title": "Day 1 Part 4",
+    "section": "",
+    "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge"
+  },
+  {
+    "objectID": "sections/D1P4.html#load-the-data",
+    "href": "sections/D1P4.html#load-the-data",
+    "title": "Day 1 Part 4",
+    "section": "",
+    "text": "Check that you have the sf package loaded in your environment."
+  },
+  {
+    "objectID": "sections/D1P4.html#plotting-multiple-vector-layers",
+    "href": "sections/D1P4.html#plotting-multiple-vector-layers",
+    "title": "Day 1 Part 4",
+    "section": "",
+    "text": "An introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge"
+  },
+  {
+    "objectID": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
+    "href": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
+    "title": "Day 1 Part 4",
+    "section": "Working with spatial data from different sources",
+    "text": "Working with spatial data from different sources\nReading shapefile\n\nReading shapefile part 2\n\n\nTip\nAn error appears. What might be the reason?\n\n\n\nTip\nDiscussing the CRS differences\n\n\n\nChallenge\nChallenge description\n\nChallenge solution"
+  },
+  {
+    "objectID": "sections/D1P4.html#export-a-shapefile",
+    "href": "sections/D1P4.html#export-a-shapefile",
+    "title": "Day 1 Part 4",
+    "section": "Export a shapefile",
+    "text": "Export a shapefile\nst write function\n\n\nTip\nName of the function\n\n\n\nQuestion\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion\nSome parameters inside the plotting code are unknown. What are they?"
+  },
+  {
+    "objectID": "sections/D1P3.html",
+    "href": "sections/D1P3.html",
+    "title": "Day 1 Part 3",
+    "section": "",
+    "text": "Here you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained."
+  },
+  {
+    "objectID": "sections/D1P3.html#shape-of-the-earth",
+    "href": "sections/D1P3.html#shape-of-the-earth",
+    "title": "Day 1 Part 3",
+    "section": "",
+    "text": "The shape of the earth"
+  },
+  {
+    "objectID": "sections/D1P3.html#map-projections",
+    "href": "sections/D1P3.html#map-projections",
+    "title": "Day 1 Part 3",
+    "section": "",
+    "text": "Map projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale"
+  },
+  {
+    "objectID": "sections/D1P3.html#types-of-geospatial-data",
+    "href": "sections/D1P3.html#types-of-geospatial-data",
+    "title": "Day 1 Part 3",
+    "section": "",
+    "text": "Exploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained."
+  },
+  {
+    "objectID": "sections/D1P3.html#sf-package-introduction",
+    "href": "sections/D1P3.html#sf-package-introduction",
+    "title": "Day 1 Part 3",
+    "section": "SF package introduction",
+    "text": "SF package introduction\nsf package introduction and installation"
+  },
+  {
+    "objectID": "sections/D1P3.html#import-shapefiles",
+    "href": "sections/D1P3.html#import-shapefiles",
+    "title": "Day 1 Part 3",
+    "section": "Import shapefiles",
+    "text": "Import shapefiles\nGeometry in QGIS and R"
+  },
+  {
+    "objectID": "sections/D1P3.html#plot-a-vector-layer",
+    "href": "sections/D1P3.html#plot-a-vector-layer",
+    "title": "Day 1 Part 3",
+    "section": "Plot a vector layer",
+    "text": "Plot a vector layer\nplot the vector\n\n\nQuestion\nIs the output in Brittish?\n\n\n\nPlot the vector layer pt. 2\nPlot the vector part 2\n\n\n\nChallenge\nChallenge described\n\n\nSolution\nChallenge solution explained\n\n\n\nQuestion\nDoes it make a difference to open (double-click) a file using the GUI?\n\n\n\nSolution pt.2"
+  },
+  {
+    "objectID": "sections/D1P3.html#query-vector-feature-metadata",
+    "href": "sections/D1P3.html#query-vector-feature-metadata",
+    "title": "Day 1 Part 3",
+    "section": "Query Vector Feature Metadata",
+    "text": "Query Vector Feature Metadata\nHave a look at the metadata of the layer"
+  },
+  {
+    "objectID": "sections/D1P3.html#explore-values",
+    "href": "sections/D1P3.html#explore-values",
+    "title": "Day 1 Part 3",
+    "section": "Explore values",
+    "text": "Explore values\nExplore values within an attribute\n\n\nQuestion\nHow could the column be updated?"
+  },
+  {
+    "objectID": "sections/D1P3.html#subset-features",
+    "href": "sections/D1P3.html#subset-features",
+    "title": "Day 1 Part 3",
+    "section": "Subset features",
+    "text": "Subset features\nFilter function\n\nFilter function part 2\n\n\nChallenge\nChallenge description\n\nChallenge solution\n\nChallenge solution part 2\n\n\n\nQuestion\nSummarize length, would you also get a simple feature?"
+  },
+  {
+    "objectID": "sections/D1P3.html#customize-plots",
+    "href": "sections/D1P3.html#customize-plots",
+    "title": "Day 1 Part 3",
+    "section": "Customize plots",
+    "text": "Customize plots\nIntroduction to plot customization\n\n\nTip\nThe importance of CRS in plotting your data.\n\nPlot customization part 2\n\n\n\nQuestion\nWhy do we need to specify the levels?\n\n\nAnswers"
+  },
+  {
+    "objectID": "sections/D1P3.html#examining-and-coloring-objects",
+    "href": "sections/D1P3.html#examining-and-coloring-objects",
+    "title": "Day 1 Part 3",
+    "section": "Examining and coloring objects",
+    "text": "Examining and coloring objects\n\n\nQuestion\nHow should we know how many colors we need for the road types?\n\n\n\nQuestion\nIs the order of colors the same as the value orders?"
   }
 ]
