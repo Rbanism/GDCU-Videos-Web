@@ -1,0 +1,262 @@
+---
+title: "Day 1 Part 3"
+format: html
+---
+
+# [Introduction to Geospatial Concepts](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html)
+
+Here you can learn a bit from the geospatial concepts.
+
+## Shape of the Earth
+
+[The shape of the earth](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#the-shape-of-the-earth)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ec18514c943c434f995f815fbfcecbd31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Map Projections
+
+[**Map projection: From the 3D Earth to a 2D map**](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#map-projection-from-the-3d-earth-to-a-2d-map)
+
+```{=html}
+<iframe title width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/49677d70699545a9912cda18f30184f91d" allowfullscreen msallowfullscreen allow="fullscreen">
+
+</iframe>
+```
+
+### Coordinate reference systems
+
+[**Coordinate reference systems (CRS)**](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#coordinate-reference-systems-crs)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5f838e743fc449c386213c0e8a5715b01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Map scale
+
+Check the variations of map scales.
+
+[**Map scale**](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#map-scale)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0381f2a4c5de4c3dbdbebcf5fb5e91401d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Types of geospatial data
+
+Exploring the [**geospatial data categories**](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#types-of-geospatial-data).
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f0a293e571024ae8b43e92fbeb023f571d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+The challenge is described as [CRS for calculating areas](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#types-of-geospatial-data) and calculating the shortest path.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2f772331d0ea4b0a90c62f669c4588af1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Solution
+
+The solutions are explained.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/354299eb27074408828bca56f46921101d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+# Open and Plot Vector Layers
+
+## SF package introduction
+
+[sf package introduction and installation](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html)
+
+## Import shapefiles
+
+[**Geometry in QGIS and R**](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#spatial-metadata)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/c4abfc62d8b6438296b3a0fc264f3da41d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Plot a vector layer
+
+[**plot the vector**](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#plot-a-vector-layer)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9e64c8b713de418b9ac235937f0cb2b31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Is the output in Brittish?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e65a9f5d7b69408183737ec27f8807191d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Plot the vector layer pt. 2
+
+[**Plot the vector part 2**](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#plot-a-vector-layer)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/36fb8fae8e1844edb6dc5f83d923ea901d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge described
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a23d5a31ccfa4810b42c31768dd8806b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Solution
+
+Challenge solution explained
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8a55014ece9f43a5a6488524bbf46b461d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Question
+
+Does it make a difference to open (double-click) a file using the GUI?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d35b9712c52347bab7f5ec2e1e1e57751d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Solution pt.2
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6641de1cd9e94d6f949f096521d938761d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+# Explore and plot by vector layer attributes
+
+## Query Vector Feature Metadata
+
+[Have a look at the metadata of the layer](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/41ddeb2adc1f42188f12ea7de08189281d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Explore values
+
+[**Explore values within an attribute**](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html#explore-values-within-one-attribute)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/af6c63a0571d4a8e974290cc08d0392e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+How could the column be updated?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/92b0f62ab8454a4db16d4bf07e716b5e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Subset features
+
+[**Filter function**](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html#subset-features)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0d6bd70e37714675a6fb103e5a170c1a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+[**Filter function part 2**](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html#subset-features)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d0fc0a95500c4525980d6234d83b63d01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge description
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f04769eb5a7445cfb5a57f008d5e52461d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5765d34e8d2d44c6a88ff6de7c042fb51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution part 2
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0441c8e72865462db76291894de8c12c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Summarize length, would you also get a simple feature?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0c9f2dd1ce8f4d6d8d5571e5eeda40011d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Customize plots
+
+[**Introduction to plot customization**](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html#customize-plots)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e4a43dc035f44201b74f88d8ff3cb6dc1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+The importance of CRS in plotting your data.
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f18fcd9c4a9e43c2a37bfba9104d16ec1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Plot customization part 2
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/aaff2c745fee4363beb85f98551f28981d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Why do we need to specify the levels?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/01ac9cb2306b42e6970f2a0bb2e9f5ee1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+#### Answers
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1db65d02001c4d49b47c06c954bfab3d1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Examining and coloring objects
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/66e1a508998d4bfe9cfc00842ef6075a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+How should we know how many colors we need for the road types?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1bf9a05123544d49b761d2c42412eaa51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Is the order of colors the same as the value orders?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/611814937a8e4abd9e9359d61ffbb9201d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```

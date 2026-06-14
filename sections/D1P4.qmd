@@ -1,0 +1,194 @@
+---
+title: "Day 1 Part 4"
+format: html
+---
+
+# [Plot multiple shapefiles](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html)
+
+This is the following episode from the previous one.
+
+## Load the data
+
+Check that you have the [sf package loaded](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#load-the-data) in your environment.
+
+## Plotting Multiple Vector Layers
+
+[An introduction to **ggplot**](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ec18514c943c434f995f815fbfcecbd31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Plot multiple layers part 2
+
+[Making the legend](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7a678604a7484f2d80cf5f990d957da91d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Plot multiple layers part 3
+
+Using Rainbow
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a76d9472dc1b4e9496c70b583df0e5431d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Why does no rainbow appear?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7298bf52bd354375b148c8fca1c758e61d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Plot multiple layers part 4
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d01d2a6425e44ee0b69e41d878d9b5531d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Rainbow doesn't work that well, why?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/16ebdf849c804692b4beb17f6ce3ba661d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Can the scale be before the geo funcion or after it?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/76564e43ae1e4c9991dbdd2511f7aed81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+What the result would be if you use the scale clr manual for measure?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/801929477c3e461da285515d12f082db1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge [description](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/edfae543083b4e7e87cc24f4647d3ab21d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1c9714933a5e4e7993e0971cc25715801d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge description
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6d971a74e91e432db6fc98afb5454b3b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/027233b11fec4bbe9565683273ce829c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+Common errors of uppercase and lowercase letters during the previous challenge
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf2efd5fbe7640dbaa97f8a7acf1e6ce1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+# [Handling Spatial Projections & CRS](https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html)
+
+Introduction to projections and CRS handling
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b9ce7c10391746c49a783bfebb5fc9da1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Working with spatial data from different sources
+
+[**Reading shapefile**](https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html#working-with-spatial-data-from-different-sources)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/31bb61a79507493b9c032ea53dc17d751d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Reading shapefile part 2
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2a8abab3fa694d9d9c32c8fed738ca111d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+An error appears. What might be the reason?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ecd2c7c6517c48778caa245e7112c99e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+Discussing the CRS differences
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/50d2818571a8437398b530995b60ed811d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge
+
+Challenge description
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2bfa7120120a44f7b38654451c41f5531d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2285e51036454c699aa39113c3c937111d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Export a shapefile
+
+[st write function](https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html#export-a-shapefile)
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/09341891669f45bcabe127217713e09b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip
+
+Name of the function
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7f3f652cd0c243389690f8cf64d6eea01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+What do the numbers along the vertical and horizontal axis mean?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d2613e16d7864ff39ba137a921ffe3781d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question
+
+Some parameters inside the plotting code are unknown. What are they?
+
+```{=html}
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/97ef10f0daff48089b87d9bf13be74ee1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
