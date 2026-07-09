@@ -1,5 +1,5 @@
 ---
-title: "Lesson 2: Vector Data Part 2"
+title: "Lesson 3: Raster Data"
 format: html
 ---
 
