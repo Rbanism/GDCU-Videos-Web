@@ -126,7 +126,7 @@ It is totally normal not to know the package names, specific functions, or gener
 Your auto-completion may not operate the same way as the one in the instruction video. The auto-completion options in your environment may vary based on the installed packages in your Rstudio.
 
 ```{=html}
-<iframe title="" width="450" height="300" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/adb906b337c649809953cade280943ba1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+<iframe title="" width="800" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/adb906b337c649809953cade280943ba1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
 ### Installing Tidyverse
