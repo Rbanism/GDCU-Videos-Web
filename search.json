@@ -122,51 +122,51 @@
   {
     "objectID": "sections/D2P1.html",
     "href": "sections/D2P1.html",
-    "title": "Lesson 2: Vector Data Part 2",
+    "title": "Lesson 3: Raster Data",
     "section": "",
     "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
     "crumbs": [
-      "Lesson 2: Vector Data Part 2"
+      "Lesson 3: Raster Data"
     ]
   },
   {
     "objectID": "sections/D2P1.html#load-the-data",
     "href": "sections/D2P1.html#load-the-data",
-    "title": "Lesson 2: Vector Data Part 2",
+    "title": "Lesson 3: Raster Data",
     "section": "",
     "text": "Check that you have the sf package loaded in your environment.",
     "crumbs": [
-      "Lesson 2: Vector Data Part 2"
+      "Lesson 3: Raster Data"
     ]
   },
   {
     "objectID": "sections/D2P1.html#plotting-multiple-vector-layers",
     "href": "sections/D2P1.html#plotting-multiple-vector-layers",
-    "title": "Lesson 2: Vector Data Part 2",
+    "title": "Lesson 3: Raster Data",
     "section": "",
     "text": "An introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
     "crumbs": [
-      "Lesson 2: Vector Data Part 2"
+      "Lesson 3: Raster Data"
     ]
   },
   {
     "objectID": "sections/D2P1.html#working-with-spatial-data-from-different-sources",
     "href": "sections/D2P1.html#working-with-spatial-data-from-different-sources",
-    "title": "Lesson 2: Vector Data Part 2",
+    "title": "Lesson 3: Raster Data",
     "section": "Working with spatial data from different sources",
     "text": "Working with spatial data from different sources\nReading shapefile\n\nReading shapefile part 2\n\n\nTip: Error happens\nAn error appears. What might be the reason?\n\n\n\nTip: CRS differences\nDiscussing the CRS differences\n\n\n\nChallenge: Plot multiple layers of spatial data\nChallenge description\n\nChallenge solution",
     "crumbs": [
-      "Lesson 2: Vector Data Part 2"
+      "Lesson 3: Raster Data"
     ]
   },
   {
     "objectID": "sections/D2P1.html#export-a-shapefile",
     "href": "sections/D2P1.html#export-a-shapefile",
-    "title": "Lesson 2: Vector Data Part 2",
+    "title": "Lesson 3: Raster Data",
     "section": "Export a shapefile",
     "text": "Export a shapefile\nst write function\n\n\nTip: Function name\nName of the function\n\n\n\nQuestion about the axis numbers\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion about the unknown parameters\nSome parameters inside the plotting code are unknown. What are they?",
     "crumbs": [
-      "Lesson 2: Vector Data Part 2"
+      "Lesson 3: Raster Data"
     ]
   },
   {
