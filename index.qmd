@@ -57,7 +57,7 @@ The first video explains to you how to create an R project.
 <iframe>
 ```
 
-### Tip
+### Tip: Creating your project
 
 To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.
 
