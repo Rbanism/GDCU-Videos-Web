@@ -1,0 +1,320 @@
+---
+title: "Lesson 4: Open Street Map"
+format: html
+---
+
+# [Episode 15: Import & Visualise OSM Data](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html)
+
+In this episode, you're about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/716e991bdf2243dc87fd68dc34e72bfa1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+A recap of what you've gone through so far
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/c77441f93eec4be2906463b0f0ebc1bb1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+LO
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/87a65e530be54cb9a324f2777f6b6abf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## What is OpenStreetMap?
+
+[Learn more about OSM.](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#what-is-openstreetmap)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/199c6028a8684950ae199f9078f2a1781d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+How does OSM work?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/810fbabc6b974d779a2d9fbe46cd8adf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answers to the questions
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d1caa480928a4b63b70c300523346ecd1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2e37430fb3e54d5ea48e3370ea14a1401d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## What is OpenStreetMap Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/cf18c239ce434ae489bef458cf172d131d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## OSM in R
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0140847206804a03a77a0a767c80f8c31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Install OSMData Pack
+
+Installation and [data extraction](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#how-to-extract-geospatial-data-from-openstreetmap)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fa15abe24ade4de088ef9a9e01bdf5371d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Bounding Box
+
+[Using getbb() function](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#bounding-box)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0f98d5f94da04198be6e09233c41f91d1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Location with the same name
+
+[There are locations with the same names. Be aware of it.](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#a-word-of-caution)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bd04ee102c0541e584e4cb2071cf849a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Extracting Features
+
+[Extract the Features](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#extracting-features)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6427bb1e52294354bd3e1a0a83386ee01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Searching Documentation
+
+[Check the Documentation Link](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#searching-documentation)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/82874f1ce0eb4fdc949f7c5360c80f631d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Overpass Query
+
+Check the instructions for using the [Overpass API](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#:~:text=Overpass%20API).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8627c9b8dc5e43ffbba6ca3050d5043d1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Overpass Query Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a49acda9248c48e0a9bcfe2e1a497c591d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Structure of Objects
+
+[Learn about the objects](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#structure-of-objects)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2e8c9ded162f408da44b9066416d07661d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Mapping
+
+[Check the Projections via the link](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#mapping)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1e77f4649c2143a3baa80ecf67f3ffce1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Visualization
+
+[filter() function is used](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#visualisation)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/76a7feed21934293854557e1a6a9f1021d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+What is the difference between AES and buil_date?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/43a844a734a544ca946f9fd84e74b79a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7edc75809af04a849cd4fefb2f2ef7481d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Visualization Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/99b4c97f3f0049978cca04b28b88dc9e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: regarding visualization
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/80897f152f454a0398db1fc1444250131d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about coloring
+
+How to should we make it color friendly?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d079774b88ff4f3e99d1530b2f10bf771d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/219e07d2150845cfa9fd20a6408b2bf51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about the syntax
+
+British or American syntax for visualization?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/faf2c976e1ba44b4bad9497eac0653781d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Visualization Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9dfa44db8470470cbb0e624ad9932b591d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Why do we have a contrast in the map?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6449d4057cc1462e95b8b4850d3af1711d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Visualization Pt. 4
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/3a3cc77716d64ffab4a6fdbdff91dcec1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Replicability
+
+[How can we replicate the same plot and map?](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#replicability)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/248cda26d5084e6f93322898aa59fe291d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Replicability Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/81feb23f9e074540ba2f252203d9b60f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about storing the CRS
+
+Can I run the code but use the CRS instead of city names in a row?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b1bed9132c8e4e4cb76efef40d3dab441d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/38c609d5ecf045eb9f24631dd446139a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Replicability Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4c044fb3afad4e6aaefdd357874790021d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about storing the function
+
+Where can we store the function?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fa7cd696385d4578a9f1177cc40f752f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about curly brackets
+
+When do we use curly brackets?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5ebbe16e535a49f1b3e14317ccca62f81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Replicability Pt. 4
+
+Closure
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/12927b622dc540158c88f3522e61386f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Going Interactive
+
+[Challenge description](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html#going-interactive-)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9b5e9c6133d44caf90e06069b9e699481d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Going Interactive Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/58ad6841fae247689575e13ec77e62381d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Going Interactive Pt. 3
+
+Discussing the challenge maps
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6e5ed1f3c2db45029badca17a2bbe9a31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question regarding the challenge
+
+Why do we have to reproject the buildings?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/392b5977a06e4740967a3daf9f97f21b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about replicability
+
+Can we do the replicability example by changing the city name with the interactive mapping?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/79430fd9f09d4d6eb19a67c94b06a0501d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: An additional solution
+
+addfile as a solution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2f0a23d8edae467fae2c391da9ec2cd51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Going Interactive Pt. 4
+
+Challenge solution and leaflets
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7d4b691de6a248aa840b27bab14fef801d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+**Wrap UP**
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6c418ebd995c4aee95c5e76ef591a1001d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```

@@ -3,7 +3,7 @@ title: "Lesson 1: Data"
 format: html
 ---
 
-## Explore Dataset
+## [Episode 3: Exploring Data Frames & Data Frame Manipulation with dplyr](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data)
 
 Check the information of data frame basics and explore the dataset.
 

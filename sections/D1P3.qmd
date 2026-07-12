@@ -3,7 +3,7 @@ title: "Lesson 2: Vector Data"
 format: html
 ---
 
-# [Introduction to Geospatial Concepts](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html)
+# [Episode 5: Introduction to Geospatial Concepts](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html)
 
 Here you can learn a bit from the geospatial concepts.
 
@@ -67,7 +67,7 @@ The solutions are explained.
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/354299eb27074408828bca56f46921101d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-# Open and Plot Vector Layers
+# [Episode 6: Open and Plot Vector Layers](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html)
 
 ## SF package introduction
 
@@ -133,7 +133,7 @@ Solution part 2
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6641de1cd9e94d6f949f096521d938761d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-# Explore and plot by vector layer attributes
+# [Episode 7: Explore and plot by vector layer attributes](https://carpentries-incubator.github.io/r-geospatial-urban/07-explore-and-plot-by-vector-layer-attributes.html)
 
 ## Query Vector Feature Metadata
 

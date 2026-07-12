@@ -3,7 +3,7 @@ title: "Lesson 2: Vector Data Part 2"
 format: html
 ---
 
-# [Plot multiple shapefiles](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html)
+# [Episode 8: Plot multiple shapefiles](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html)
 
 This is the following episode from the previous one.
 
@@ -109,7 +109,7 @@ Common errors of uppercase and lowercase letters during the previous challenge
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf2efd5fbe7640dbaa97f8a7acf1e6ce1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-# [Handling Spatial Projections & CRS](https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html)
+# [Episode 9: Handling Spatial Projections & CRS](https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html)
 
 Introduction to projections and CRS handling
 

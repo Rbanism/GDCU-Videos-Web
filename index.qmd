@@ -11,7 +11,7 @@ The online materials of this instruction package is meant to help you working wi
 
 The package is a combination of online structured teachings from the Carpentries Incubator and recorded video materials from the previous workshop that was held in-person at TU Delft in 2024.
 
-## Introduction to GDCU
+# [Episode 1: Introduction to R and RStudio](https://carpentries-incubator.github.io/r-geospatial-urban/01-intro-to-r.html)
 
 Learn more about the GDCU and its aim and objectives with our instructors giving detailed insightful context of the upcoming materials.
 

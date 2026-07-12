@@ -1,0 +1,330 @@
+---
+title: "Lesson 3: Raster Data"
+format: html
+---
+
+# [Episode 12: Reproject Raster Data](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html)
+
+In this episode, you're about to learn more about raster data projections.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/07c0101d8dd24ebe9f2cbb5218a186341d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Projection
+
+[Raster Data Projections](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html#raster-projection)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0bd03fd65e0d4b3992ee6859a932a9f61d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about raster projection
+
+[What is hillshade?](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html#:~:text=Layering%20Rasters%3A%20Hillshade)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/32be7164542b48a7b1267ad383d4ae4b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Projection Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/cac045798fd6469a936c4de24ed98f1a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Be aware of the typos!
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5fbf53cad8714bbab2cb3acd10748ea81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Discussion about gradients
+
+Gradient colors and plot setting
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0bfd6469bed645d2843f3dc001f1f4ce1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Projection Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/941f77113b5740be8b3a391bbf3da6581d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Projection Pt. 4
+
+Plotting the hillshade
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a4b8b92b3d3b4380a551d20318a4b0491d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about the plot variables
+
+How do we know the variable is called like as it is shown in the code?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/038e44396d134312a51f89e6903a82c41d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Plotting the hillshade pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e97e7d19dae947a5b2f170a6e02709a01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Challenge: Compare the CRSS
+
+[Challenge Description](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html#:~:text=Challenge%3A%20compare%20the%20CRSs)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4a975800d68a44c7821b58d8fd0f75c81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge Solution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a47f6d1369a84c92b74166d7fa5d1f501d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Describe()
+
+describe() can also show the CRS projection
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/642eb40a71f84a5ebeb09e2b8038059d1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Reproject Rasters
+
+[Reproject the raster layer using project() function](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html#reproject-rasters)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4b2d8a15b22e49e28d944100ae24ca6b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Reproject Rasters Pt. 2
+
+Checking the extend using ext()
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9e0bff377c10409ebb5de04770d4a3811d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Resolution
+
+[Deal with raster resolution](https://carpentries-incubator.github.io/r-geospatial-urban/12-reproject-raster-data.html#deal-with-raster-resolution)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/850ba815be9747be8b03b483275577e01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about the resolutions
+
+Do the resolutions look okay to you?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2dec9330da7148eb8133b248505d0a221d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/72c382ca9f6e404ca3832d5da4add78c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Resolution Pt. 2 {style="line-height: 1.2; color: rgb(230, 225, 220); font-family: \"Segoe UI\", sans-serif; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(255, 255, 255); white-space: break-spaces; background-color: rgb(32, 32, 32); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"}
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/95822f8295914a7688766cc30af808dd1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: convert before plotting
+
+Convert the layer before using the ggplot
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9d3973985d9a48cc9dffb86c2e5272af1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Resolution Pt. 3 {style="line-height: 1.2; color: rgb(230, 225, 220); font-family: \"Segoe UI\", sans-serif; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; caret-color: rgb(255, 255, 255); white-space: break-spaces; background-color: rgb(32, 32, 32); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"}
+
+Plotting the raster using ggplot
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1ef7d00e74b84e49a898d3f4f0861a2c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+# [Episode 13: Raster Calculations](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html)
+
+In this episode, you'll learn more about [calculating the values within raster layers in R.](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html#raster-calculations-in-r)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/998a4795081146049d348844e6f58ee91d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Load the Data
+
+The [DTM and DSM layers are both needed to be loaded](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html#load-the-data) for this episode to calculate the Canopy Height Model (CHM).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6c24b45ce85e48389c84594473f250cf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Math and CHM
+
+You'll produce [histograms calculating the DTM and DSM differences](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html#raster-math-and-canopy-height-models).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0a89b467263a4982b4e69e46af2be9f41d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Challenge: Explore CHM Values
+
+[Challenge description](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html#:~:text=Challenge%3A%20Explore%20CHM%20Raster%20Values)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a10ebcbf4bbb44a2877a00c2f2f30a611d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/c1b2524330f84baa983270b0a09083581d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4adee89cea584471a29701219ab2bab21d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bcbc7e8006e2455489ba90401643006a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about the challenge
+
+Is zero included in the min part?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0580c3fc2cf34cb8a4c28bfb806f4c651d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Export a GeoTIFF
+
+[writeRaster() function](https://carpentries-incubator.github.io/r-geospatial-urban/13-raster-calculations.html#export-a-geotiff) is introduced here.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d2796a714c96486197059cd02ee35ea81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about GeoTIFF
+
+Is there a difference between using extensions of tif and tiff?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e5d493b0d2ea44308e65bed715a0dfa01d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+# [Episode 14: Multi-Band Rasters](https://carpentries-incubator.github.io/r-geospatial-urban/14-work-with-multi-band-rasters.html)
+
+In this episode you're going to learn how to work with multi-band raster data.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/336f792e885f4e57b4f8129932e079b51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Start with Multi-Band data in R
+
+Getting started with [multi-band data using rast() function](https://carpentries-incubator.github.io/r-geospatial-urban/14-work-with-multi-band-rasters.html#getting-started-with-multi-band-data-in-r).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea3405740f194692ad8151cd56fd28281d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about alpha and fill
+
+When do you use alpha and when do you use fill?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/23f03d85086743c28b9564267efe97ed1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Additional answers to the previous question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6a42ed7ce6854af1a690c100259583181d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Challenge: Raster Data Values
+
+[Challenge description](https://carpentries-incubator.github.io/r-geospatial-urban/14-work-with-multi-band-rasters.html#image-raster-data-values)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7feb343e8abb488dad3f48b2ec13ac0a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/dff54f6347fb4b0bbf168e247eaafaaf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Stacks
+
+[Bring all bands of a multi-band raster](https://carpentries-incubator.github.io/r-geospatial-urban/14-work-with-multi-band-rasters.html#raster-stacks)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f6edc9e9edf24c5a9a4015c4d008b9761d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Stacks Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/47735df619fc42a9a2a651b206a4e1eb1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+What will the data frame look like?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6c1f32a312fb43af87e24c04bde220331d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Raster Stacks Pt. 3
+
+```{=html}
+<iframe title="GDCU_D2P2_Raster_Stack_Pt.3" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ec0e0cf89b534820a245d950ab6daa021d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Plotting a Three-Band Image
+
+[plotRGB() function is introduced](https://carpentries-incubator.github.io/r-geospatial-urban/14-work-with-multi-band-rasters.html#plotting-a-three-band-image)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a951b2c3d3e8467788258619455fb37f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Questions about the image
+
+What do we see in the Black & White image?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6b3627b635fa4cf39d378719f1e473cc1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Why does plotting one layer take more time than full image?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/25cccb70baa64c33a8ccaf9e4947b28a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Should we consider the case letter when writing the plotRGB() function and its arguments?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/dcb256e5bc9e4ae2a9160ebdcd2c553c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```

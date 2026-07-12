@@ -1,0 +1,296 @@
+---
+title: "Lesson 5: GIS"
+format: html
+---
+
+# [Episode 16: Basic GIS Operations with R](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.htmlhttps://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html)
+
+In this episode, you're about to learn how to perform some of basic GIS operations using sf package in R.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f16af91ad4e34e099e1fb89e7f0ec25e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Conservation in Brielle, NL
+
+How to select the features in an old school way?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9dd1910e53884ef7ae26a24a3d6beb051d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+What would be the 2nd step after selecting the buildings?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e88728ae83044efe8c2decd57403eba51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+What would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b14d7c4116d64bd4942339ca4ba2a1141d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Should the conservation have an offset (i.e., distance)?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fe62d4eaddb54c51b0506b116f47599f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Counting the buildings
+
+The count of buildings within a zone with densities would be good measure since there are small and big buildings.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/af9b6d29c5534dae9e11a9b47c9bd4421d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Conservation Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/feb11aa8be414f07be67f600efe2a95f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about building count
+
+How to know how many buildings there are?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf056394dd744dae9a3e3e44424357891d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bb64e48f0ee544eb92acffe882bcae7a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Conservation Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4a5b597b26ea4d67a91ca487dcd3a52e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Buffers
+
+```{=html}
+<iframe title="GDCU_D2P4_Buffer" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/21b3af5e36094e2c810c2e178639563a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Should we work in meters in terms of the projection?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf181baa9de04023b5011d4d7b08541c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/783dcfd45ad1431fadcda3803cfd92841d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+There's a second answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/954cfaebe3a344daac267cc5f9796a811d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Buffers Pt. 2
+
+[Using the st_buffer() function](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#buffers)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/09aea3c3a1da4e8d90117326a05461ad1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about st_buffer
+
+Does the st_buffer creates the buffer from the edges and not from the central points?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b1ee3388cbe44623866de157b40cf7181d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ad8a76886fa24e1c81c089ff962b18e31d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Union
+
+[Union operation is explained.](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#union)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/676f9524922449a4b1c6159a541b53c61d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+How to create a new variable?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea0c43dd87bf4457ae3ce5f29308d95b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about the use of CRS
+
+Why are we using crs or why should we use st_crs to define crs in st_transform?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/57b1e617ad3a4fdf947619f8441ed9f11d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/92390dbe42e5419db385c54971da6c941d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Centroids
+
+[st_centroid function is introduced](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#centroids)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f25a9b126f044aa99826fb50948b1cb81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Centroids Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fd8b248bc86645a097811b50700dc0231d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Centroids Pt. 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/84d6f89c3b9a44e48e3d6a605a033c2e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Why doesn't it make sense to put the data in ggplot straight away?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2ebf8a6b74f64c94af9fdc91959e79dc1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f8486b1e0eba4086bc6dc621f1978dfd1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Centroids Pt. 4
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fcbfa6b9873d4cba89fd37ce2b0471fa1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Intersection & Join
+
+How do you [intersect something using sf](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#intersection-join)?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6e312186bc784df59b6e9d445cf9fd521d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/cfd484b11d2d4cfdb51154745ad198621d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Another answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1ae48779165a4e8795d37e7627cabfb51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Intersection & Join Pt. 2
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ed223a49f6ac437cbcebeeb6e1a73c2e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Intersection & Join Pt. 3
+
+group_by() function
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea4a2e96b8f54a2a9bf204e0a79e032b1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Intersection & Join Pt. 4
+
+[st_join to join the attributes to the geometries](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#:~:text=st%5Fjoin%28%2E%2C%20left%3DT)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d4badf97d192450eae96f4c46a88c8501d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Should we convert the layer into a data frame?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/048818fd19564db2add169a3474f80b91d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/41b23f9c40dc40d7a83aa931f3f879f21d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Alternative answer
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5a6de5f96ded4638bf531adbb0ab7e431d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Maps of the Buildings
+
+[Map the number of buildings per zone](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#maps-of-the-number-of-buildings-per-zone)
+
+## Area & Density Calculation
+
+[st_area() and st_units() functions](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#calculating-area-and-density-of-spatial-features)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea12748f584a45108064731e17b64ffb1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Challenge: Change of the rules
+
+[Challenge Description](https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#:~:text=Conservation%20rules%20have%20changed)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10113376b6044c4691a85f57f21fc2c51d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Further description
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b69cd6ed48954719aa0f946158ca4fab1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Challenge solution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2141a6c490ab4ddcbbbf1f0656339f241d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Outro
+
+Wrap Up
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/031c8c98c8da4298bacc9154a06d0a6c1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Words of Caution
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0e4dd2dad0214ad3a8a38186158478ae1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Feedback
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/aa1a9311747a465aa03eee2331d8a0581d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
