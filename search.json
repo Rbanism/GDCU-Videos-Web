@@ -4,17 +4,7 @@
     "href": "index.html",
     "title": "Introduction to R",
     "section": "",
-    "text": "This package is meant to help you learn how to apply geospatial analysis in the urban context using RStudio as an open-source and powerful software for automation, rescalability and reproducibility.\nThe online materials of this instruction package is meant to help you working with R from scratch on your own, up to an elementary stage where you can perform first steps of major analytical methods and tools on a spatial context for your professional/academic work or for your own learning.\nThe package is a combination of online structured teachings from the Carpentries Incubator and recorded video materials from the previous workshop that was held in-person at TU Delft in 2024.\n\n\nLearn more about the GDCU and its aim and objectives with our instructors giving detailed insightful context of the upcoming materials.\n\n\n\n\n\n\nFurthermore, the R and Rstudio as your working toolset is introduced to have a better understanding of the capabilities of working with R through your projects.\n\n\n\n\nCheck the GDCU Carpentries website to learn about the installation steps and R package requirements regarding your OS.\nCheck the summary and setup\n\n\n\n\nTo start your work in the Rstudio environment, creating and handling a project package is crucial. You have to go over your project folder for file handling, data storing and management, or simply organizing your workflow. Check the video below how the instructors introduce the main components of every R project folder and how to organize them appropriately.\nOrganizing the working directory\n\n\n\n\n\nNow, it’s time to create your project folder. This could be done in several ways. Spend some time creating your project by clicking and going, or type a command using an R script all the way along.\nThe first video explains to you how to create an R project.\n\n&lt;iframe&gt;\n&lt;section id=\"tip-creating-your-project\" class=\"level3\"&gt;\n&lt;h3&gt;Tip: Creating your project&lt;/h3&gt;\n&lt;p&gt;To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.&lt;/p&gt;\n&lt;iframe title=\"\" width=\"700\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\" src=\"https://collegerama.tudelft.nl/Mediasite/Play/8ba8fb2018904124921fae83ef9221c71d\" allowfullscreen msallowfullscreen allow=\"fullscreen\"&gt;\nThe second video introduces the ways of interaction with R. You can also check the detailed instruction of how to interact with R in the Carpentries.\n\n\n\n\nTo create sub-folders within your project folder, there are multiple ways to expand and organize your project folders.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#introduction-to-gdcu",
-    "href": "index.html#introduction-to-gdcu",
-    "title": "Introduction to R",
-    "section": "",
-    "text": "Learn more about the GDCU and its aim and objectives with our instructors giving detailed insightful context of the upcoming materials.",
+    "text": "This package is meant to help you learn how to apply geospatial analysis in the urban context using RStudio as an open-source and powerful software for automation, rescalability and reproducibility.\nThe online materials of this instruction package is meant to help you working with R from scratch on your own, up to an elementary stage where you can perform first steps of major analytical methods and tools on a spatial context for your professional/academic work or for your own learning.\nThe package is a combination of online structured teachings from the Carpentries Incubator and recorded video materials from the previous workshop that was held in-person at TU Delft in 2024.",
     "crumbs": [
       "Introduction to R"
     ]
@@ -23,8 +13,8 @@
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "Introduction to R",
-    "section": "",
-    "text": "Furthermore, the R and Rstudio as your working toolset is introduced to have a better understanding of the capabilities of working with R through your projects.\n\n\n\n\nCheck the GDCU Carpentries website to learn about the installation steps and R package requirements regarding your OS.\nCheck the summary and setup",
+    "section": "Overview",
+    "text": "Overview\n\nWhat is R?\nFurthermore, the R and Rstudio as your working toolset is introduced to have a better understanding of the capabilities of working with R through your projects.\n\n\n\nSetting up Rstudio\nCheck the GDCU Carpentries website to learn about the installation steps and R package requirements regarding your OS.\nCheck the summary and setup",
     "crumbs": [
       "Introduction to R"
     ]
@@ -33,8 +23,8 @@
     "objectID": "index.html#project-management-in-rstudio",
     "href": "index.html#project-management-in-rstudio",
     "title": "Introduction to R",
-    "section": "",
-    "text": "To start your work in the Rstudio environment, creating and handling a project package is crucial. You have to go over your project folder for file handling, data storing and management, or simply organizing your workflow. Check the video below how the instructors introduce the main components of every R project folder and how to organize them appropriately.\nOrganizing the working directory",
+    "section": "Project Management in Rstudio",
+    "text": "Project Management in Rstudio\nTo start your work in the Rstudio environment, creating and handling a project package is crucial. You have to go over your project folder for file handling, data storing and management, or simply organizing your workflow. Check the video below how the instructors introduce the main components of every R project folder and how to organize them appropriately.\nOrganizing the working directory",
     "crumbs": [
       "Introduction to R"
     ]
@@ -43,8 +33,8 @@
     "objectID": "index.html#create-r-project",
     "href": "index.html#create-r-project",
     "title": "Introduction to R",
-    "section": "",
-    "text": "Now, it’s time to create your project folder. This could be done in several ways. Spend some time creating your project by clicking and going, or type a command using an R script all the way along.\nThe first video explains to you how to create an R project.\n\n&lt;iframe&gt;\n&lt;section id=\"tip-creating-your-project\" class=\"level3\"&gt;\n&lt;h3&gt;Tip: Creating your project&lt;/h3&gt;\n&lt;p&gt;To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.&lt;/p&gt;\n&lt;iframe title=\"\" width=\"700\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\" src=\"https://collegerama.tudelft.nl/Mediasite/Play/8ba8fb2018904124921fae83ef9221c71d\" allowfullscreen msallowfullscreen allow=\"fullscreen\"&gt;\nThe second video introduces the ways of interaction with R. You can also check the detailed instruction of how to interact with R in the Carpentries.",
+    "section": "Create R Project",
+    "text": "Create R Project\nNow, it’s time to create your project folder. This could be done in several ways. Spend some time creating your project by clicking and going, or type a command using an R script all the way along.\nThe first video explains to you how to create an R project.\n\n&lt;iframe&gt;\n&lt;section id=\"tip-creating-your-project\" class=\"level3\"&gt;\n&lt;h3&gt;Tip: Creating your project&lt;/h3&gt;\n&lt;p&gt;To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.&lt;/p&gt;\n&lt;iframe title=\"\" width=\"700\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\" src=\"https://collegerama.tudelft.nl/Mediasite/Play/8ba8fb2018904124921fae83ef9221c71d\" allowfullscreen msallowfullscreen allow=\"fullscreen\"&gt;\nThe second video introduces the ways of interaction with R. You can also check the detailed instruction of how to interact with R in the Carpentries.",
     "crumbs": [
       "Introduction to R"
     ]
@@ -117,203 +107,6 @@
     "text": "Download files\nYou’ve made it so far. That’s quite a progress!\nNow, this is the last step of your preparation. You need to download the files you need to work with. Take the notes from the video and the Carpentries’ callout.\n\nThe error happened, right? What do you think caused the error? Take some time to think about it and play the next video while the instructors are trying to fix the error.\n\n\nWarning and error messages\nThe warning messages are pretty common to appear when running your code. In general, not all of them are serious problems that interrupt your code running, but you may need to be aware of them.\n\nAlthough the warnings are not critical, the error messages on your R console are the high-priority problems that indicate your code is not operating properly and the tasks cannot be completed.\nThink about how to fix the error in the script and compare your evaluation with the following video.\n\n\n\nDownloaded file path\nThe error is fixed. Once you download your files, you’d better check where they’re stored. This is crucial for any next step you take working with your data.",
     "crumbs": [
       "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html",
-    "href": "sections/D2P1.html",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#load-the-data",
-    "href": "sections/D2P1.html#load-the-data",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Check that you have the sf package loaded in your environment.",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#plotting-multiple-vector-layers",
-    "href": "sections/D2P1.html#plotting-multiple-vector-layers",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "An introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#working-with-spatial-data-from-different-sources",
-    "href": "sections/D2P1.html#working-with-spatial-data-from-different-sources",
-    "title": "Lesson 3: Raster Data",
-    "section": "Working with spatial data from different sources",
-    "text": "Working with spatial data from different sources\nReading shapefile\n\nReading shapefile part 2\n\n\nTip: Error happens\nAn error appears. What might be the reason?\n\n\n\nTip: CRS differences\nDiscussing the CRS differences\n\n\n\nChallenge: Plot multiple layers of spatial data\nChallenge description\n\nChallenge solution",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#export-a-shapefile",
-    "href": "sections/D2P1.html#export-a-shapefile",
-    "title": "Lesson 3: Raster Data",
-    "section": "Export a shapefile",
-    "text": "Export a shapefile\nst write function\n\n\nTip: Function name\nName of the function\n\n\n\nQuestion about the axis numbers\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion about the unknown parameters\nSome parameters inside the plotting code are unknown. What are they?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P4.html",
-    "href": "sections/D1P4.html",
-    "title": "Lesson 2: Vector Data Part 2",
-    "section": "",
-    "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
-    "crumbs": [
-      "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P4.html#load-the-data",
-    "href": "sections/D1P4.html#load-the-data",
-    "title": "Lesson 2: Vector Data Part 2",
-    "section": "",
-    "text": "Check that you have the sf package loaded in your environment.",
-    "crumbs": [
-      "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P4.html#plotting-multiple-vector-layers",
-    "href": "sections/D1P4.html#plotting-multiple-vector-layers",
-    "title": "Lesson 2: Vector Data Part 2",
-    "section": "",
-    "text": "An introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
-    "crumbs": [
-      "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
-    "href": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
-    "title": "Lesson 2: Vector Data Part 2",
-    "section": "Working with spatial data from different sources",
-    "text": "Working with spatial data from different sources\nReading shapefile\n\nReading shapefile part 2\n\n\nTip: Error happens\nAn error appears. What might be the reason?\n\n\n\nTip: CRS differences\nDiscussing the CRS differences\n\n\n\nChallenge: Plot multiple layers of spatial data\nChallenge description\n\nChallenge solution",
-    "crumbs": [
-      "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D1P4.html#export-a-shapefile",
-    "href": "sections/D1P4.html#export-a-shapefile",
-    "title": "Lesson 2: Vector Data Part 2",
-    "section": "Export a shapefile",
-    "text": "Export a shapefile\nst write function\n\n\nTip: Function name\nName of the function\n\n\n\nQuestion about the axis numbers\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion about the unknown parameters\nSome parameters inside the plotting code are unknown. What are they?",
-    "crumbs": [
-      "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "GDCU Videos Quarto Book",
-    "section": "",
-    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
-  },
-  {
-    "objectID": "sections/D1P2.html",
-    "href": "sections/D1P2.html",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#explore-dataset",
-    "href": "sections/D1P2.html#explore-dataset",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "title": "Lesson 1: Data",
-    "section": "Dataframe manipulation with dplyr",
-    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip: select function errors\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip: read indentations when using pipes\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion about the pipe\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion about the order operation\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge: Filtered data frame\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nQuestion about the challenge\nhow to get all info about a country?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#group-and-summarize",
-    "href": "sections/D1P2.html#group-and-summarize",
-    "title": "Lesson 1: Data",
-    "section": "Group and summarize",
-    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#frequencies",
-    "href": "sections/D1P2.html#frequencies",
-    "title": "Lesson 1: Data",
-    "section": "Frequencies",
-    "text": "Frequencies\nIntroduction to frequencies",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#mutate",
-    "href": "sections/D1P2.html#mutate",
-    "title": "Lesson 1: Data",
-    "section": "Mutate",
-    "text": "Mutate\nMutate function",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#data-visualization",
-    "href": "sections/D1P2.html#data-visualization",
-    "title": "Lesson 1: Data",
-    "section": "Data Visualization",
-    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion about a continent in the dataset\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#writing-data",
-    "href": "sections/D1P2.html#writing-data",
-    "title": "Lesson 1: Data",
-    "section": "Writing data",
-    "text": "Writing data\nSaving the plot\nUsing help documentation",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#saving-the-data",
-    "href": "sections/D1P2.html#saving-the-data",
-    "title": "Lesson 1: Data",
-    "section": "Saving the data",
-    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
-    "crumbs": [
-      "Lesson 1: Data"
     ]
   },
   {
@@ -434,6 +227,843 @@
     "text": "Examining and coloring objects\n\n\nQuestion about the number of colors\nHow should we know how many colors we need for the road types?\n\n\n\nQuestion about the color order\nIs the order of colors the same as the value orders?",
     "crumbs": [
       "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html",
+    "href": "sections/D1P2.html",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr",
+    "href": "sections/D1P2.html#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "title": "Lesson 1: Data",
+    "section": "Dataframe manipulation with dplyr",
+    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip: select function errors\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip: read indentations when using pipes\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion about the pipe\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion about the order operation\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge: Filtered data frame\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nQuestion about the challenge\nhow to get all info about a country?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#group-and-summarize",
+    "href": "sections/D1P2.html#group-and-summarize",
+    "title": "Lesson 1: Data",
+    "section": "Group and summarize",
+    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#frequencies",
+    "href": "sections/D1P2.html#frequencies",
+    "title": "Lesson 1: Data",
+    "section": "Frequencies",
+    "text": "Frequencies\nIntroduction to frequencies",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#mutate",
+    "href": "sections/D1P2.html#mutate",
+    "title": "Lesson 1: Data",
+    "section": "Mutate",
+    "text": "Mutate\nMutate function",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#data-visualization",
+    "href": "sections/D1P2.html#data-visualization",
+    "title": "Lesson 1: Data",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion about a continent in the dataset\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#writing-data",
+    "href": "sections/D1P2.html#writing-data",
+    "title": "Lesson 1: Data",
+    "section": "Writing data",
+    "text": "Writing data\nSaving the plot\nUsing help documentation",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#saving-the-data",
+    "href": "sections/D1P2.html#saving-the-data",
+    "title": "Lesson 1: Data",
+    "section": "Saving the data",
+    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P4.html",
+    "href": "sections/D1P4.html",
+    "title": "Lesson 2: Vector Data Part 2",
+    "section": "",
+    "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
+    "crumbs": [
+      "Lesson 2: Vector Data Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P4.html#load-the-data",
+    "href": "sections/D1P4.html#load-the-data",
+    "title": "Lesson 2: Vector Data Part 2",
+    "section": "",
+    "text": "Check that you have the sf package loaded in your environment.",
+    "crumbs": [
+      "Lesson 2: Vector Data Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P4.html#plotting-multiple-vector-layers",
+    "href": "sections/D1P4.html#plotting-multiple-vector-layers",
+    "title": "Lesson 2: Vector Data Part 2",
+    "section": "",
+    "text": "An introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
+    "crumbs": [
+      "Lesson 2: Vector Data Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
+    "href": "sections/D1P4.html#working-with-spatial-data-from-different-sources",
+    "title": "Lesson 2: Vector Data Part 2",
+    "section": "Working with spatial data from different sources",
+    "text": "Working with spatial data from different sources\nReading shapefile\n\nReading shapefile part 2\n\n\nTip: Error happens\nAn error appears. What might be the reason?\n\n\n\nTip: CRS differences\nDiscussing the CRS differences\n\n\n\nChallenge: Plot multiple layers of spatial data\nChallenge description\n\nChallenge solution",
+    "crumbs": [
+      "Lesson 2: Vector Data Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P4.html#export-a-shapefile",
+    "href": "sections/D1P4.html#export-a-shapefile",
+    "title": "Lesson 2: Vector Data Part 2",
+    "section": "Export a shapefile",
+    "text": "Export a shapefile\nst write function\n\n\nTip: Function name\nName of the function\n\n\n\nQuestion about the axis numbers\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion about the unknown parameters\nSome parameters inside the plotting code are unknown. What are they?",
+    "crumbs": [
+      "Lesson 2: Vector Data Part 2"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "GDCU Videos Quarto Book",
+    "section": "",
+    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "objectID": "sections/D2P3.html",
+    "href": "sections/D2P3.html",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "In this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#what-is-openstreetmap",
+    "href": "sections/D2P3.html#what-is-openstreetmap",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Learn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#osm-in-r",
+    "href": "sections/D2P3.html#osm-in-r",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Installation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#extracting-features",
+    "href": "sections/D2P3.html#extracting-features",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Extract the Features\n\n\n\nCheck the Documentation Link",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#overpass-query",
+    "href": "sections/D2P3.html#overpass-query",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Check the instructions for using the Overpass API.",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#structure-of-objects",
+    "href": "sections/D2P3.html#structure-of-objects",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Learn about the objects",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#mapping",
+    "href": "sections/D2P3.html#mapping",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Check the Projections via the link",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization",
+    "href": "sections/D2P3.html#visualization",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "filter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization-pt.-2",
+    "href": "sections/D2P3.html#visualization-pt.-2",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "How to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization-pt.-3",
+    "href": "sections/D2P3.html#visualization-pt.-3",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Why do we have a contrast in the map?",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability",
+    "href": "sections/D2P3.html#replicability",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "How can we replicate the same plot and map?",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-2",
+    "href": "sections/D2P3.html#replicability-pt.-2",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Can I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-3",
+    "href": "sections/D2P3.html#replicability-pt.-3",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Where can we store the function?\n\n\n\n\nWhen do we use curly brackets?",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-4",
+    "href": "sections/D2P3.html#replicability-pt.-4",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Closure",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive",
+    "href": "sections/D2P3.html#going-interactive",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Challenge description",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive-pt.-3",
+    "href": "sections/D2P3.html#going-interactive-pt.-3",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Discussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive-pt.-4",
+    "href": "sections/D2P3.html#going-interactive-pt.-4",
+    "title": "Lesson 4: Open Street Map",
+    "section": "",
+    "text": "Challenge solution and leaflets\n\nWrap UP",
+    "crumbs": [
+      "Lesson 4: Open Street Map"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html",
+    "href": "sections/D2P4.html",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "In this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#conservation-in-brielle-nl",
+    "href": "sections/D2P4.html#conservation-in-brielle-nl",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "How to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#conservation-pt.-2",
+    "href": "sections/D2P4.html#conservation-pt.-2",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "How to know how many buildings there are?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#buffers",
+    "href": "sections/D2P4.html#buffers",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Should we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#buffers-pt.-2",
+    "href": "sections/D2P4.html#buffers-pt.-2",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Using the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#union",
+    "href": "sections/D2P4.html#union",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Union operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#centroids",
+    "href": "sections/D2P4.html#centroids",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "st_centroid function is introduced",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#centroids-pt.-3",
+    "href": "sections/D2P4.html#centroids-pt.-3",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Why doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join",
+    "href": "sections/D2P4.html#intersection-join",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "How do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join-pt.-3",
+    "href": "sections/D2P4.html#intersection-join-pt.-3",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "group_by() function",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join-pt.-4",
+    "href": "sections/D2P4.html#intersection-join-pt.-4",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "st_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#area-density-calculation",
+    "href": "sections/D2P4.html#area-density-calculation",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "st_area() and st_units() functions",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#challenge-change-of-the-rules",
+    "href": "sections/D2P4.html#challenge-change-of-the-rules",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Challenge Description\n\nFurther description\n\nChallenge solution",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#outro",
+    "href": "sections/D2P4.html#outro",
+    "title": "Lesson 5: GIS",
+    "section": "",
+    "text": "Wrap Up",
+    "crumbs": [
+      "Lesson 5: GIS"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html",
+    "href": "sections/D2P1.html",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Starting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
+    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Check that you have the terra package installed in your Rstudio environment.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-script",
+    "href": "sections/D2P1.html#raster-script",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Raster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-attribute",
+    "href": "sections/D2P1.html#raster-attribute",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "describe() function is introduced\n\n\n\nCan we use ‘here’?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-raster-in-r",
+    "href": "sections/D2P1.html#open-raster-in-r",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Import the raster data into R\n\n\n\nIs the height based on the sea level?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Using the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "plot and as.data\n\n\n\nHere’s how to close the copilot",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Common errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#view-raster-crs",
+    "href": "sections/D2P1.html#view-raster-crs",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Here’s how to view the raster coordinate reference system",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
+    "href": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Here’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-bands",
+    "href": "sections/D2P1.html#raster-bands",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Raster layers can contain several band layers of different values.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#challenge-describe-raster-values",
+    "href": "sections/D2P1.html#challenge-describe-raster-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Challenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
+    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
+    "title": "Lesson 3: Raster Data",
+    "section": "Make sure that you have installed the necessary packages",
+    "text": "Make sure that you have installed the necessary packages\nCheck that you have the terra package installed in your Rstudio environment.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plotting-data-using-breaks",
+    "href": "sections/D2P1.html#plotting-data-using-breaks",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plotting data using breaks",
+    "text": "Plotting data using breaks\nUsing the cut() and mutate() functions\n\n\nQuestion about using breaks\nWhat columns does the data frame have now?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
+    "href": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plotting data using breaks Pt. 2",
+    "text": "Plotting data using breaks Pt. 2",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plot-formatting",
+    "href": "sections/D2P1.html#plot-formatting",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plot Formatting",
+    "text": "Plot Formatting\nThere are more plot formatting options, such as color_scale_fill_manual() function.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plot-formatting-pt.-2",
+    "href": "sections/D2P1.html#plot-formatting-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plot Formatting Pt. 2",
+    "text": "Plot Formatting Pt. 2\nelement_blank() and theme() functions are explained.\n\n\nTip and question about plot formatting\nHow to check documentation for the theme function?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#challenge-plot-using-custom-breaks",
+    "href": "sections/D2P1.html#challenge-plot-using-custom-breaks",
+    "title": "Lesson 3: Raster Data",
+    "section": "Challenge: Plot using custom breaks",
+    "text": "Challenge: Plot using custom breaks\nChallenge description\n\nChallenge Solution\n\n\nQuestion regarding the challenge\nCan you cut the equal numbers of values?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html",
+    "href": "sections/D2P2.html",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "In this episode, you’re about to learn more about raster data projections.\n\n\n\nRaster Data Projections\n\n\n\nWhat is hillshade?\n\n\n\n\n\n\n\n\n\n\n\n\nGradient colors and plot setting\n\n\n\n\n\n\n\n\n\nPlotting the hillshade\n\n\n\nHow do we know the variable is called like as it is shown in the code?\n\nPlotting the hillshade pt. 2\n\n\n\n\n\nChallenge Description\n\nChallenge Solution\n\n\n\ndescribe() can also show the CRS projection\n\n\n\n\n\nReproject the raster layer using project() function\n\n\n\n\nChecking the extend using ext()\n\n\n\n\nDeal with raster resolution\n\n\n\nDo the resolutions look okay to you?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nConvert the layer before using the ggplot\n\n\n\n\n\nPlotting the raster using ggplot",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-projection",
+    "href": "sections/D2P2.html#raster-projection",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Raster Data Projections\n\n\n\nWhat is hillshade?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-projection-pt.-2",
+    "href": "sections/D2P2.html#raster-projection-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Gradient colors and plot setting",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-projection-pt.-4",
+    "href": "sections/D2P2.html#raster-projection-pt.-4",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Plotting the hillshade\n\n\n\nHow do we know the variable is called like as it is shown in the code?\n\nPlotting the hillshade pt. 2",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#challenge-compare-the-crss",
+    "href": "sections/D2P2.html#challenge-compare-the-crss",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Challenge Description\n\nChallenge Solution\n\n\n\ndescribe() can also show the CRS projection",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#reproject-rasters",
+    "href": "sections/D2P2.html#reproject-rasters",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Reproject the raster layer using project() function",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#reproject-rasters-pt.-2",
+    "href": "sections/D2P2.html#reproject-rasters-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Checking the extend using ext()",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-resolution",
+    "href": "sections/D2P2.html#raster-resolution",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Deal with raster resolution\n\n\n\nDo the resolutions look okay to you?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-resolution-pt.-2",
+    "href": "sections/D2P2.html#raster-resolution-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Convert the layer before using the ggplot",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-resolution-pt.-3",
+    "href": "sections/D2P2.html#raster-resolution-pt.-3",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Plotting the raster using ggplot",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#load-the-data",
+    "href": "sections/D2P2.html#load-the-data",
+    "title": "Lesson 3: Raster Data",
+    "section": "Load the Data",
+    "text": "Load the Data\nThe DTM and DSM layers are both needed to be loaded for this episode to calculate the Canopy Height Model (CHM).",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-math-and-chm",
+    "href": "sections/D2P2.html#raster-math-and-chm",
+    "title": "Lesson 3: Raster Data",
+    "section": "Raster Math and CHM",
+    "text": "Raster Math and CHM\nYou’ll produce histograms calculating the DTM and DSM differences.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#challenge-explore-chm-values",
+    "href": "sections/D2P2.html#challenge-explore-chm-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "Challenge: Explore CHM Values",
+    "text": "Challenge: Explore CHM Values\nChallenge description\n\nChallenge solution\n\nChallenge solution Pt. 2\n\nChallenge solution Pt. 3\n\n\nQuestion about the challenge\nIs zero included in the min part?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#export-a-geotiff",
+    "href": "sections/D2P2.html#export-a-geotiff",
+    "title": "Lesson 3: Raster Data",
+    "section": "Export a GeoTIFF",
+    "text": "Export a GeoTIFF\nwriteRaster() function is introduced here.\n\n\nQuestion about GeoTIFF\nIs there a difference between using extensions of tif and tiff?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#start-with-multi-band-data-in-r",
+    "href": "sections/D2P2.html#start-with-multi-band-data-in-r",
+    "title": "Lesson 3: Raster Data",
+    "section": "Start with Multi-Band data in R",
+    "text": "Start with Multi-Band data in R\nGetting started with multi-band data using rast() function.\n\n\nQuestion about alpha and fill\nWhen do you use alpha and when do you use fill?\n\nAdditional answers to the previous question",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#challenge-raster-data-values",
+    "href": "sections/D2P2.html#challenge-raster-data-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "Challenge: Raster Data Values",
+    "text": "Challenge: Raster Data Values\nChallenge description\n\nChallenge solution",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-stacks",
+    "href": "sections/D2P2.html#raster-stacks",
+    "title": "Lesson 3: Raster Data",
+    "section": "Raster Stacks",
+    "text": "Raster Stacks\nBring all bands of a multi-band raster",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-stacks-pt.-2",
+    "href": "sections/D2P2.html#raster-stacks-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "Raster Stacks Pt. 2",
+    "text": "Raster Stacks Pt. 2\n\nWhat will the data frame look like?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#raster-stacks-pt.-3",
+    "href": "sections/D2P2.html#raster-stacks-pt.-3",
+    "title": "Lesson 3: Raster Data",
+    "section": "Raster Stacks Pt. 3",
+    "text": "Raster Stacks Pt. 3",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P2.html#plotting-a-three-band-image",
+    "href": "sections/D2P2.html#plotting-a-three-band-image",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plotting a Three-Band Image",
+    "text": "Plotting a Three-Band Image\nplotRGB() function is introduced\n\n\nQuestions about the image\nWhat do we see in the Black & White image?\n\nWhy does plotting one layer take more time than full image?\n\nShould we consider the case letter when writing the plotRGB() function and its arguments?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
     ]
   }
 ]

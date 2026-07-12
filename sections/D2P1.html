@@ -139,14 +139,23 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item">
- <span class="menu-text">sections/D2P2.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../sections/D2P2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 3: Raster Data</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
- <span class="menu-text">sections/D2P3.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../sections/D2P3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 4: Open Street Map</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
- <span class="menu-text">sections/D2P4.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../sections/D2P4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 5: GIS</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -157,36 +166,63 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#plot-multiple-shapefiles" id="toc-plot-multiple-shapefiles" class="nav-link active" data-scroll-target="#plot-multiple-shapefiles">Plot multiple shapefiles</a>
+  <li><a href="#episode-10-intro-to-raster-data" id="toc-episode-10-intro-to-raster-data" class="nav-link active" data-scroll-target="#episode-10-intro-to-raster-data">Episode 10: Intro to Raster Data</a>
   <ul class="collapse">
-  <li><a href="#load-the-data" id="toc-load-the-data" class="nav-link" data-scroll-target="#load-the-data">Load the data</a></li>
-  <li><a href="#plotting-multiple-vector-layers" id="toc-plotting-multiple-vector-layers" class="nav-link" data-scroll-target="#plotting-multiple-vector-layers">Plotting Multiple Vector Layers</a>
+  <li><a href="#make-sure-that-you-have-installed-the-necessary-packages" id="toc-make-sure-that-you-have-installed-the-necessary-packages" class="nav-link" data-scroll-target="#make-sure-that-you-have-installed-the-necessary-packages">Make sure that you have installed the necessary packages</a></li>
+  <li><a href="#raster-script" id="toc-raster-script" class="nav-link" data-scroll-target="#raster-script">Raster Script</a>
   <ul class="collapse">
-  <li><a href="#plot-multiple-layers-part-2" id="toc-plot-multiple-layers-part-2" class="nav-link" data-scroll-target="#plot-multiple-layers-part-2">Plot multiple layers part 2</a></li>
-  <li><a href="#plot-multiple-layers-part-3" id="toc-plot-multiple-layers-part-3" class="nav-link" data-scroll-target="#plot-multiple-layers-part-3">Plot multiple layers part 3</a></li>
-  <li><a href="#question" id="toc-question" class="nav-link" data-scroll-target="#question">Question</a></li>
-  <li><a href="#plot-multiple-layers-part-4" id="toc-plot-multiple-layers-part-4" class="nav-link" data-scroll-target="#plot-multiple-layers-part-4">Plot multiple layers part 4</a></li>
-  <li><a href="#question-about-rainbow" id="toc-question-about-rainbow" class="nav-link" data-scroll-target="#question-about-rainbow">Question about rainbow</a></li>
-  <li><a href="#question-about-the-scale-placement" id="toc-question-about-the-scale-placement" class="nav-link" data-scroll-target="#question-about-the-scale-placement">Question about the scale placement</a></li>
-  <li><a href="#question-about-using-scale-clr-manual" id="toc-question-about-using-scale-clr-manual" class="nav-link" data-scroll-target="#question-about-using-scale-clr-manual">Question about using scale clr manual</a></li>
-  <li><a href="#challenge-customize-point-shapes" id="toc-challenge-customize-point-shapes" class="nav-link" data-scroll-target="#challenge-customize-point-shapes">Challenge: Customize point shapes</a></li>
-  <li><a href="#challenge-visualising-multiple-layers-with-a-custom-legend" id="toc-challenge-visualising-multiple-layers-with-a-custom-legend" class="nav-link" data-scroll-target="#challenge-visualising-multiple-layers-with-a-custom-legend">Challenge: Visualising multiple layers with a custom legend</a></li>
-  <li><a href="#tip-uppercase-and-lowercase-letters" id="toc-tip-uppercase-and-lowercase-letters" class="nav-link" data-scroll-target="#tip-uppercase-and-lowercase-letters">Tip: Uppercase and lowercase letters</a></li>
+  <li><a href="#question-about-scripting" id="toc-question-about-scripting" class="nav-link" data-scroll-target="#question-about-scripting">Question about scripting</a></li>
+  </ul></li>
+  <li><a href="#raster-attribute" id="toc-raster-attribute" class="nav-link" data-scroll-target="#raster-attribute">Raster Attribute</a>
+  <ul class="collapse">
+  <li><a href="#question-about-raster-attribute" id="toc-question-about-raster-attribute" class="nav-link" data-scroll-target="#question-about-raster-attribute">Question about Raster Attribute</a></li>
+  </ul></li>
+  <li><a href="#raster-attribute-pt.2" id="toc-raster-attribute-pt.2" class="nav-link" data-scroll-target="#raster-attribute-pt.2">Raster Attribute Pt.2</a></li>
+  <li><a href="#open-raster-in-r" id="toc-open-raster-in-r" class="nav-link" data-scroll-target="#open-raster-in-r">Open Raster in R</a>
+  <ul class="collapse">
+  <li><a href="#question-about-opening-a-raster-file" id="toc-question-about-opening-a-raster-file" class="nav-link" data-scroll-target="#question-about-opening-a-raster-file">Question about opening a raster file</a></li>
+  </ul></li>
+  <li><a href="#open-a-raster-in-r-pt.-2" id="toc-open-a-raster-in-r-pt.-2" class="nav-link" data-scroll-target="#open-a-raster-in-r-pt.-2">Open a Raster in R Pt. 2</a>
+  <ul class="collapse">
+  <li><a href="#question-about-raster-summary" id="toc-question-about-raster-summary" class="nav-link" data-scroll-target="#question-about-raster-summary">Question about raster summary</a></li>
+  </ul></li>
+  <li><a href="#open-a-raster-in-r-pt.-3" id="toc-open-a-raster-in-r-pt.-3" class="nav-link" data-scroll-target="#open-a-raster-in-r-pt.-3">Open a Raster in R Pt. 3</a>
+  <ul class="collapse">
+  <li><a href="#tip-close-the-copilot" id="toc-tip-close-the-copilot" class="nav-link" data-scroll-target="#tip-close-the-copilot">Tip: Close the copilot</a></li>
+  </ul></li>
+  <li><a href="#open-a-raster-in-r-pt.-4" id="toc-open-a-raster-in-r-pt.-4" class="nav-link" data-scroll-target="#open-a-raster-in-r-pt.-4">Open a Raster in R Pt. 4</a>
+  <ul class="collapse">
+  <li><a href="#question-about-putting-marks-in-the-argument" id="toc-question-about-putting-marks-in-the-argument" class="nav-link" data-scroll-target="#question-about-putting-marks-in-the-argument">Question about putting marks in the argument</a></li>
+  </ul></li>
+  <li><a href="#open-a-raster-in-r-pt.-5" id="toc-open-a-raster-in-r-pt.-5" class="nav-link" data-scroll-target="#open-a-raster-in-r-pt.-5">Open a Raster in R Pt. 5</a></li>
+  <li><a href="#view-raster-crs" id="toc-view-raster-crs" class="nav-link" data-scroll-target="#view-raster-crs">View Raster CRS</a></li>
+  <li><a href="#calculate-rasters-minimum-and-maximum-values" id="toc-calculate-rasters-minimum-and-maximum-values" class="nav-link" data-scroll-target="#calculate-rasters-minimum-and-maximum-values">Calculate Raster’s Minimum and Maximum Values</a>
+  <ul class="collapse">
+  <li><a href="#question-about-minmax" id="toc-question-about-minmax" class="nav-link" data-scroll-target="#question-about-minmax">Question about minmax</a></li>
+  <li><a href="#discussion-regarding-the-minmax" id="toc-discussion-regarding-the-minmax" class="nav-link" data-scroll-target="#discussion-regarding-the-minmax">Discussion regarding the minmax</a></li>
+  </ul></li>
+  <li><a href="#raster-bands" id="toc-raster-bands" class="nav-link" data-scroll-target="#raster-bands">Raster bands</a></li>
+  <li><a href="#challenge-describe-raster-values" id="toc-challenge-describe-raster-values" class="nav-link" data-scroll-target="#challenge-describe-raster-values">Challenge: Describe raster values</a>
+  <ul class="collapse">
+  <li><a href="#question-about-the-challenge" id="toc-question-about-the-challenge" class="nav-link" data-scroll-target="#question-about-the-challenge">Question about the challenge</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#handling-spatial-projections-crs" id="toc-handling-spatial-projections-crs" class="nav-link" data-scroll-target="#handling-spatial-projections-crs">Handling Spatial Projections &amp; CRS</a>
+  <li><a href="#episode-11-plot-raster-data" id="toc-episode-11-plot-raster-data" class="nav-link" data-scroll-target="#episode-11-plot-raster-data">Episode 11: Plot Raster Data</a>
   <ul class="collapse">
-  <li><a href="#working-with-spatial-data-from-different-sources" id="toc-working-with-spatial-data-from-different-sources" class="nav-link" data-scroll-target="#working-with-spatial-data-from-different-sources">Working with spatial data from different sources</a>
+  <li><a href="#make-sure-that-you-have-installed-the-necessary-packages-1" id="toc-make-sure-that-you-have-installed-the-necessary-packages-1" class="nav-link" data-scroll-target="#make-sure-that-you-have-installed-the-necessary-packages-1">Make sure that you have installed the necessary packages</a></li>
+  <li><a href="#plotting-data-using-breaks" id="toc-plotting-data-using-breaks" class="nav-link" data-scroll-target="#plotting-data-using-breaks">Plotting data using breaks</a>
   <ul class="collapse">
-  <li><a href="#tip-error-happens" id="toc-tip-error-happens" class="nav-link" data-scroll-target="#tip-error-happens">Tip: Error happens</a></li>
-  <li><a href="#tip-crs-differences" id="toc-tip-crs-differences" class="nav-link" data-scroll-target="#tip-crs-differences">Tip: CRS differences</a></li>
-  <li><a href="#challenge-plot-multiple-layers-of-spatial-data" id="toc-challenge-plot-multiple-layers-of-spatial-data" class="nav-link" data-scroll-target="#challenge-plot-multiple-layers-of-spatial-data">Challenge: Plot multiple layers of spatial data</a></li>
+  <li><a href="#question-about-using-breaks" id="toc-question-about-using-breaks" class="nav-link" data-scroll-target="#question-about-using-breaks">Question about using breaks</a></li>
   </ul></li>
-  <li><a href="#export-a-shapefile" id="toc-export-a-shapefile" class="nav-link" data-scroll-target="#export-a-shapefile">Export a shapefile</a>
+  <li><a href="#plotting-data-using-breaks-pt.-2" id="toc-plotting-data-using-breaks-pt.-2" class="nav-link" data-scroll-target="#plotting-data-using-breaks-pt.-2">Plotting data using breaks Pt. 2</a></li>
+  <li><a href="#plot-formatting" id="toc-plot-formatting" class="nav-link" data-scroll-target="#plot-formatting">Plot Formatting</a></li>
+  <li><a href="#plot-formatting-pt.-2" id="toc-plot-formatting-pt.-2" class="nav-link" data-scroll-target="#plot-formatting-pt.-2">Plot Formatting Pt. 2</a>
   <ul class="collapse">
-  <li><a href="#tip-function-name" id="toc-tip-function-name" class="nav-link" data-scroll-target="#tip-function-name">Tip: Function name</a></li>
-  <li><a href="#question-about-the-axis-numbers" id="toc-question-about-the-axis-numbers" class="nav-link" data-scroll-target="#question-about-the-axis-numbers">Question about the axis numbers</a></li>
-  <li><a href="#question-about-the-unknown-parameters" id="toc-question-about-the-unknown-parameters" class="nav-link" data-scroll-target="#question-about-the-unknown-parameters">Question about the unknown parameters</a></li>
+  <li><a href="#tip-and-question-about-plot-formatting" id="toc-tip-and-question-about-plot-formatting" class="nav-link" data-scroll-target="#tip-and-question-about-plot-formatting">Tip and question about plot formatting</a></li>
+  </ul></li>
+  <li><a href="#challenge-plot-using-custom-breaks" id="toc-challenge-plot-using-custom-breaks" class="nav-link" data-scroll-target="#challenge-plot-using-custom-breaks">Challenge: Plot using custom breaks</a>
+  <ul class="collapse">
+  <li><a href="#question-regarding-the-challenge" id="toc-question-regarding-the-challenge" class="nav-link" data-scroll-target="#question-regarding-the-challenge">Question regarding the challenge</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -214,118 +250,168 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="plot-multiple-shapefiles" class="level1">
-<h1><a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html">Plot multiple shapefiles</a></h1>
-<p>This is the following episode from the previous one.</p>
-<section id="load-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="load-the-data">Load the data</h2>
-<p>Check that you have the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#load-the-data">sf package loaded</a> in your environment.</p>
+<section id="episode-10-intro-to-raster-data" class="level1">
+<h1><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html">Episode 10: Intro to Raster Data</a></h1>
+<p>Starting from this episode, you’ll start to work with raster data in R.</p>
+<section id="make-sure-that-you-have-installed-the-necessary-packages" class="level2">
+<h2 class="anchored" data-anchor-id="make-sure-that-you-have-installed-the-necessary-packages">Make sure that you have installed the necessary packages</h2>
+<p>Check that you have the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#:~:text=install%2Epackages%28%22terra%22%29">terra package installed</a> in your Rstudio environment.</p>
 </section>
-<section id="plotting-multiple-vector-layers" class="level2">
-<h2 class="anchored" data-anchor-id="plotting-multiple-vector-layers">Plotting Multiple Vector Layers</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers">An introduction to <strong>ggplot</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ec18514c943c434f995f815fbfcecbd31d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="plot-multiple-layers-part-2" class="level3">
-<h3 class="anchored" data-anchor-id="plot-multiple-layers-part-2">Plot multiple layers part 2</h3>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers">Making the legend</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7a678604a7484f2d80cf5f990d957da91d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="raster-script" class="level2">
+<h2 class="anchored" data-anchor-id="raster-script">Raster Script</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#view-raster-file-attributes">Raster script review</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0020734405b2459b839a1c24d2e0bc721d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-scripting" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-scripting">Question about scripting</h3>
+<p>Is there a way to autosave the script without us having to remember to save it?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/18ac98d1788147818716510ea6738fb41d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="plot-multiple-layers-part-3" class="level3">
-<h3 class="anchored" data-anchor-id="plot-multiple-layers-part-3">Plot multiple layers part 3</h3>
-<p>Using Rainbow</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a76d9472dc1b4e9496c70b583df0e5431d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question" class="level3">
-<h3 class="anchored" data-anchor-id="question">Question</h3>
-<p>Why does no rainbow appear?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7298bf52bd354375b148c8fca1c758e61d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="raster-attribute" class="level2">
+<h2 class="anchored" data-anchor-id="raster-attribute">Raster Attribute</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#:~:text=describe%28%29">describe() function</a> is introduced</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/93a21b493cad43a79936c8ffa2fea8321d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-raster-attribute" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-raster-attribute">Question about Raster Attribute</h3>
+<p>Can we use ‘here’?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7cfd9b466da940b29ad8893df81581791d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="plot-multiple-layers-part-4" class="level3">
-<h3 class="anchored" data-anchor-id="plot-multiple-layers-part-4">Plot multiple layers part 4</h3>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d01d2a6425e44ee0b69e41d878d9b5531d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-rainbow" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-rainbow">Question about rainbow</h3>
-<p>Rainbow doesn’t work that well, why?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/16ebdf849c804692b4beb17f6ce3ba661d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="raster-attribute-pt.2" class="level2">
+<h2 class="anchored" data-anchor-id="raster-attribute-pt.2">Raster Attribute Pt.2</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/63f1009db2d34a4a8671b978626368f01d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-the-scale-placement" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-the-scale-placement">Question about the scale placement</h3>
-<p>Can the scale be before the geo funcion or after it?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/76564e43ae1e4c9991dbdd2511f7aed81d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="open-raster-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="open-raster-in-r">Open Raster in R</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#open-a-raster-in-r">Import the raster data into R</a></p>
+<iframe title="GDCU_D2P1_Open_Raster_Summary" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/51dfa32c718844a0a24a641326d3f8ff1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-opening-a-raster-file" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-opening-a-raster-file">Question about opening a raster file</h3>
+<p>Is the height based on the sea level?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/58d52ae5bd1848bd904b30764eff979d1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-using-scale-clr-manual" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-using-scale-clr-manual">Question about using scale clr manual</h3>
-<p>What the result would be if you use the scale clr manual for measure?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/801929477c3e461da285515d12f082db1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="challenge-customize-point-shapes" class="level3">
-<h3 class="anchored" data-anchor-id="challenge-customize-point-shapes">Challenge: Customize point shapes</h3>
-<p>Challenge <a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers:~:text=CHALLENGE%3A%20CUSTOMIZING%20POINT%20SHAPES">description</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/edfae543083b4e7e87cc24f4647d3ab21d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>Challenge solution</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1c9714933a5e4e7993e0971cc25715801d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="open-a-raster-in-r-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="open-a-raster-in-r-pt.-2">Open a Raster in R Pt. 2</h2>
+<p>Using the rast() and summary() functions.</p>
+<iframe title="GDCU_D2P1_Open_Raster_Summary_Pt.3" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e67bd4bfe945482680fb44a61b90c0641d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-raster-summary" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-raster-summary">Question about raster summary</h3>
+<p>What are min and max numbers?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9ed2260ad596405b8187392f36f484141d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="challenge-visualising-multiple-layers-with-a-custom-legend" class="level3">
-<h3 class="anchored" data-anchor-id="challenge-visualising-multiple-layers-with-a-custom-legend">Challenge: Visualising multiple layers with a custom legend</h3>
-<p>Challenge <a href="https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html#plotting-multiple-vector-layers:~:text=CHALLENGE%3A%20VISUALISING%20MULTIPLE%20LAYERS%20WITH%20A%20CUSTOM%20LEGEND">description</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6d971a74e91e432db6fc98afb5454b3b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>Challenge solution</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/027233b11fec4bbe9565683273ce829c1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="tip-uppercase-and-lowercase-letters" class="level3">
-<h3 class="anchored" data-anchor-id="tip-uppercase-and-lowercase-letters">Tip: Uppercase and lowercase letters</h3>
+<section id="open-a-raster-in-r-pt.-3" class="level2">
+<h2 class="anchored" data-anchor-id="open-a-raster-in-r-pt.-3">Open a Raster in R Pt. 3</h2>
+<p>plot and as.data</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9f1e1bd2310a45938d213bf162fc07fd1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="tip-close-the-copilot" class="level3">
+<h3 class="anchored" data-anchor-id="tip-close-the-copilot">Tip: Close the copilot</h3>
+<p>Here’s how to close the copilot</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4bc7cf84268a4c84a51b2177ae41ab751d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="open-a-raster-in-r-pt.-4" class="level2">
+<h2 class="anchored" data-anchor-id="open-a-raster-in-r-pt.-4">Open a Raster in R Pt. 4</h2>
 <p>Common errors of uppercase and lowercase letters during the previous challenge</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf2efd5fbe7640dbaa97f8a7acf1e6ce1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/316d5fb1a0bf4abf944e7464ad8913951d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-putting-marks-in-the-argument" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-putting-marks-in-the-argument">Question about putting marks in the argument</h3>
+<p>What would happen if we don’t put the strange marks for our fill argument?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0dd5cad5f60548a693094092d72eec301d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7470fddf22884620b2009366c73095b51d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
 </section>
+<section id="open-a-raster-in-r-pt.-5" class="level2">
+<h2 class="anchored" data-anchor-id="open-a-raster-in-r-pt.-5">Open a Raster in R Pt. 5</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9a6ae08400d74503bedad418b84e8d7a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="handling-spatial-projections-crs" class="level1">
-<h1><a href="https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html">Handling Spatial Projections &amp; CRS</a></h1>
-<p>Introduction to projections and CRS handling</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b9ce7c10391746c49a783bfebb5fc9da1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="working-with-spatial-data-from-different-sources" class="level2">
-<h2 class="anchored" data-anchor-id="working-with-spatial-data-from-different-sources">Working with spatial data from different sources</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html#working-with-spatial-data-from-different-sources"><strong>Reading shapefile</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/31bb61a79507493b9c032ea53dc17d751d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>Reading shapefile part 2</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2a8abab3fa694d9d9c32c8fed738ca111d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="tip-error-happens" class="level3">
-<h3 class="anchored" data-anchor-id="tip-error-happens">Tip: Error happens</h3>
-<p>An error appears. What might be the reason?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ecd2c7c6517c48778caa245e7112c99e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="view-raster-crs" class="level2">
+<h2 class="anchored" data-anchor-id="view-raster-crs">View Raster CRS</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#view-raster-coordinate-reference-system-crs">Here’s how to view the raster coordinate reference system</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6bcf6c5fdcf04d2289c1e8f8381a34d41d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="tip-crs-differences" class="level3">
-<h3 class="anchored" data-anchor-id="tip-crs-differences">Tip: CRS differences</h3>
-<p>Discussing the CRS differences</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/50d2818571a8437398b530995b60ed811d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="calculate-rasters-minimum-and-maximum-values" class="level2">
+<h2 class="anchored" data-anchor-id="calculate-rasters-minimum-and-maximum-values">Calculate Raster’s Minimum and Maximum Values</h2>
+<p>Here’s how to <a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#calculate-raster-min-and-max-values">calculate your raster’s Min and Max values</a> with minmax() function</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7c79b976d82448ea9109f729a87c250e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-minmax" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-minmax">Question about minmax</h3>
+<p>How does minmax work in terms of data structure?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/67ac74842d9d4ee09af8e12a19cdb4f21d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="challenge-plot-multiple-layers-of-spatial-data" class="level3">
-<h3 class="anchored" data-anchor-id="challenge-plot-multiple-layers-of-spatial-data">Challenge: Plot multiple layers of spatial data</h3>
-<p>Challenge <a href="https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html#working-with-spatial-data-from-different-sources:~:text=PLOT%20MULTIPLE%20LAYERS%20OF%20SPATIAL%20DATA">description</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2bfa7120120a44f7b38654451c41f5531d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="discussion-regarding-the-minmax" class="level3">
+<h3 class="anchored" data-anchor-id="discussion-regarding-the-minmax">Discussion regarding the minmax</h3>
+<p>Check the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#:~:text=Data%20tip%20%2D%20Set%20min%20and%20max%20values">callout for data tip</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2f33c256a2d64c2faecd50e988435c911d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="raster-bands" class="level2">
+<h2 class="anchored" data-anchor-id="raster-bands">Raster bands</h2>
+<p>Raster layers can contain <a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#raster-bands">several band layers of different values</a>.</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/3e7f343111b04b22bff828d5dea8445a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="challenge-describe-raster-values" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-describe-raster-values">Challenge: Describe raster values</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#creating-a-histogram-of-raster-values">Challenge description</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/42599d383ca84db8bbd31618192ae6ab1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 <p>Challenge solution</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2285e51036454c699aa39113c3c937111d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d1a02fd04227489db6a82ebdc7aa266e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-the-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-the-challenge">Question about the challenge</h3>
+<p>Where can we find the information?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a99cfde0b62f4a50b52b1e0e4a6fcfbd1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
 </section>
-<section id="export-a-shapefile" class="level2">
-<h2 class="anchored" data-anchor-id="export-a-shapefile">Export a shapefile</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/09-handling-spatial-projection-and-crs.html#export-a-shapefile">st write function</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/09341891669f45bcabe127217713e09b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="tip-function-name" class="level3">
-<h3 class="anchored" data-anchor-id="tip-function-name">Tip: Function name</h3>
-<p>Name of the function</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7f3f652cd0c243389690f8cf64d6eea01d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-the-axis-numbers" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-the-axis-numbers">Question about the axis numbers</h3>
-<p>What do the numbers along the vertical and horizontal axis mean?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d2613e16d7864ff39ba137a921ffe3781d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="episode-11-plot-raster-data" class="level1">
+<h1><a href="https://carpentries-incubator.github.io/r-geospatial-urban/11-plot-raster-data.html">Episode 11: Plot Raster Data</a></h1>
+<p>Introduction to plotting the raster data</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9658562581b449b992328bfb20eadb391d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="make-sure-that-you-have-installed-the-necessary-packages-1" class="level2">
+<h2 class="anchored" data-anchor-id="make-sure-that-you-have-installed-the-necessary-packages-1">Make sure that you have installed the necessary packages</h2>
+<p>Check that you have the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html#:~:text=install%2Epackages%28%22terra%22%29">terra package installed</a> in your Rstudio environment.</p>
 </section>
-<section id="question-about-the-unknown-parameters" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-the-unknown-parameters">Question about the unknown parameters</h3>
-<p>Some parameters inside the plotting code are unknown. What are they?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/97ef10f0daff48089b87d9bf13be74ee1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="plotting-data-using-breaks" class="level2">
+<h2 class="anchored" data-anchor-id="plotting-data-using-breaks">Plotting data using breaks</h2>
+<p>Using the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/11-plot-raster-data.html#plotting-data-using-breaks">cut() and mutate() functions</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9aa3a14e7d2d48a8bddcad1fd65b18641d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-using-breaks" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-using-breaks">Question about using breaks</h3>
+<p>What columns does the data frame have now?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b591c8a14edc4dd482b44329b2323b721d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="plotting-data-using-breaks-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="plotting-data-using-breaks-pt.-2">Plotting data using breaks Pt. 2</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1357b5c315f94deba91ba7924e46d4cc1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="plot-formatting" class="level2">
+<h2 class="anchored" data-anchor-id="plot-formatting">Plot Formatting</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/11-plot-raster-data.html#more-plot-formatting">There are more plot formatting options</a>, such as color_scale_fill_manual() function.</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/91107cf989094cdebc3525f393d59c0f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="plot-formatting-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="plot-formatting-pt.-2">Plot Formatting Pt. 2</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/11-plot-raster-data.html#:~:text=element%5Fblank%28%29%20to%20the%20axis%2Etitle%20argument%20in%20the%20theme%28%29%20function">element_blank() and theme() functions</a> are explained.</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/906512be30da44a18e9dbf67e23994331d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="tip-and-question-about-plot-formatting" class="level3">
+<h3 class="anchored" data-anchor-id="tip-and-question-about-plot-formatting">Tip and question about plot formatting</h3>
+<p>How to check documentation for the theme function?</p>
+<iframe title="GDCU_D2P1_T_Q_Plot_Formatting_2.1" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6ebbfdff830c47dfb6fc545486df3bbb1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="challenge-plot-using-custom-breaks" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-plot-using-custom-breaks">Challenge: Plot using custom breaks</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/11-plot-raster-data.html#:~:text=Challenge%3A%20Plot%20Using%20Custom%20Breaks">Challenge description</a></p>
+<iframe title="GDCU_D2P1_C_Plot_Custom_Breaks" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fa33e8b183d149128e1180d5f5014dc01d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Challenge Solution</p>
+<iframe title="GDCU_D2P1_C_Custom_Breaks_Pt.2" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4a40d45aec9240d4b202e7e824f841bb1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-regarding-the-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="question-regarding-the-challenge">Question regarding the challenge</h3>
+<p>Can you cut the equal numbers of values?</p>
+<iframe title="GDCU_D2P1_C_Q_Plot_Custom_Breaks_Pt.2.1" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fbab30bcfd394b658194af14c9e659551d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 
 
 </section>

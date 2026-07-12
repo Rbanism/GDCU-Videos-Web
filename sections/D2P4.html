@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 1: Data – GDCU Videos Quarto Book</title>
+<title>Lesson 5: GIS – GDCU Videos Quarto Book</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/D1P2.html">Lesson 1: Data</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/D2P4.html">Lesson 5: GIS</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -116,7 +116,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/D1P2.html" class="sidebar-item-text sidebar-link active">
+  <a href="../sections/D1P2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lesson 1: Data</span></a>
   </div>
 </li>
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/D2P4.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/D2P4.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Lesson 5: GIS</span></a>
   </div>
 </li>
@@ -166,37 +166,45 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr" id="toc-episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr" class="nav-link active" data-scroll-target="#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr">Episode 3: Exploring Data Frames &amp; Data Frame Manipulation with dplyr</a>
+  <li><a href="#episode-16-basic-gis-operations-with-r" id="toc-episode-16-basic-gis-operations-with-r" class="nav-link active" data-scroll-target="#episode-16-basic-gis-operations-with-r">Episode 16: Basic GIS Operations with R</a>
   <ul class="collapse">
-  <li><a href="#the-dollar-sign" id="toc-the-dollar-sign" class="nav-link" data-scroll-target="#the-dollar-sign">The dollar sign</a></li>
-  <li><a href="#question-about-factor-function" id="toc-question-about-factor-function" class="nav-link" data-scroll-target="#question-about-factor-function">Question about factor function</a></li>
-  <li><a href="#tip-intro-to-ncol-nrow" id="toc-tip-intro-to-ncol-nrow" class="nav-link" data-scroll-target="#tip-intro-to-ncol-nrow">Tip: Intro to ncol &amp; nrow</a></li>
-  <li><a href="#question-about-summaries" id="toc-question-about-summaries" class="nav-link" data-scroll-target="#question-about-summaries">Question about summaries</a></li>
-  </ul></li>
-  <li><a href="#dataframe-manipulation-with-dplyr" id="toc-dataframe-manipulation-with-dplyr" class="nav-link" data-scroll-target="#dataframe-manipulation-with-dplyr">Dataframe manipulation with dplyr</a>
+  <li><a href="#conservation-in-brielle-nl" id="toc-conservation-in-brielle-nl" class="nav-link" data-scroll-target="#conservation-in-brielle-nl">Conservation in Brielle, NL</a>
   <ul class="collapse">
-  <li><a href="#select-function" id="toc-select-function" class="nav-link" data-scroll-target="#select-function">Select function</a></li>
-  <li><a href="#tip-select-function-errors" id="toc-tip-select-function-errors" class="nav-link" data-scroll-target="#tip-select-function-errors">Tip: select function errors</a></li>
-  <li><a href="#pipes" id="toc-pipes" class="nav-link" data-scroll-target="#pipes">Pipes</a></li>
-  <li><a href="#tip-read-indentations-when-using-pipes" id="toc-tip-read-indentations-when-using-pipes" class="nav-link" data-scroll-target="#tip-read-indentations-when-using-pipes">Tip: read indentations when using pipes</a></li>
-  <li><a href="#question-about-the-pipe" id="toc-question-about-the-pipe" class="nav-link" data-scroll-target="#question-about-the-pipe">Question about the pipe</a></li>
-  <li><a href="#filter" id="toc-filter" class="nav-link" data-scroll-target="#filter">Filter</a></li>
-  <li><a href="#question-about-the-order-operation" id="toc-question-about-the-order-operation" class="nav-link" data-scroll-target="#question-about-the-order-operation">Question about the order operation</a></li>
-  <li><a href="#challenge-filtered-data-frame" id="toc-challenge-filtered-data-frame" class="nav-link" data-scroll-target="#challenge-filtered-data-frame">Challenge: Filtered data frame</a></li>
+  <li><a href="#tip-counting-the-buildings" id="toc-tip-counting-the-buildings" class="nav-link" data-scroll-target="#tip-counting-the-buildings">Tip: Counting the buildings</a></li>
   </ul></li>
-  <li><a href="#group-and-summarize" id="toc-group-and-summarize" class="nav-link" data-scroll-target="#group-and-summarize">Group and summarize</a>
+  <li><a href="#conservation-pt.-2" id="toc-conservation-pt.-2" class="nav-link" data-scroll-target="#conservation-pt.-2">Conservation Pt. 2</a>
   <ul class="collapse">
-  <li><a href="#multiple-groups-and-summary-variables" id="toc-multiple-groups-and-summary-variables" class="nav-link" data-scroll-target="#multiple-groups-and-summary-variables">Multiple groups and summary variables</a></li>
+  <li><a href="#question-about-building-count" id="toc-question-about-building-count" class="nav-link" data-scroll-target="#question-about-building-count">Question about building count</a></li>
   </ul></li>
-  <li><a href="#frequencies" id="toc-frequencies" class="nav-link" data-scroll-target="#frequencies">Frequencies</a></li>
-  <li><a href="#mutate" id="toc-mutate" class="nav-link" data-scroll-target="#mutate">Mutate</a></li>
-  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data Visualization</a>
+  <li><a href="#conservation-pt.-3" id="toc-conservation-pt.-3" class="nav-link" data-scroll-target="#conservation-pt.-3">Conservation Pt. 3</a></li>
+  <li><a href="#buffers" id="toc-buffers" class="nav-link" data-scroll-target="#buffers">Buffers</a></li>
+  <li><a href="#buffers-pt.-2" id="toc-buffers-pt.-2" class="nav-link" data-scroll-target="#buffers-pt.-2">Buffers Pt. 2</a>
   <ul class="collapse">
-  <li><a href="#question-about-a-continent-in-the-dataset" id="toc-question-about-a-continent-in-the-dataset" class="nav-link" data-scroll-target="#question-about-a-continent-in-the-dataset">Question about a continent in the dataset</a></li>
-  <li><a href="#color-scale" id="toc-color-scale" class="nav-link" data-scroll-target="#color-scale">Color scale</a></li>
+  <li><a href="#question-about-st_buffer" id="toc-question-about-st_buffer" class="nav-link" data-scroll-target="#question-about-st_buffer">Question about st_buffer</a></li>
   </ul></li>
-  <li><a href="#writing-data" id="toc-writing-data" class="nav-link" data-scroll-target="#writing-data">Writing data</a></li>
-  <li><a href="#saving-the-data" id="toc-saving-the-data" class="nav-link" data-scroll-target="#saving-the-data">Saving the data</a></li>
+  <li><a href="#union" id="toc-union" class="nav-link" data-scroll-target="#union">Union</a>
+  <ul class="collapse">
+  <li><a href="#question-about-the-use-of-crs" id="toc-question-about-the-use-of-crs" class="nav-link" data-scroll-target="#question-about-the-use-of-crs">Question about the use of CRS</a></li>
+  </ul></li>
+  <li><a href="#centroids" id="toc-centroids" class="nav-link" data-scroll-target="#centroids">Centroids</a></li>
+  <li><a href="#centroids-pt.-2" id="toc-centroids-pt.-2" class="nav-link" data-scroll-target="#centroids-pt.-2">Centroids Pt. 2</a></li>
+  <li><a href="#centroids-pt.-3" id="toc-centroids-pt.-3" class="nav-link" data-scroll-target="#centroids-pt.-3">Centroids Pt. 3</a></li>
+  <li><a href="#centroids-pt.-4" id="toc-centroids-pt.-4" class="nav-link" data-scroll-target="#centroids-pt.-4">Centroids Pt. 4</a></li>
+  <li><a href="#intersection-join" id="toc-intersection-join" class="nav-link" data-scroll-target="#intersection-join">Intersection &amp; Join</a></li>
+  <li><a href="#intersection-join-pt.-2" id="toc-intersection-join-pt.-2" class="nav-link" data-scroll-target="#intersection-join-pt.-2">Intersection &amp; Join Pt. 2</a></li>
+  <li><a href="#intersection-join-pt.-3" id="toc-intersection-join-pt.-3" class="nav-link" data-scroll-target="#intersection-join-pt.-3">Intersection &amp; Join Pt. 3</a></li>
+  <li><a href="#intersection-join-pt.-4" id="toc-intersection-join-pt.-4" class="nav-link" data-scroll-target="#intersection-join-pt.-4">Intersection &amp; Join Pt. 4</a>
+  <ul class="collapse">
+  <li><a href="#maps-of-the-buildings" id="toc-maps-of-the-buildings" class="nav-link" data-scroll-target="#maps-of-the-buildings">Maps of the Buildings</a></li>
+  </ul></li>
+  <li><a href="#area-density-calculation" id="toc-area-density-calculation" class="nav-link" data-scroll-target="#area-density-calculation">Area &amp; Density Calculation</a></li>
+  <li><a href="#challenge-change-of-the-rules" id="toc-challenge-change-of-the-rules" class="nav-link" data-scroll-target="#challenge-change-of-the-rules">Challenge: Change of the rules</a></li>
+  <li><a href="#outro" id="toc-outro" class="nav-link" data-scroll-target="#outro">Outro</a>
+  <ul class="collapse">
+  <li><a href="#words-of-caution" id="toc-words-of-caution" class="nav-link" data-scroll-target="#words-of-caution">Words of Caution</a></li>
+  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -205,7 +213,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 1: Data</h1>
+<h1 class="title">Lesson 5: GIS</h1>
 </div>
 
 
@@ -222,146 +230,160 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr" class="level2">
-<h2 class="anchored" data-anchor-id="episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr"><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data">Episode 3: Exploring Data Frames &amp; Data Frame Manipulation with dplyr</a></h2>
-<p>Check the information of data frame basics and explore the dataset.</p>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data"><strong>Reading data</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8d90123cf284477d900366f8b2ac24dd1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#exploring-dataset"><strong>Exploring dataset</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/49677d70699545a9912cda18f30184f91d" allowfullscreen="" msallowfullscreen="" allow="fullscreen">
-
-</iframe>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#first-look-at-the-dataset"><strong>First look at the dataset</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/87495c55e71547cf841cfc4c995ecd821d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="the-dollar-sign" class="level3">
-<h3 class="anchored" data-anchor-id="the-dollar-sign">The dollar sign</h3>
-<p>See how to use the dollar sign ($) in your script.</p>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#dollar-sign"><strong>Using dollar sign</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b85d7dee8914426c863e4d6623da013f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-<section id="question-about-factor-function" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-factor-function">Question about factor function</h3>
-<p>Can we use factor function to convert character vector?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0a13097283e54f5c9938a29d86c5a3ff1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p><strong>Answer</strong></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7e2a9eaad4764883b65cb8ced17ce3ca1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-<section id="tip-intro-to-ncol-nrow" class="level3">
-<h3 class="anchored" data-anchor-id="tip-intro-to-ncol-nrow">Tip: Intro to ncol &amp; nrow</h3>
-<p>An introduction to ncol and nrow functions.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/35694041a0134b1ea48d21389c2eb6981d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-<section id="question-about-summaries" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-summaries">Question about summaries</h3>
-<p>Can we get the summaries for all countries?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4b001bb148034e2b9b6dcd6fee1806b81d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="episode-16-basic-gis-operations-with-r" class="level1">
+<h1><a href="https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.htmlhttps://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html">Episode 16: Basic GIS Operations with R</a></h1>
+<p>In this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f16af91ad4e34e099e1fb89e7f0ec25e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="conservation-in-brielle-nl" class="level2">
+<h2 class="anchored" data-anchor-id="conservation-in-brielle-nl">Conservation in Brielle, NL</h2>
+<p>How to select the features in an old school way?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9dd1910e53884ef7ae26a24a3d6beb051d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>What would be the 2nd step after selecting the buildings?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e88728ae83044efe8c2decd57403eba51d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>What would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b14d7c4116d64bd4942339ca4ba2a1141d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Should the conservation have an offset (i.e., distance)?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fe62d4eaddb54c51b0506b116f47599f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="tip-counting-the-buildings" class="level3">
+<h3 class="anchored" data-anchor-id="tip-counting-the-buildings">Tip: Counting the buildings</h3>
+<p>The count of buildings within a zone with densities would be good measure since there are small and big buildings.</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/af9b6d29c5534dae9e11a9b47c9bd4421d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
 </section>
-<section id="dataframe-manipulation-with-dplyr" class="level2">
-<h2 class="anchored" data-anchor-id="dataframe-manipulation-with-dplyr">Dataframe manipulation with dplyr</h2>
-<section id="select-function" class="level3">
-<h3 class="anchored" data-anchor-id="select-function">Select function</h3>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#select"><strong>Introducing the select function.</strong></a></p>
+<section id="conservation-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="conservation-pt.-2">Conservation Pt. 2</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/feb11aa8be414f07be67f600efe2a95f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-building-count" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-building-count">Question about building count</h3>
+<p>How to know how many buildings there are?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf056394dd744dae9a3e3e44424357891d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bb64e48f0ee544eb92acffe882bcae7a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="tip-select-function-errors" class="level3">
-<h3 class="anchored" data-anchor-id="tip-select-function-errors">Tip: select function errors</h3>
-<p>When choosing the select function, you may face error saying tidyverse is not installed.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f6f19930db774879b91aea1815cd5d3f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="pipes" class="level3">
-<h3 class="anchored" data-anchor-id="pipes">Pipes</h3>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#pipe"><strong>Introducing the pipe</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/863f48574bd34adb9d5b6211a2d1f7c71d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="conservation-pt.-3" class="level2">
+<h2 class="anchored" data-anchor-id="conservation-pt.-3">Conservation Pt. 3</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4a5b597b26ea4d67a91ca487dcd3a52e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="tip-read-indentations-when-using-pipes" class="level3">
-<h3 class="anchored" data-anchor-id="tip-read-indentations-when-using-pipes">Tip: read indentations when using pipes</h3>
-<p>A tip when you’re using pipes is to read your code with indentations.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/56751a83ddcd4559ae14ee5a3accd5531d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="buffers" class="level2">
+<h2 class="anchored" data-anchor-id="buffers">Buffers</h2>
+<iframe title="GDCU_D2P4_Buffer" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/21b3af5e36094e2c810c2e178639563a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Should we work in meters in terms of the projection?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf181baa9de04023b5011d4d7b08541c1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/783dcfd45ad1431fadcda3803cfd92841d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>There’s a second answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/954cfaebe3a344daac267cc5f9796a811d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-the-pipe" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-the-pipe">Question about the pipe</h3>
-<p>Why use a pipe instead of doing things step by step?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8bbdd187ceeb428d91a2613f7ff2cae01d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="buffers-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="buffers-pt.-2">Buffers Pt. 2</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#buffers">Using the st_buffer() function</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/09aea3c3a1da4e8d90117326a05461ad1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-st_buffer" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-st_buffer">Question about st_buffer</h3>
+<p>Does the st_buffer creates the buffer from the edges and not from the central points?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b1ee3388cbe44623866de157b40cf7181d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ad8a76886fa24e1c81c089ff962b18e31d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="filter" class="level3">
-<h3 class="anchored" data-anchor-id="filter">Filter</h3>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#filter"><strong>Introduction to filter</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bf79939b5b6d4bd688e6dfc5fb28d0341d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="question-about-the-order-operation" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-the-order-operation">Question about the order operation</h3>
-<p>What is the order of operation if we write it based on that structure?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2d015b7312bd44f9925828eefccbbaf31d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>A follow-up question from the previous question</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10eebc780a204ce499195875ae8a78ed1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="union" class="level2">
+<h2 class="anchored" data-anchor-id="union">Union</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#union">Union operation is explained.</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/676f9524922449a4b1c6159a541b53c61d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>How to create a new variable?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea0c43dd87bf4457ae3ce5f29308d95b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-the-use-of-crs" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-the-use-of-crs">Question about the use of CRS</h3>
+<p>Why are we using crs or why should we use st_crs to define crs in st_transform?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/57b1e617ad3a4fdf947619f8441ed9f11d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/92390dbe42e5419db385c54971da6c941d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="challenge-filtered-data-frame" class="level3">
-<h3 class="anchored" data-anchor-id="challenge-filtered-data-frame">Challenge: Filtered data frame</h3>
-<p>Challenge <a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#filter:~:text=CHALLENGE%3A-,FILTERED%20DATA%20FRAME,-Write%20a%20single">description</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/711abc6648cb406aa6fe7174a21027fa1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="centroids" class="level2">
+<h2 class="anchored" data-anchor-id="centroids">Centroids</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#centroids">st_centroid function is introduced</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f25a9b126f044aa99826fb50948b1cb81d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="centroids-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="centroids-pt.-2">Centroids Pt. 2</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fd8b248bc86645a097811b50700dc0231d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="centroids-pt.-3" class="level2">
+<h2 class="anchored" data-anchor-id="centroids-pt.-3">Centroids Pt. 3</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/84d6f89c3b9a44e48e3d6a605a033c2e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Why doesn’t it make sense to put the data in ggplot straight away?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2ebf8a6b74f64c94af9fdc91959e79dc1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f8486b1e0eba4086bc6dc621f1978dfd1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="centroids-pt.-4" class="level2">
+<h2 class="anchored" data-anchor-id="centroids-pt.-4">Centroids Pt. 4</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fcbfa6b9873d4cba89fd37ce2b0471fa1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="intersection-join" class="level2">
+<h2 class="anchored" data-anchor-id="intersection-join">Intersection &amp; Join</h2>
+<p>How do you <a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#intersection-join">intersect something using sf</a>?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6e312186bc784df59b6e9d445cf9fd521d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/cfd484b11d2d4cfdb51154745ad198621d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Another answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/1ae48779165a4e8795d37e7627cabfb51d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="intersection-join-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="intersection-join-pt.-2">Intersection &amp; Join Pt. 2</h2>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ed223a49f6ac437cbcebeeb6e1a73c2e1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="intersection-join-pt.-3" class="level2">
+<h2 class="anchored" data-anchor-id="intersection-join-pt.-3">Intersection &amp; Join Pt. 3</h2>
+<p>group_by() function</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea4a2e96b8f54a2a9bf204e0a79e032b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="intersection-join-pt.-4" class="level2">
+<h2 class="anchored" data-anchor-id="intersection-join-pt.-4">Intersection &amp; Join Pt. 4</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#:~:text=st%5Fjoin%28%2E%2C%20left%3DT">st_join to join the attributes to the geometries</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d4badf97d192450eae96f4c46a88c8501d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Should we convert the layer into a data frame?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/048818fd19564db2add169a3474f80b91d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Answer to the question</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/41b23f9c40dc40d7a83aa931f3f879f21d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Alternative answer</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5a6de5f96ded4638bf531adbb0ab7e431d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="maps-of-the-buildings" class="level3">
+<h3 class="anchored" data-anchor-id="maps-of-the-buildings">Maps of the Buildings</h3>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#maps-of-the-number-of-buildings-per-zone">Map the number of buildings per zone</a></p>
+</section>
+</section>
+<section id="area-density-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="area-density-calculation">Area &amp; Density Calculation</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#calculating-area-and-density-of-spatial-features">st_area() and st_units() functions</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ea12748f584a45108064731e17b64ffb1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="challenge-change-of-the-rules" class="level2">
+<h2 class="anchored" data-anchor-id="challenge-change-of-the-rules">Challenge: Change of the rules</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html#:~:text=Conservation%20rules%20have%20changed">Challenge Description</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/10113376b6044c4691a85f57f21fc2c51d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>Further description</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b69cd6ed48954719aa0f946158ca4fab1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 <p>Challenge solution</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/55875a3b3acc47ad9de17d2671ec9daf1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>You can also check the alternative solution</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/b60ad5c8dcf04f2cbb52e8d2931f4f171d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="question-about-the-challenge" class="level4">
-<h4 class="anchored" data-anchor-id="question-about-the-challenge">Question about the challenge</h4>
-<p>how to get all info about a country?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/2141a6c490ab4ddcbbbf1f0656339f241d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
+<section id="outro" class="level2">
+<h2 class="anchored" data-anchor-id="outro">Outro</h2>
+<p>Wrap Up</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/031c8c98c8da4298bacc9154a06d0a6c1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="words-of-caution" class="level3">
+<h3 class="anchored" data-anchor-id="words-of-caution">Words of Caution</h3>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/0e4dd2dad0214ad3a8a38186158478ae1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-</section>
-<section id="group-and-summarize" class="level2">
-<h2 class="anchored" data-anchor-id="group-and-summarize">Group and summarize</h2>
-<p>Check the detailed descriptions from the carpentries regarding group and summarize with a challenge.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/45c92aa449c441919c1468a5159758471d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="multiple-groups-and-summary-variables" class="level3">
-<h3 class="anchored" data-anchor-id="multiple-groups-and-summary-variables"><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#multiple-groups-and-summary-variables">Multiple groups and summary variables</a></h3>
-</section>
-</section>
-<section id="frequencies" class="level2">
-<h2 class="anchored" data-anchor-id="frequencies">Frequencies</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#frequencies"><strong>Introduction to frequencies</strong></a></p>
-</section>
-<section id="mutate" class="level2">
-<h2 class="anchored" data-anchor-id="mutate">Mutate</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#mutate"><strong>Mutate function</strong></a></p>
-</section>
-<section id="data-visualization" class="level2">
-<h2 class="anchored" data-anchor-id="data-visualization">Data Visualization</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html"><strong>Introduction to data visualization</strong></a></p>
-<iframe title="GDCU_D1P2_Data_Visual_Intro" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/ece75cd0629441bab1384abe1001727a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p><a href="https://github.com/carpentries-incubator/r-geospatial-urban/blob/main/instructors/cheatsheet/GDCU2025_cheatsheet.pdf">Don’t forget to take a quick look at the cheatsheet</a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/117fa28d37bf41789f800d123d9dae711d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>Second part of the data visualization</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/daed8b040a8743198fa3fb679d915d061d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>Third part of the data visualization. Creating a summary plot for the data using the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#mutate"><strong>mutate function</strong></a>.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/61205c4b2a06439f85c6b33af505c34a1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="question-about-a-continent-in-the-dataset" class="level3">
-<h3 class="anchored" data-anchor-id="question-about-a-continent-in-the-dataset">Question about a continent in the dataset</h3>
-<p>How did we know there’s the continent of America in the dataset?</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/dc0b69395a0f4deda06df7ed1ab7c3461d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<p>fourth part of data visualization, coloring.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/37a446990d1046199ef79711af3f1c2b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-<section id="color-scale" class="level3">
-<h3 class="anchored" data-anchor-id="color-scale">Color scale</h3>
-<p>Color scale and viridis function</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/830776c1da5740d5884fac2e50ef8cb71d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-</section>
-<section id="writing-data" class="level2">
-<h2 class="anchored" data-anchor-id="writing-data">Writing data</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#saving-the-plot"><strong>Saving the plot</strong></a></p>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#using-help-documentation"><strong>Using help documentation</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/894b2ec6611c48ebbe796397d07ffe1f1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
-<section id="saving-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="saving-the-data">Saving the data</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/04-intro-to-visualisation.html#saving-the-data"><strong>write.csv function description.</strong></a></p>
-<p>Also, check the cheatsheet.</p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f5bb4878663a42b1957ec864bb34688b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="feedback" class="level3">
+<h3 class="anchored" data-anchor-id="feedback">Feedback</h3>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/aa1a9311747a465aa03eee2331d8a0581d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
