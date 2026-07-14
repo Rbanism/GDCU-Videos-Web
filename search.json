@@ -114,7 +114,7 @@
     "href": "sections/D1P3.html",
     "title": "Lesson 2: Vector Data",
     "section": "",
-    "text": "Videos Credits: Claudiu Forgaci, Ana Petrović\nHere you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
+    "text": "Videos Credits: Claudiu Forgaci, Ana Petrović\nHere’s a short introduction to geospatial concepts.\n\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
     "crumbs": [
       "Lesson 2: Vector Data"
     ]
