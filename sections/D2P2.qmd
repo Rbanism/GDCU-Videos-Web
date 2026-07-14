@@ -1,5 +1,5 @@
 ---
-title: "Lesson 3: Raster Data Pt. 2"
+title: "Lesson 3: Raster Data Part 2"
 author: 
   - "Daniele Cannatella"
   - "Claudiu Forgaci"

@@ -1,5 +1,5 @@
 ---
-title: "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+title: "Lesson 4 : OSM Data & GIS Operations in R Part 2"
 author: 
   - "Clémentine Cottineau"
   - "Ignacio Urria Yáñez"
