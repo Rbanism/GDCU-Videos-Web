@@ -114,7 +114,7 @@
     "href": "sections/D1P3.html",
     "title": "Lesson 2: Vector Data",
     "section": "",
-    "text": "Here you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nHere you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
     "crumbs": [
       "Lesson 2: Vector Data"
     ]
@@ -234,17 +234,7 @@
     "href": "sections/D1P2.html",
     "title": "Lesson 1: Data",
     "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr",
-    "href": "sections/D1P2.html#episode-3-exploring-data-frames-data-frame-manipulation-with-dplyr",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Check the information of data frame basics and explore the dataset.\nReading data\n\nExploring dataset\n\n\n\nFirst look at the dataset\n\n\n\nSee how to use the dollar sign ($) in your script.\nUsing dollar sign\n\n\n\n\nCan we use factor function to convert character vector?\n\nAnswer\n\n\n\n\nAn introduction to ncol and nrow functions.\n\n\n\n\nCan we get the summaries for all countries?",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska",
     "crumbs": [
       "Lesson 1: Data"
     ]
@@ -379,311 +369,311 @@
   {
     "objectID": "sections/D2P3.html",
     "href": "sections/D2P3.html",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
-    "text": "In this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nIn this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#what-is-openstreetmap",
     "href": "sections/D2P3.html#what-is-openstreetmap",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Learn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#osm-in-r",
     "href": "sections/D2P3.html#osm-in-r",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Installation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#extracting-features",
     "href": "sections/D2P3.html#extracting-features",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Extract the Features\n\n\n\nCheck the Documentation Link",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#overpass-query",
     "href": "sections/D2P3.html#overpass-query",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Check the instructions for using the Overpass API.",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#structure-of-objects",
     "href": "sections/D2P3.html#structure-of-objects",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Learn about the objects",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#mapping",
     "href": "sections/D2P3.html#mapping",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Check the Projections via the link",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#visualization",
     "href": "sections/D2P3.html#visualization",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "filter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#visualization-pt.-2",
     "href": "sections/D2P3.html#visualization-pt.-2",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "How to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#visualization-pt.-3",
     "href": "sections/D2P3.html#visualization-pt.-3",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Why do we have a contrast in the map?",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#replicability",
     "href": "sections/D2P3.html#replicability",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "How can we replicate the same plot and map?",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#replicability-pt.-2",
     "href": "sections/D2P3.html#replicability-pt.-2",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Can I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#replicability-pt.-3",
     "href": "sections/D2P3.html#replicability-pt.-3",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Where can we store the function?\n\n\n\n\nWhen do we use curly brackets?",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#replicability-pt.-4",
     "href": "sections/D2P3.html#replicability-pt.-4",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Closure",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#going-interactive",
     "href": "sections/D2P3.html#going-interactive",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Challenge description",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#going-interactive-pt.-3",
     "href": "sections/D2P3.html#going-interactive-pt.-3",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Discussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P3.html#going-interactive-pt.-4",
     "href": "sections/D2P3.html#going-interactive-pt.-4",
-    "title": "Lesson 4: Open Street Map",
+    "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
     "text": "Challenge solution and leaflets\n\nWrap UP",
     "crumbs": [
-      "Lesson 4: Open Street Map"
+      "Lesson 4: Open Street Map Data in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html",
     "href": "sections/D2P4.html",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
-    "text": "In this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#conservation-in-brielle-nl",
     "href": "sections/D2P4.html#conservation-in-brielle-nl",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "How to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#conservation-pt.-2",
     "href": "sections/D2P4.html#conservation-pt.-2",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "How to know how many buildings there are?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#buffers",
     "href": "sections/D2P4.html#buffers",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Should we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#buffers-pt.-2",
     "href": "sections/D2P4.html#buffers-pt.-2",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Using the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#union",
     "href": "sections/D2P4.html#union",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Union operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#centroids",
     "href": "sections/D2P4.html#centroids",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "st_centroid function is introduced",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#centroids-pt.-3",
     "href": "sections/D2P4.html#centroids-pt.-3",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Why doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join",
     "href": "sections/D2P4.html#intersection-join",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "How do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join-pt.-3",
     "href": "sections/D2P4.html#intersection-join-pt.-3",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "group_by() function",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join-pt.-4",
     "href": "sections/D2P4.html#intersection-join-pt.-4",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "st_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#area-density-calculation",
     "href": "sections/D2P4.html#area-density-calculation",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "st_area() and st_units() functions",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#challenge-change-of-the-rules",
     "href": "sections/D2P4.html#challenge-change-of-the-rules",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Challenge Description\n\nFurther description\n\nChallenge solution",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
     "objectID": "sections/D2P4.html#outro",
     "href": "sections/D2P4.html#outro",
-    "title": "Lesson 5: GIS",
+    "title": "Lesson 4: GIS Operations in R",
     "section": "",
     "text": "Wrap Up",
     "crumbs": [
-      "Lesson 5: GIS"
+      "Lesson 4: GIS Operations in R"
     ]
   },
   {
@@ -691,7 +681,7 @@
     "href": "sections/D2P1.html",
     "title": "Lesson 3: Raster Data",
     "section": "",
-    "text": "Starting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nStarting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
     "crumbs": [
       "Lesson 3: Raster Data"
     ]
