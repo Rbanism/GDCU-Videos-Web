@@ -3,7 +3,11 @@ title: "Lesson 1: Data"
 format: html
 ---
 
-## [Episode 3: Exploring Data Frames & Data Frame Manipulation with dplyr](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data)
+# [Episode 2: Data Structures](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#vectors)
+
+**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+
+# [Episode 3: Exploring Data Frames & Data Frame Manipulation with dplyr](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data)
 
 Check the information of data frame basics and explore the dataset.
 

@@ -5,6 +5,8 @@ format: html
 
 # [Episode 5: Introduction to Geospatial Concepts](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html)
 
+**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+
 Here you can learn a bit from the geospatial concepts.
 
 ## Shape of the Earth
