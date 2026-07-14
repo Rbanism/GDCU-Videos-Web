@@ -1,5 +1,5 @@
 ---
-title: "Lesson 4: Open Street Map Data in R"
+title: "Lesson 4: OSM Data & GIS Operations in R"
 author: 
   - "Clémentine Cottineau"
   - "Ignacio Urria Yáñez"
@@ -8,7 +8,7 @@ format: html
 
 # [Episode 15: Import & Visualise OSM Data](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.html)
 
-**Credits:** Clémentine Cottineau, Ignacio Urria Yáñez
+**Videos Credits:** Clémentine Cottineau, Ignacio Urria Yáñez
 
 In this episode, you're about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.
 

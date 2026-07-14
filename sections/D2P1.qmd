@@ -9,7 +9,7 @@ format: html
 
 # [Episode 10: Intro to Raster Data](https://carpentries-incubator.github.io/r-geospatial-urban/10-intro-to-raster-data.html)
 
-**Credits:** Claudiu Forgaci, Ignacio Urria Yáñez
+**Videos Credits:** Claudiu Forgaci, Ignacio Urria Yáñez
 
 Starting from this episode, you'll start to work with raster data in R.
 
