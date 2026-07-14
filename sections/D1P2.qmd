@@ -9,7 +9,7 @@ format: html
 
 # [Episode 2: Data Structures](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#vectors)
 
-**Credits:** Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska
+**Videos Credits:** Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska
 
 In this episode you're going to start learning about the data structures such as Vectors in the R environment.
 
