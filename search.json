@@ -649,141 +649,141 @@
   {
     "objectID": "sections/D2P4.html",
     "href": "sections/D2P4.html",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Videos Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#conservation-in-brielle-nl",
     "href": "sections/D2P4.html#conservation-in-brielle-nl",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "How to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#conservation-pt.-2",
     "href": "sections/D2P4.html#conservation-pt.-2",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "How to know how many buildings there are?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#buffers",
     "href": "sections/D2P4.html#buffers",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Should we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#buffers-pt.-2",
     "href": "sections/D2P4.html#buffers-pt.-2",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Using the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#union",
     "href": "sections/D2P4.html#union",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Union operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#centroids",
     "href": "sections/D2P4.html#centroids",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "st_centroid function is introduced",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#centroids-pt.-3",
     "href": "sections/D2P4.html#centroids-pt.-3",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Why doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join",
     "href": "sections/D2P4.html#intersection-join",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "How do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join-pt.-3",
     "href": "sections/D2P4.html#intersection-join-pt.-3",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "group_by() function",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#intersection-join-pt.-4",
     "href": "sections/D2P4.html#intersection-join-pt.-4",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "st_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#area-density-calculation",
     "href": "sections/D2P4.html#area-density-calculation",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "st_area() and st_units() functions",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#challenge-change-of-the-rules",
     "href": "sections/D2P4.html#challenge-change-of-the-rules",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Challenge Description\n\nFurther description\n\nChallenge solution",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
     "objectID": "sections/D2P4.html#outro",
     "href": "sections/D2P4.html#outro",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Pt. 2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
     "section": "",
     "text": "Wrap Up",
     "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Pt. 2"
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
     ]
   },
   {
@@ -969,201 +969,201 @@
   {
     "objectID": "sections/D2P2.html",
     "href": "sections/D2P2.html",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "In this episode, you’re about to learn more about raster data projections.\n\n\n\nRaster Data Projections\n\n\n\nWhat is hillshade?\n\n\n\n\n\n\n\n\n\n\n\n\nGradient colors and plot setting\n\n\n\n\n\n\n\n\n\nPlotting the hillshade\n\n\n\nHow do we know the variable is called like as it is shown in the code?\n\nPlotting the hillshade pt. 2\n\n\n\n\n\nChallenge Description\n\nChallenge Solution\n\n\n\ndescribe() can also show the CRS projection\n\n\n\n\n\nReproject the raster layer using project() function\n\n\n\n\nChecking the extend using ext()\n\n\n\n\nDeal with raster resolution\n\n\n\nDo the resolutions look okay to you?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nConvert the layer before using the ggplot\n\n\n\n\n\nPlotting the raster using ggplot",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-projection",
     "href": "sections/D2P2.html#raster-projection",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Raster Data Projections\n\n\n\nWhat is hillshade?",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-projection-pt.-2",
     "href": "sections/D2P2.html#raster-projection-pt.-2",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Gradient colors and plot setting",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-projection-pt.-4",
     "href": "sections/D2P2.html#raster-projection-pt.-4",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Plotting the hillshade\n\n\n\nHow do we know the variable is called like as it is shown in the code?\n\nPlotting the hillshade pt. 2",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#challenge-compare-the-crss",
     "href": "sections/D2P2.html#challenge-compare-the-crss",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Challenge Description\n\nChallenge Solution\n\n\n\ndescribe() can also show the CRS projection",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#reproject-rasters",
     "href": "sections/D2P2.html#reproject-rasters",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Reproject the raster layer using project() function",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#reproject-rasters-pt.-2",
     "href": "sections/D2P2.html#reproject-rasters-pt.-2",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Checking the extend using ext()",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-resolution",
     "href": "sections/D2P2.html#raster-resolution",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Deal with raster resolution\n\n\n\nDo the resolutions look okay to you?\n\nAnswer to the question",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-resolution-pt.-2",
     "href": "sections/D2P2.html#raster-resolution-pt.-2",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Convert the layer before using the ggplot",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-resolution-pt.-3",
     "href": "sections/D2P2.html#raster-resolution-pt.-3",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "",
     "text": "Plotting the raster using ggplot",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#load-the-data",
     "href": "sections/D2P2.html#load-the-data",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Load the Data",
     "text": "Load the Data\nThe DTM and DSM layers are both needed to be loaded for this episode to calculate the Canopy Height Model (CHM).",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-math-and-chm",
     "href": "sections/D2P2.html#raster-math-and-chm",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Raster Math and CHM",
     "text": "Raster Math and CHM\nYou’ll produce histograms calculating the DTM and DSM differences.",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#challenge-explore-chm-values",
     "href": "sections/D2P2.html#challenge-explore-chm-values",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Challenge: Explore CHM Values",
     "text": "Challenge: Explore CHM Values\nChallenge description\n\nChallenge solution\n\nChallenge solution Pt. 2\n\nChallenge solution Pt. 3\n\n\nQuestion about the challenge\nIs zero included in the min part?",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#export-a-geotiff",
     "href": "sections/D2P2.html#export-a-geotiff",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Export a GeoTIFF",
     "text": "Export a GeoTIFF\nwriteRaster() function is introduced here.\n\n\nQuestion about GeoTIFF\nIs there a difference between using extensions of tif and tiff?",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#start-with-multi-band-data-in-r",
     "href": "sections/D2P2.html#start-with-multi-band-data-in-r",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Start with Multi-Band data in R",
     "text": "Start with Multi-Band data in R\nGetting started with multi-band data using rast() function.\n\n\nQuestion about alpha and fill\nWhen do you use alpha and when do you use fill?\n\nAdditional answers to the previous question",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#challenge-raster-data-values",
     "href": "sections/D2P2.html#challenge-raster-data-values",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Challenge: Raster Data Values",
     "text": "Challenge: Raster Data Values\nChallenge description\n\nChallenge solution",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-stacks",
     "href": "sections/D2P2.html#raster-stacks",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Raster Stacks",
     "text": "Raster Stacks\nBring all bands of a multi-band raster",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-stacks-pt.-2",
     "href": "sections/D2P2.html#raster-stacks-pt.-2",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Raster Stacks Pt. 2",
     "text": "Raster Stacks Pt. 2\n\nWhat will the data frame look like?",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#raster-stacks-pt.-3",
     "href": "sections/D2P2.html#raster-stacks-pt.-3",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Raster Stacks Pt. 3",
     "text": "Raster Stacks Pt. 3",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   },
   {
     "objectID": "sections/D2P2.html#plotting-a-three-band-image",
     "href": "sections/D2P2.html#plotting-a-three-band-image",
-    "title": "Lesson 3: Raster Data Pt. 2",
+    "title": "Lesson 3: Raster Data Part 2",
     "section": "Plotting a Three-Band Image",
     "text": "Plotting a Three-Band Image\nplotRGB() function is introduced\n\n\nQuestions about the image\nWhat do we see in the Black & White image?\n\nWhy does plotting one layer take more time than full image?\n\nShould we consider the case letter when writing the plotRGB() function and its arguments?",
     "crumbs": [
-      "Lesson 3: Raster Data Pt. 2"
+      "Lesson 3: Raster Data Part 2"
     ]
   }
 ]
