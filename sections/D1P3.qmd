@@ -10,7 +10,11 @@ format: html
 
 **Videos Credits:** Claudiu Forgaci, Ana Petrović
 
-Here you can learn a bit from the geospatial concepts.
+Here's a short introduction to geospatial concepts.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/13d92e5bdb844e40a1812700d2ff078f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
 
 ## Shape of the Earth
 
@@ -22,7 +26,7 @@ Here you can learn a bit from the geospatial concepts.
 
 ## Map Projections
 
-[**Map projection: From the 3D Earth to a 2D map**](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#map-projection-from-the-3d-earth-to-a-2d-map)
+[Map projection: From the 3D Earth to a 2D map](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html#map-projection-from-the-3d-earth-to-a-2d-map)
 
 ```{=html}
 <iframe title width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/49677d70699545a9912cda18f30184f91d" allowfullscreen msallowfullscreen allow="fullscreen">
