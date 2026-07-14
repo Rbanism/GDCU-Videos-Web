@@ -114,7 +114,7 @@
     "href": "sections/D1P3.html",
     "title": "Lesson 2: Vector Data",
     "section": "",
-    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nHere you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
+    "text": "Credits: Claudiu Forgaci, Ana Petrović\nHere you can learn a bit from the geospatial concepts.\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
     "crumbs": [
       "Lesson 2: Vector Data"
     ]
@@ -234,7 +234,117 @@
     "href": "sections/D1P2.html",
     "title": "Lesson 1: Data",
     "section": "",
-    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska",
+    "text": "Credits: Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska\nIn this episode you’re going to start learning about the data structures such as Vectors in the R environment.\n\n\nHere the data vectors are explained.\n\n\n\n\nHere the character vectors are explained.\n\n\n\n\nstr() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question\n\n\n\n\n\nThe combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?\n\n\n\n\n\nVectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?\n\n\n\n\n\nThere will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3\n\n\n\n\n\nFactor is another important data structure.\n\n\n\n\nHere’s how to create factors.\n\n\n\n\nThe levels() function is introduced.\n\n\n\nA tip on using the summary() function\n\n\n\n\n\nfct_relevel() function is explained.\n\n\n\n\n\n\nWhat is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#vectors",
+    "href": "sections/D1P2.html#vectors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Here the data vectors are explained.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#character-vectors",
+    "href": "sections/D1P2.html#character-vectors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Here the character vectors are explained.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#str-vectors",
+    "href": "sections/D1P2.html#str-vectors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "str() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#combining-vectors",
+    "href": "sections/D1P2.html#combining-vectors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "The combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#logical-values",
+    "href": "sections/D1P2.html#logical-values",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Vectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#missing-values",
+    "href": "sections/D1P2.html#missing-values",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "There will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#factors",
+    "href": "sections/D1P2.html#factors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Factor is another important data structure.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#creating-factors",
+    "href": "sections/D1P2.html#creating-factors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "Here’s how to create factors.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#inspect-factors",
+    "href": "sections/D1P2.html#inspect-factors",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "The levels() function is introduced.\n\n\n\nA tip on using the summary() function",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#reorder-levels",
+    "href": "sections/D1P2.html#reorder-levels",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "fct_relevel() function is explained.",
+    "crumbs": [
+      "Lesson 1: Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#questions-regarding-the-syntax",
+    "href": "sections/D1P2.html#questions-regarding-the-syntax",
+    "title": "Lesson 1: Data",
+    "section": "",
+    "text": "What is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
     "crumbs": [
       "Lesson 1: Data"
     ]
@@ -314,7 +424,7 @@
     "href": "sections/D1P4.html",
     "title": "Lesson 2: Vector Data Part 2",
     "section": "",
-    "text": "This is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
+    "text": "Credits: Claudiu Forgaci\nThis is the following episode from the previous one.\n\n\nCheck that you have the sf package loaded in your environment.\n\n\n\nAn introduction to ggplot\n\n\n\nMaking the legend\n\n\n\n\nUsing Rainbow\n\n\n\n\nWhy does no rainbow appear?\n\n\n\n\n\n\n\n\nRainbow doesn’t work that well, why?\n\n\n\n\nCan the scale be before the geo funcion or after it?\n\n\n\n\nWhat the result would be if you use the scale clr manual for measure?\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge",
     "crumbs": [
       "Lesson 2: Vector Data Part 2"
     ]
@@ -371,7 +481,7 @@
     "href": "sections/D2P3.html",
     "title": "Lesson 4: Open Street Map Data in R",
     "section": "",
-    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nIn this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
+    "text": "Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
     "crumbs": [
       "Lesson 4: Open Street Map Data in R"
     ]
@@ -541,7 +651,7 @@
     "href": "sections/D2P4.html",
     "title": "Lesson 4: GIS Operations in R",
     "section": "",
-    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
+    "text": "Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
     "crumbs": [
       "Lesson 4: GIS Operations in R"
     ]
@@ -681,7 +791,7 @@
     "href": "sections/D2P1.html",
     "title": "Lesson 3: Raster Data",
     "section": "",
-    "text": "Credits: Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska\nStarting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "text": "Credits: Claudiu Forgaci, Ignacio Urria Yáñez\nStarting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
     "crumbs": [
       "Lesson 3: Raster Data"
     ]
