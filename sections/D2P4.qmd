@@ -1,11 +1,14 @@
 ---
 title: "Lesson 4: GIS Operations in R"
+author: 
+  - "Clémentine Cottineau"
+  - "Ignacio Urria Yáñez"
 format: html
 ---
 
 # [Episode 16: Basic GIS Operations with R](https://carpentries-incubator.github.io/r-geospatial-urban/15-import-and-visualise-osm-data.htmlhttps://carpentries-incubator.github.io/r-geospatial-urban/16-basic-gis-with-r-sf.html)
 
-**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+**Credits:** Clémentine Cottineau, Ignacio Urria Yáñez
 
 In this episode, you're about to learn how to perform some of basic GIS operations using sf package in R.
 

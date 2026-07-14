@@ -1,11 +1,14 @@
 ---
 title: "Lesson 2: Vector Data"
+author: 
+  - "Ana Petrović"
+  - "Claudiu Forgaci"
 format: html
 ---
 
 # [Episode 5: Introduction to Geospatial Concepts](https://carpentries-incubator.github.io/r-geospatial-urban/05-intro-to-geospatial-concepts.html)
 
-**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+**Credits:** Claudiu Forgaci, Ana Petrović
 
 Here you can learn a bit from the geospatial concepts.
 

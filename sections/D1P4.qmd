@@ -1,9 +1,13 @@
 ---
 title: "Lesson 2: Vector Data Part 2"
+author: 
+  - "Claudiu Forgaci"
 format: html
 ---
 
 # [Episode 8: Plot multiple shapefiles](https://carpentries-incubator.github.io/r-geospatial-urban/08-plot-multiple-shape-files.html)
+
+**Credits:** Claudiu Forgaci
 
 This is the following episode from the previous one.
 

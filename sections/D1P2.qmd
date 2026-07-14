@@ -1,11 +1,179 @@
 ---
 title: "Lesson 1: Data"
+author: 
+  - "Claudiu Forgaci"
+  - "Javier San Millán Tejedor"
+  - "Aleksandra Wilczynska"
 format: html
 ---
 
 # [Episode 2: Data Structures](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#vectors)
 
-**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+**Credits:** Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska
+
+In this episode you're going to start learning about the data structures such as Vectors in the R environment.
+
+## Vectors
+
+Here the data [vectors](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#vectors) are explained.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/afba0847524e4ff197e087b58e17a77e1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Character Vectors
+
+Here the [character vectors](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#:~:text=character%5Fvector) are explained.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/4854fb426b8f4147a1a365fcb0fcf9d21d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Str Vectors
+
+[str() function](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#:~:text=str%28character%5Fvector%29) is explained.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/5bbc79e5f55746a9a6524e5521f5d3751d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about str function
+
+What does structure function do?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/11a0c88906eb473ca9736397ff20bd071d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Answer to the question
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/c94ab829a2c7458d8fdb418844f727741d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Combining Vectors
+
+The [combine function, c()](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#combining-vectors), is introduced here.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6a80b504b4d143c387d9acc78a71e9951d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Mixed Vectors
+
+Tip on Mixed Vectors and str()
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8e1b511d587b47cf8437d6146e809d121d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Additional tips on the Mixed Vectors
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/3f79afe7c01f41e692497ce649ed29731d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about mixed vectors
+
+What is the underlying rule behind it?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d422d1f23eb44ebb80d3b6c7e5b813881d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Logical Values
+
+Vectors can also have [logical values](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#:~:text=vector%20of%20logical%20values).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/7a1f70ef1fa24477b976d2fda3dd8c0f1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Question about mixing values
+
+What happens when we mix two different types of values?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d54c95742fbd40b2a3b1efe04f4eb25a1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Missing Values
+
+There will be [missing values.](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#missing-values)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d8f55b70575b4af1958cc64760ab6a851d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Challenge: Missing Values
+
+[Missing Values Part 2](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#:~:text=combining%20vectors,-Combine)
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a550ad67d27d489d81d1cf01495604de1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Missing Values Part 3
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/3b6d9017b54445f085fe3b2140261c161d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Factors
+
+[Factor is another important data structure](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#factors).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/58835b190120475a90155960f1f2b3af1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Creating Factors
+
+Here's how to [create factors](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#create-factors).
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/900119a0fab84aefa0d97b2d482481551d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Inspect Factors
+
+The [levels() function](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#inspect-factors) is introduced.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/dd0b519a4fff45b497fe547a238ac7aa1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+### Tip: Summary function
+
+A tip on using the summary() function
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/367aaa03651d4f75b90c119230918e381d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Reorder levels
+
+[fct_relevel() function](https://carpentries-incubator.github.io/r-geospatial-urban/02-data-structures.html#reorder-levels) is explained.
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/fbe6283821b74dcc95349b8fae022deb1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+## Questions regarding the syntax
+
+### Question about exclamation mark
+
+What is the use of an exclamation mark inside the syntax?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6414605e020d4426b7ea6b4f1773f9bd1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
+
+Is it okay to have whitespaces or new lines in R programming?
+
+```{=html}
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/178eb1c86a124d3996ce39567dd763fb1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
+```
 
 # [Episode 3: Exploring Data Frames & Data Frame Manipulation with dplyr](https://carpentries-incubator.github.io/r-geospatial-urban/03-explore-data.html#reading-data)
 
