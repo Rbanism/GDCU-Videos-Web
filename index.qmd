@@ -13,7 +13,7 @@ The package is a combination of online structured teachings from the Carpentries
 
 # [Episode 1: Introduction to R and RStudio](https://carpentries-incubator.github.io/r-geospatial-urban/01-intro-to-r.html)
 
-**Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
+**Videos Credits:** Claudiu Forgaci (Introduction), Javier San MillánTejedor, Aleksandra Wilczynska
 
 In this episode you'll learn about the GDCU and its aim and objectives with our instructors giving detailed insightful context of the upcoming materials.
 
