@@ -1,5 +1,5 @@
 ---
-title: "Lesson 1: Data"
+title: "Lesson 1: Intro to R"
 author: 
   - "Claudiu Forgaci"
   - "Javier San Millán Tejedor"
