@@ -1,423 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction to R",
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "GDCU Videos Quarto Website",
     "section": "",
-    "text": "This package is meant to help you learn how to apply geospatial analysis in the urban context using RStudio as an open-source and powerful software for automation, rescalability and reproducibility.\nThe online materials of this instruction package is meant to help you working with R from scratch on your own, up to an elementary stage where you can perform first steps of major analytical methods and tools on a spatial context for your professional/academic work or for your own learning.\nThe package is a combination of online structured teachings from the Carpentries Incubator and recorded video materials from the previous workshop that was held in-person at TU Delft in 2024.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#overview",
-    "href": "index.html#overview",
-    "title": "Introduction to R",
-    "section": "Overview",
-    "text": "Overview\n\nWhat is R?\nFurthermore, the R and Rstudio as your working toolset is introduced to have a better understanding of the capabilities of working with R through your projects.\n\n\n\nSetting up Rstudio\nCheck the GDCU Carpentries website to learn about the installation steps and R package requirements regarding your OS.\nCheck the summary and setup",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#project-management-in-rstudio",
-    "href": "index.html#project-management-in-rstudio",
-    "title": "Introduction to R",
-    "section": "Project Management in Rstudio",
-    "text": "Project Management in Rstudio\nTo start your work in the Rstudio environment, creating and handling a project package is crucial. You have to go over your project folder for file handling, data storing and management, or simply organizing your workflow. Check the video below how the instructors introduce the main components of every R project folder and how to organize them appropriately.\nOrganizing the working directory",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#create-r-project",
-    "href": "index.html#create-r-project",
-    "title": "Introduction to R",
-    "section": "Create R Project",
-    "text": "Create R Project\nNow, it’s time to create your project folder. This could be done in several ways. Spend some time creating your project by clicking and going, or type a command using an R script all the way along.\nThe first video explains to you how to create an R project.\n\n&lt;iframe&gt;\n&lt;section id=\"tip-creating-your-project\" class=\"level3\"&gt;\n&lt;h3&gt;Tip: Creating your project&lt;/h3&gt;\n&lt;p&gt;To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.&lt;/p&gt;\n&lt;iframe title=\"\" width=\"700\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\" src=\"https://collegerama.tudelft.nl/Mediasite/Play/8ba8fb2018904124921fae83ef9221c71d\" allowfullscreen msallowfullscreen allow=\"fullscreen\"&gt;\nThe second video introduces the ways of interaction with R. You can also check the detailed instruction of how to interact with R in the Carpentries.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#create-a-script",
-    "href": "index.html#create-a-script",
-    "title": "Introduction to R",
-    "section": "Create a script",
-    "text": "Create a script\nThe key component to structuring your analytical workflow is to write the script. You need to create an R script file inside your project’s folder.\n\n\nCreate a script: Pros & Cons\nHere’s a short discussion of what are the uses and difficulties of creating a script in the Rstudio environment.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#running-the-script",
-    "href": "index.html#running-the-script",
-    "title": "Introduction to R",
-    "section": "Running the script",
-    "text": "Running the script\nNow that you have your file and written script, you’re ready to run the code and operate your first lines of command. Learn more about the console details and Escaping.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#r-packages",
-    "href": "index.html#r-packages",
-    "title": "Introduction to R",
-    "section": "R Packages",
-    "text": "R Packages\n\nIntro\nThe R script can handle general operations for us. However, if we want to assign more complex and modular functions, we would need a set of tools that can fulfill the specific tasks for which they are developed. These toolsets are called “Package”. You need to install the package and run its libraries to activate them.\n\n\n\nCheatsheets\nIt is totally normal not to know the package names, specific functions, or general syntax by heart. We’ve made a cheatsheet for you to take a quick look at whenever you need to write down a specific function or package in your script. Take a look at the cheatsheet files or save them on your device in case of needing them.\n\n\n\nAttention\nYour auto-completion may not operate the same way as the one in the instruction video. The auto-completion options in your environment may vary based on the installed packages in your Rstudio.\n\n\n\nInstalling Tidyverse\nNow it’s time to install one of the most commonly used packages in R, Tidyverse.\n\nThink about the installation command; you’d need to write a specific line of code and run it in order to install a package. Heads up! once your install a package, you wouldn’t need to run its code anytime after you reopen your project.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#code-commenting",
-    "href": "index.html#code-commenting",
-    "title": "Introduction to R",
-    "section": "Code commenting",
-    "text": "Code commenting\n\nA question\nNow that you’ve installed your package, you don’t need to run that line again. But what if you need to keep its script? Let’s say you’d need to share your script file with a colleague who may not have the same packages installed on their device, so you need to keep the installation codes inside your script file.\n\nA way to prevent your package installation codes from being run is to turn them into a comment. By doing that, you can keep your code lines inside your file without running them effectively.\n\n\n\nSome tips\nThere are some general ideas you may like to know about commenting in code. Not only does the “#” sign make your code line unexecutable, but also you can literally write your comments on each line of code in case you need to provide information or trace your steps later while you’re reviewing your code or sharing it with somebody else.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#handling-paths",
-    "href": "index.html#handling-paths",
-    "title": "Introduction to R",
-    "section": "Handling Paths",
-    "text": "Handling Paths\nThere’s an important step to address your folders’ locations inside your script. In R, you wouldn’t need to copy-paste a complete path directory, as long as you’ve saved the files inside the main project folder. Here you’ll learn how to configure your directories.\n\n\nA small note\nYou may notice some differences in your script compared to the video. It is because of the Copilot add-on that suggests further code lines. That is not necessary in your current progress.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#variables-and-assignments",
-    "href": "index.html#variables-and-assignments",
-    "title": "Introduction to R",
-    "section": "Variables and assignments",
-    "text": "Variables and assignments\nWe introduced the packages and sets of specialized operators and functions. Speaking of which, along with simple operations that are already demonstrated, you can also define variables and assign them to new values using the “&lt;-” key combination.\n\nCheck out the step-by-step description of assigning values in the Carpentries.\n\nDiscussion\nLet’s say you want to assign a variable to another existing variable in your script. What do you think will happen? Check your response with the video below.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "index.html#download-files",
-    "href": "index.html#download-files",
-    "title": "Introduction to R",
-    "section": "Download files",
-    "text": "Download files\nYou’ve made it so far. That’s quite a progress!\nNow, this is the last step of your preparation. You need to download the files you need to work with. Take the notes from the video and the Carpentries’ callout.\n\nThe error happened, right? What do you think caused the error? Take some time to think about it and play the next video while the instructors are trying to fix the error.\n\n\nWarning and error messages\nThe warning messages are pretty common to appear when running your code. In general, not all of them are serious problems that interrupt your code running, but you may need to be aware of them.\n\nAlthough the warnings are not critical, the error messages on your R console are the high-priority problems that indicate your code is not operating properly and the tasks cannot be completed.\nThink about how to fix the error in the script and compare your evaluation with the following video.\n\n\n\nDownloaded file path\nThe error is fixed. Once you download your files, you’d better check where they’re stored. This is crucial for any next step you take working with your data.",
-    "crumbs": [
-      "Introduction to R"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html",
-    "href": "sections/D1P3.html",
-    "title": "Lesson 2: Vector Data",
-    "section": "",
-    "text": "Videos Credits: Claudiu Forgaci, Ana Petrović\nHere’s a short introduction to geospatial concepts.\n\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#shape-of-the-earth",
-    "href": "sections/D1P3.html#shape-of-the-earth",
-    "title": "Lesson 2: Vector Data",
-    "section": "",
-    "text": "The shape of the earth",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#map-projections",
-    "href": "sections/D1P3.html#map-projections",
-    "title": "Lesson 2: Vector Data",
-    "section": "",
-    "text": "Map projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#types-of-geospatial-data",
-    "href": "sections/D1P3.html#types-of-geospatial-data",
-    "title": "Lesson 2: Vector Data",
-    "section": "",
-    "text": "Exploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#sf-package-introduction",
-    "href": "sections/D1P3.html#sf-package-introduction",
-    "title": "Lesson 2: Vector Data",
-    "section": "SF package introduction",
-    "text": "SF package introduction\nsf package introduction and installation",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#import-shapefiles",
-    "href": "sections/D1P3.html#import-shapefiles",
-    "title": "Lesson 2: Vector Data",
-    "section": "Import shapefiles",
-    "text": "Import shapefiles\nGeometry in QGIS and R",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#plot-a-vector-layer",
-    "href": "sections/D1P3.html#plot-a-vector-layer",
-    "title": "Lesson 2: Vector Data",
-    "section": "Plot a vector layer",
-    "text": "Plot a vector layer\nplot the vector\n\n\nQuestion about the output\nIs the output in British?\n\n\n\nPlot the vector layer pt. 2\nPlot the vector part 2\n\n\n\nChallenge: Import line and point vector layers\nChallenge described\n\nChallenge solution explained\n\n\nQuestion about the GUI\nDoes it make a difference to open (double-click) a file using the GUI?\n\nSolution part 2",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#query-vector-feature-metadata",
-    "href": "sections/D1P3.html#query-vector-feature-metadata",
-    "title": "Lesson 2: Vector Data",
-    "section": "Query Vector Feature Metadata",
-    "text": "Query Vector Feature Metadata\nHave a look at the metadata of the layer",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#explore-values",
-    "href": "sections/D1P3.html#explore-values",
-    "title": "Lesson 2: Vector Data",
-    "section": "Explore values",
-    "text": "Explore values\nExplore values within an attribute\n\n\nQuestion about updating the columns\nHow could the column be updated?",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#subset-features",
-    "href": "sections/D1P3.html#subset-features",
-    "title": "Lesson 2: Vector Data",
-    "section": "Subset features",
-    "text": "Subset features\nFilter function\n\nFilter function part 2\n\n\nChallenge: Now with the motorways\nChallenge description\n\nChallenge solution\n\nChallenge solution part 2\n\n\n\nQuestion about the summarize length\nSummarize length, would you also get a simple feature?",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#customize-plots",
-    "href": "sections/D1P3.html#customize-plots",
-    "title": "Lesson 2: Vector Data",
-    "section": "Customize plots",
-    "text": "Customize plots\nIntroduction to plot customization\n\n\nTip: Importance of CRS in plotting\nThe importance of CRS in plotting your data.\n\nPlot customization part 2\n\n\n\nQuestion about the levels specifications\nWhy do we need to specify the levels?\n\n\nAnswers",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P3.html#examining-and-coloring-objects",
-    "href": "sections/D1P3.html#examining-and-coloring-objects",
-    "title": "Lesson 2: Vector Data",
-    "section": "Examining and coloring objects",
-    "text": "Examining and coloring objects\n\n\nQuestion about the number of colors\nHow should we know how many colors we need for the road types?\n\n\n\nQuestion about the color order\nIs the order of colors the same as the value orders?",
-    "crumbs": [
-      "Lesson 2: Vector Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html",
-    "href": "sections/D1P2.html",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Videos Credits: Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska\nIn this episode you’re going to start learning about the data structures such as Vectors in the R environment.\n\n\nHere the data vectors are explained.\n\n\n\n\nHere the character vectors are explained.\n\n\n\n\nstr() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question\n\n\n\n\n\nThe combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?\n\n\n\n\n\nVectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?\n\n\n\n\n\nThere will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3\n\n\n\n\n\nFactor is another important data structure.\n\n\n\n\nHere’s how to create factors.\n\n\n\n\nThe levels() function is introduced.\n\n\n\nA tip on using the summary() function\n\n\n\n\n\nfct_relevel() function is explained.\n\n\n\n\n\n\nWhat is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#vectors",
-    "href": "sections/D1P2.html#vectors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Here the data vectors are explained.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#character-vectors",
-    "href": "sections/D1P2.html#character-vectors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Here the character vectors are explained.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#str-vectors",
-    "href": "sections/D1P2.html#str-vectors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "str() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#combining-vectors",
-    "href": "sections/D1P2.html#combining-vectors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "The combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#logical-values",
-    "href": "sections/D1P2.html#logical-values",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Vectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#missing-values",
-    "href": "sections/D1P2.html#missing-values",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "There will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#factors",
-    "href": "sections/D1P2.html#factors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Factor is another important data structure.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#creating-factors",
-    "href": "sections/D1P2.html#creating-factors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "Here’s how to create factors.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#inspect-factors",
-    "href": "sections/D1P2.html#inspect-factors",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "The levels() function is introduced.\n\n\n\nA tip on using the summary() function",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#reorder-levels",
-    "href": "sections/D1P2.html#reorder-levels",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "fct_relevel() function is explained.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#questions-regarding-the-syntax",
-    "href": "sections/D1P2.html#questions-regarding-the-syntax",
-    "title": "Lesson 1: Data",
-    "section": "",
-    "text": "What is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
-    "title": "Lesson 1: Data",
-    "section": "Dataframe manipulation with dplyr",
-    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip: select function errors\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip: read indentations when using pipes\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion about the pipe\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion about the order operation\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge: Filtered data frame\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nQuestion about the challenge\nhow to get all info about a country?",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#group-and-summarize",
-    "href": "sections/D1P2.html#group-and-summarize",
-    "title": "Lesson 1: Data",
-    "section": "Group and summarize",
-    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#frequencies",
-    "href": "sections/D1P2.html#frequencies",
-    "title": "Lesson 1: Data",
-    "section": "Frequencies",
-    "text": "Frequencies\nIntroduction to frequencies",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#mutate",
-    "href": "sections/D1P2.html#mutate",
-    "title": "Lesson 1: Data",
-    "section": "Mutate",
-    "text": "Mutate\nMutate function",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#data-visualization",
-    "href": "sections/D1P2.html#data-visualization",
-    "title": "Lesson 1: Data",
-    "section": "Data Visualization",
-    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion about a continent in the dataset\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#writing-data",
-    "href": "sections/D1P2.html#writing-data",
-    "title": "Lesson 1: Data",
-    "section": "Writing data",
-    "text": "Writing data\nSaving the plot\nUsing help documentation",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
-  },
-  {
-    "objectID": "sections/D1P2.html#saving-the-data",
-    "href": "sections/D1P2.html#saving-the-data",
-    "title": "Lesson 1: Data",
-    "section": "Saving the data",
-    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
-    "crumbs": [
-      "Lesson 1: Data"
-    ]
+    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
   },
   {
     "objectID": "sections/D1P4.html",
@@ -467,503 +54,6 @@
     "text": "Export a shapefile\nst write function\n\n\nTip: Function name\nName of the function\n\n\n\nQuestion about the axis numbers\nWhat do the numbers along the vertical and horizontal axis mean?\n\n\n\nQuestion about the unknown parameters\nSome parameters inside the plotting code are unknown. What are they?",
     "crumbs": [
       "Lesson 2: Vector Data Part 2"
-    ]
-  },
-  {
-    "objectID": "LICENSE.html",
-    "href": "LICENSE.html",
-    "title": "GDCU Videos Quarto Website",
-    "section": "",
-    "text": "License: CC BY 4.0\n\n\nThe GDCU Video Web is licensed under CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/"
-  },
-  {
-    "objectID": "sections/D2P3.html",
-    "href": "sections/D2P3.html",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Videos Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#what-is-openstreetmap",
-    "href": "sections/D2P3.html#what-is-openstreetmap",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Learn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#osm-in-r",
-    "href": "sections/D2P3.html#osm-in-r",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Installation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#extracting-features",
-    "href": "sections/D2P3.html#extracting-features",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Extract the Features\n\n\n\nCheck the Documentation Link",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#overpass-query",
-    "href": "sections/D2P3.html#overpass-query",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Check the instructions for using the Overpass API.",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#structure-of-objects",
-    "href": "sections/D2P3.html#structure-of-objects",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Learn about the objects",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#mapping",
-    "href": "sections/D2P3.html#mapping",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Check the Projections via the link",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#visualization",
-    "href": "sections/D2P3.html#visualization",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "filter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#visualization-pt.-2",
-    "href": "sections/D2P3.html#visualization-pt.-2",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "How to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#visualization-pt.-3",
-    "href": "sections/D2P3.html#visualization-pt.-3",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Why do we have a contrast in the map?",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#replicability",
-    "href": "sections/D2P3.html#replicability",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "How can we replicate the same plot and map?",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#replicability-pt.-2",
-    "href": "sections/D2P3.html#replicability-pt.-2",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Can I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#replicability-pt.-3",
-    "href": "sections/D2P3.html#replicability-pt.-3",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Where can we store the function?\n\n\n\n\nWhen do we use curly brackets?",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#replicability-pt.-4",
-    "href": "sections/D2P3.html#replicability-pt.-4",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Closure",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#going-interactive",
-    "href": "sections/D2P3.html#going-interactive",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Challenge description",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#going-interactive-pt.-3",
-    "href": "sections/D2P3.html#going-interactive-pt.-3",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Discussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P3.html#going-interactive-pt.-4",
-    "href": "sections/D2P3.html#going-interactive-pt.-4",
-    "title": "Lesson 4: OSM Data & GIS Operations in R",
-    "section": "",
-    "text": "Challenge solution and leaflets\n\nWrap UP",
-    "crumbs": [
-      "Lesson 4: OSM Data & GIS Operations in R"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html",
-    "href": "sections/D2P4.html",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Videos Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#conservation-in-brielle-nl",
-    "href": "sections/D2P4.html#conservation-in-brielle-nl",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "How to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#conservation-pt.-2",
-    "href": "sections/D2P4.html#conservation-pt.-2",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "How to know how many buildings there are?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#buffers",
-    "href": "sections/D2P4.html#buffers",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Should we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#buffers-pt.-2",
-    "href": "sections/D2P4.html#buffers-pt.-2",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Using the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#union",
-    "href": "sections/D2P4.html#union",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Union operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#centroids",
-    "href": "sections/D2P4.html#centroids",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "st_centroid function is introduced",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#centroids-pt.-3",
-    "href": "sections/D2P4.html#centroids-pt.-3",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Why doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#intersection-join",
-    "href": "sections/D2P4.html#intersection-join",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "How do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#intersection-join-pt.-3",
-    "href": "sections/D2P4.html#intersection-join-pt.-3",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "group_by() function",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#intersection-join-pt.-4",
-    "href": "sections/D2P4.html#intersection-join-pt.-4",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "st_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#area-density-calculation",
-    "href": "sections/D2P4.html#area-density-calculation",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "st_area() and st_units() functions",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#challenge-change-of-the-rules",
-    "href": "sections/D2P4.html#challenge-change-of-the-rules",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Challenge Description\n\nFurther description\n\nChallenge solution",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P4.html#outro",
-    "href": "sections/D2P4.html#outro",
-    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
-    "section": "",
-    "text": "Wrap Up",
-    "crumbs": [
-      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html",
-    "href": "sections/D2P1.html",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Videos Credits: Claudiu Forgaci, Ignacio Urria Yáñez\nStarting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
-    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Check that you have the terra package installed in your Rstudio environment.",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#raster-script",
-    "href": "sections/D2P1.html#raster-script",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Raster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#raster-attribute",
-    "href": "sections/D2P1.html#raster-attribute",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "describe() function is introduced\n\n\n\nCan we use ‘here’?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#open-raster-in-r",
-    "href": "sections/D2P1.html#open-raster-in-r",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Import the raster data into R\n\n\n\nIs the height based on the sea level?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
-    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Using the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
-    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "plot and as.data\n\n\n\nHere’s how to close the copilot",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
-    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Common errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#view-raster-crs",
-    "href": "sections/D2P1.html#view-raster-crs",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Here’s how to view the raster coordinate reference system",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
-    "href": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Here’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#raster-bands",
-    "href": "sections/D2P1.html#raster-bands",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Raster layers can contain several band layers of different values.",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#challenge-describe-raster-values",
-    "href": "sections/D2P1.html#challenge-describe-raster-values",
-    "title": "Lesson 3: Raster Data",
-    "section": "",
-    "text": "Challenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
-    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
-    "title": "Lesson 3: Raster Data",
-    "section": "Make sure that you have installed the necessary packages",
-    "text": "Make sure that you have installed the necessary packages\nCheck that you have the terra package installed in your Rstudio environment.",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#plotting-data-using-breaks",
-    "href": "sections/D2P1.html#plotting-data-using-breaks",
-    "title": "Lesson 3: Raster Data",
-    "section": "Plotting data using breaks",
-    "text": "Plotting data using breaks\nUsing the cut() and mutate() functions\n\n\nQuestion about using breaks\nWhat columns does the data frame have now?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
-    "href": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
-    "title": "Lesson 3: Raster Data",
-    "section": "Plotting data using breaks Pt. 2",
-    "text": "Plotting data using breaks Pt. 2",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#plot-formatting",
-    "href": "sections/D2P1.html#plot-formatting",
-    "title": "Lesson 3: Raster Data",
-    "section": "Plot Formatting",
-    "text": "Plot Formatting\nThere are more plot formatting options, such as color_scale_fill_manual() function.",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#plot-formatting-pt.-2",
-    "href": "sections/D2P1.html#plot-formatting-pt.-2",
-    "title": "Lesson 3: Raster Data",
-    "section": "Plot Formatting Pt. 2",
-    "text": "Plot Formatting Pt. 2\nelement_blank() and theme() functions are explained.\n\n\nTip and question about plot formatting\nHow to check documentation for the theme function?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
-    ]
-  },
-  {
-    "objectID": "sections/D2P1.html#challenge-plot-using-custom-breaks",
-    "href": "sections/D2P1.html#challenge-plot-using-custom-breaks",
-    "title": "Lesson 3: Raster Data",
-    "section": "Challenge: Plot using custom breaks",
-    "text": "Challenge: Plot using custom breaks\nChallenge description\n\nChallenge Solution\n\n\nQuestion regarding the challenge\nCan you cut the equal numbers of values?",
-    "crumbs": [
-      "Lesson 3: Raster Data"
     ]
   },
   {
@@ -1164,6 +254,916 @@
     "text": "Plotting a Three-Band Image\nplotRGB() function is introduced\n\n\nQuestions about the image\nWhat do we see in the Black & White image?\n\nWhy does plotting one layer take more time than full image?\n\nShould we consider the case letter when writing the plotRGB() function and its arguments?",
     "crumbs": [
       "Lesson 3: Raster Data Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html",
+    "href": "sections/D1P3.html",
+    "title": "Lesson 2: Vector Data",
+    "section": "",
+    "text": "Videos Credits: Claudiu Forgaci, Ana Petrović\nHere’s a short introduction to geospatial concepts.\n\n\n\nThe shape of the earth\n\n\n\n\nMap projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale\n\n\n\n\n\nExploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#shape-of-the-earth",
+    "href": "sections/D1P3.html#shape-of-the-earth",
+    "title": "Lesson 2: Vector Data",
+    "section": "",
+    "text": "The shape of the earth",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#map-projections",
+    "href": "sections/D1P3.html#map-projections",
+    "title": "Lesson 2: Vector Data",
+    "section": "",
+    "text": "Map projection: From the 3D Earth to a 2D map\n\n\n\n\n\nCoordinate reference systems (CRS)\n\n\n\n\nCheck the variations of map scales.\nMap scale",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#types-of-geospatial-data",
+    "href": "sections/D1P3.html#types-of-geospatial-data",
+    "title": "Lesson 2: Vector Data",
+    "section": "",
+    "text": "Exploring the geospatial data categories.\n\n\n\nThe challenge is described as CRS for calculating areas and calculating the shortest path.\n\n\n\nThe solutions are explained.",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#sf-package-introduction",
+    "href": "sections/D1P3.html#sf-package-introduction",
+    "title": "Lesson 2: Vector Data",
+    "section": "SF package introduction",
+    "text": "SF package introduction\nsf package introduction and installation",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#import-shapefiles",
+    "href": "sections/D1P3.html#import-shapefiles",
+    "title": "Lesson 2: Vector Data",
+    "section": "Import shapefiles",
+    "text": "Import shapefiles\nGeometry in QGIS and R",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#plot-a-vector-layer",
+    "href": "sections/D1P3.html#plot-a-vector-layer",
+    "title": "Lesson 2: Vector Data",
+    "section": "Plot a vector layer",
+    "text": "Plot a vector layer\nplot the vector\n\n\nQuestion about the output\nIs the output in British?\n\n\n\nPlot the vector layer pt. 2\nPlot the vector part 2\n\n\n\nChallenge: Import line and point vector layers\nChallenge described\n\nChallenge solution explained\n\n\nQuestion about the GUI\nDoes it make a difference to open (double-click) a file using the GUI?\n\nSolution part 2",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#query-vector-feature-metadata",
+    "href": "sections/D1P3.html#query-vector-feature-metadata",
+    "title": "Lesson 2: Vector Data",
+    "section": "Query Vector Feature Metadata",
+    "text": "Query Vector Feature Metadata\nHave a look at the metadata of the layer",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#explore-values",
+    "href": "sections/D1P3.html#explore-values",
+    "title": "Lesson 2: Vector Data",
+    "section": "Explore values",
+    "text": "Explore values\nExplore values within an attribute\n\n\nQuestion about updating the columns\nHow could the column be updated?",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#subset-features",
+    "href": "sections/D1P3.html#subset-features",
+    "title": "Lesson 2: Vector Data",
+    "section": "Subset features",
+    "text": "Subset features\nFilter function\n\nFilter function part 2\n\n\nChallenge: Now with the motorways\nChallenge description\n\nChallenge solution\n\nChallenge solution part 2\n\n\n\nQuestion about the summarize length\nSummarize length, would you also get a simple feature?",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#customize-plots",
+    "href": "sections/D1P3.html#customize-plots",
+    "title": "Lesson 2: Vector Data",
+    "section": "Customize plots",
+    "text": "Customize plots\nIntroduction to plot customization\n\n\nTip: Importance of CRS in plotting\nThe importance of CRS in plotting your data.\n\nPlot customization part 2\n\n\n\nQuestion about the levels specifications\nWhy do we need to specify the levels?\n\n\nAnswers",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "sections/D1P3.html#examining-and-coloring-objects",
+    "href": "sections/D1P3.html#examining-and-coloring-objects",
+    "title": "Lesson 2: Vector Data",
+    "section": "Examining and coloring objects",
+    "text": "Examining and coloring objects\n\n\nQuestion about the number of colors\nHow should we know how many colors we need for the road types?\n\n\n\nQuestion about the color order\nIs the order of colors the same as the value orders?",
+    "crumbs": [
+      "Lesson 2: Vector Data"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This package is meant to help you learn how to apply geospatial analysis in the urban context using RStudio as an open-source and powerful software for automation, rescalability and reproducibility.\nThe online materials of this instruction package is meant to help you working with R from scratch on your own, up to an elementary stage where you can perform first steps of major analytical methods and tools on a spatial context for your professional/academic work or for your own learning.\nThe package is a combination of online structured teachings from the Carpentries Incubator and recorded video materials from the previous workshop that was held in-person at TU Delft in 2024.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Introduction",
+    "section": "Overview",
+    "text": "Overview\n\nWhat is R?\nFurthermore, the R and Rstudio as your working toolset is introduced to have a better understanding of the capabilities of working with R through your projects.\n\n\n\nSetting up Rstudio\nCheck the GDCU Carpentries website to learn about the installation steps and R package requirements regarding your OS.\nCheck the summary and setup",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#project-management-in-rstudio",
+    "href": "index.html#project-management-in-rstudio",
+    "title": "Introduction",
+    "section": "Project Management in Rstudio",
+    "text": "Project Management in Rstudio\nTo start your work in the Rstudio environment, creating and handling a project package is crucial. You have to go over your project folder for file handling, data storing and management, or simply organizing your workflow. Check the video below how the instructors introduce the main components of every R project folder and how to organize them appropriately.\nOrganizing the working directory",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#create-r-project",
+    "href": "index.html#create-r-project",
+    "title": "Introduction",
+    "section": "Create R Project",
+    "text": "Create R Project\nNow, it’s time to create your project folder. This could be done in several ways. Spend some time creating your project by clicking and going, or type a command using an R script all the way along.\nThe first video explains to you how to create an R project.\n\n&lt;iframe&gt;\n&lt;section id=\"tip-creating-your-project\" class=\"level3\"&gt;\n&lt;h3&gt;Tip: Creating your project&lt;/h3&gt;\n&lt;p&gt;To make sure your project is created and active in your environment, you can take a look at the file name in the top right corner of your window.&lt;/p&gt;\n&lt;iframe title=\"\" width=\"700\" height=\"500\" frameborder=\"0\" scrolling=\"auto\" marginheight=\"0\" marginwidth=\"0\" src=\"https://collegerama.tudelft.nl/Mediasite/Play/8ba8fb2018904124921fae83ef9221c71d\" allowfullscreen msallowfullscreen allow=\"fullscreen\"&gt;\nThe second video introduces the ways of interaction with R. You can also check the detailed instruction of how to interact with R in the Carpentries.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#create-a-script",
+    "href": "index.html#create-a-script",
+    "title": "Introduction",
+    "section": "Create a script",
+    "text": "Create a script\nThe key component to structuring your analytical workflow is to write the script. You need to create an R script file inside your project’s folder.\n\n\nCreate a script: Pros & Cons\nHere’s a short discussion of what are the uses and difficulties of creating a script in the Rstudio environment.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#running-the-script",
+    "href": "index.html#running-the-script",
+    "title": "Introduction",
+    "section": "Running the script",
+    "text": "Running the script\nNow that you have your file and written script, you’re ready to run the code and operate your first lines of command. Learn more about the console details and Escaping.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#r-packages",
+    "href": "index.html#r-packages",
+    "title": "Introduction",
+    "section": "R Packages",
+    "text": "R Packages\n\nIntro\nThe R script can handle general operations for us. However, if we want to assign more complex and modular functions, we would need a set of tools that can fulfill the specific tasks for which they are developed. These toolsets are called “Package”. You need to install the package and run its libraries to activate them.\n\n\n\nCheatsheets\nIt is totally normal not to know the package names, specific functions, or general syntax by heart. We’ve made a cheatsheet for you to take a quick look at whenever you need to write down a specific function or package in your script. Take a look at the cheatsheet files or save them on your device in case of needing them.\n\n\n\nAttention\nYour auto-completion may not operate the same way as the one in the instruction video. The auto-completion options in your environment may vary based on the installed packages in your Rstudio.\n\n\n\nInstalling Tidyverse\nNow it’s time to install one of the most commonly used packages in R, Tidyverse.\n\nThink about the installation command; you’d need to write a specific line of code and run it in order to install a package. Heads up! once your install a package, you wouldn’t need to run its code anytime after you reopen your project.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#code-commenting",
+    "href": "index.html#code-commenting",
+    "title": "Introduction",
+    "section": "Code commenting",
+    "text": "Code commenting\n\nA question\nNow that you’ve installed your package, you don’t need to run that line again. But what if you need to keep its script? Let’s say you’d need to share your script file with a colleague who may not have the same packages installed on their device, so you need to keep the installation codes inside your script file.\n\nA way to prevent your package installation codes from being run is to turn them into a comment. By doing that, you can keep your code lines inside your file without running them effectively.\n\n\n\nSome tips\nThere are some general ideas you may like to know about commenting in code. Not only does the “#” sign make your code line unexecutable, but also you can literally write your comments on each line of code in case you need to provide information or trace your steps later while you’re reviewing your code or sharing it with somebody else.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#handling-paths",
+    "href": "index.html#handling-paths",
+    "title": "Introduction",
+    "section": "Handling Paths",
+    "text": "Handling Paths\nThere’s an important step to address your folders’ locations inside your script. In R, you wouldn’t need to copy-paste a complete path directory, as long as you’ve saved the files inside the main project folder. Here you’ll learn how to configure your directories.\n\n\nA small note\nYou may notice some differences in your script compared to the video. It is because of the Copilot add-on that suggests further code lines. That is not necessary in your current progress.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#variables-and-assignments",
+    "href": "index.html#variables-and-assignments",
+    "title": "Introduction",
+    "section": "Variables and assignments",
+    "text": "Variables and assignments\nWe introduced the packages and sets of specialized operators and functions. Speaking of which, along with simple operations that are already demonstrated, you can also define variables and assign them to new values using the “&lt;-” key combination.\n\nCheck out the step-by-step description of assigning values in the Carpentries.\n\nDiscussion\nLet’s say you want to assign a variable to another existing variable in your script. What do you think will happen? Check your response with the video below.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#download-files",
+    "href": "index.html#download-files",
+    "title": "Introduction",
+    "section": "Download files",
+    "text": "Download files\nYou’ve made it so far. That’s quite a progress!\nNow, this is the last step of your preparation. You need to download the files you need to work with. Take the notes from the video and the Carpentries’ callout.\n\nThe error happened, right? What do you think caused the error? Take some time to think about it and play the next video while the instructors are trying to fix the error.\n\n\nWarning and error messages\nThe warning messages are pretty common to appear when running your code. In general, not all of them are serious problems that interrupt your code running, but you may need to be aware of them.\n\nAlthough the warnings are not critical, the error messages on your R console are the high-priority problems that indicate your code is not operating properly and the tasks cannot be completed.\nThink about how to fix the error in the script and compare your evaluation with the following video.\n\n\n\nDownloaded file path\nThe error is fixed. Once you download your files, you’d better check where they’re stored. This is crucial for any next step you take working with your data.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html",
+    "href": "sections/D2P1.html",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Videos Credits: Claudiu Forgaci, Ignacio Urria Yáñez\nStarting from this episode, you’ll start to work with raster data in R.\n\n\nCheck that you have the terra package installed in your Rstudio environment.\n\n\n\nRaster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?\n\n\n\n\n\ndescribe() function is introduced\n\n\n\nCan we use ‘here’?\n\n\n\n\n\n\n\n\n\nImport the raster data into R\n\n\n\nIs the height based on the sea level?\n\n\n\n\n\nUsing the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?\n\n\n\n\n\nplot and as.data\n\n\n\nHere’s how to close the copilot\n\n\n\n\n\nCommon errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\nHere’s how to view the raster coordinate reference system\n\n\n\n\nHere’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip\n\n\n\n\n\nRaster layers can contain several band layers of different values.\n\n\n\n\nChallenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
+    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Check that you have the terra package installed in your Rstudio environment.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-script",
+    "href": "sections/D2P1.html#raster-script",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Raster script review\n\n\n\nIs there a way to autosave the script without us having to remember to save it?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-attribute",
+    "href": "sections/D2P1.html#raster-attribute",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "describe() function is introduced\n\n\n\nCan we use ‘here’?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-raster-in-r",
+    "href": "sections/D2P1.html#open-raster-in-r",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Import the raster data into R\n\n\n\nIs the height based on the sea level?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Using the rast() and summary() functions.\n\n\n\nWhat are min and max numbers?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-3",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "plot and as.data\n\n\n\nHere’s how to close the copilot",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
+    "href": "sections/D2P1.html#open-a-raster-in-r-pt.-4",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Common errors of uppercase and lowercase letters during the previous challenge\n\n\n\nWhat would happen if we don’t put the strange marks for our fill argument?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#view-raster-crs",
+    "href": "sections/D2P1.html#view-raster-crs",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Here’s how to view the raster coordinate reference system",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
+    "href": "sections/D2P1.html#calculate-rasters-minimum-and-maximum-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Here’s how to calculate your raster’s Min and Max values with minmax() function\n\n\n\nHow does minmax work in terms of data structure?\n\n\n\n\nCheck the callout for data tip",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#raster-bands",
+    "href": "sections/D2P1.html#raster-bands",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Raster layers can contain several band layers of different values.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#challenge-describe-raster-values",
+    "href": "sections/D2P1.html#challenge-describe-raster-values",
+    "title": "Lesson 3: Raster Data",
+    "section": "",
+    "text": "Challenge description\n\nChallenge solution\n\n\n\nWhere can we find the information?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
+    "href": "sections/D2P1.html#make-sure-that-you-have-installed-the-necessary-packages-1",
+    "title": "Lesson 3: Raster Data",
+    "section": "Make sure that you have installed the necessary packages",
+    "text": "Make sure that you have installed the necessary packages\nCheck that you have the terra package installed in your Rstudio environment.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plotting-data-using-breaks",
+    "href": "sections/D2P1.html#plotting-data-using-breaks",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plotting data using breaks",
+    "text": "Plotting data using breaks\nUsing the cut() and mutate() functions\n\n\nQuestion about using breaks\nWhat columns does the data frame have now?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
+    "href": "sections/D2P1.html#plotting-data-using-breaks-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plotting data using breaks Pt. 2",
+    "text": "Plotting data using breaks Pt. 2",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plot-formatting",
+    "href": "sections/D2P1.html#plot-formatting",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plot Formatting",
+    "text": "Plot Formatting\nThere are more plot formatting options, such as color_scale_fill_manual() function.",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#plot-formatting-pt.-2",
+    "href": "sections/D2P1.html#plot-formatting-pt.-2",
+    "title": "Lesson 3: Raster Data",
+    "section": "Plot Formatting Pt. 2",
+    "text": "Plot Formatting Pt. 2\nelement_blank() and theme() functions are explained.\n\n\nTip and question about plot formatting\nHow to check documentation for the theme function?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P1.html#challenge-plot-using-custom-breaks",
+    "href": "sections/D2P1.html#challenge-plot-using-custom-breaks",
+    "title": "Lesson 3: Raster Data",
+    "section": "Challenge: Plot using custom breaks",
+    "text": "Challenge: Plot using custom breaks\nChallenge description\n\nChallenge Solution\n\n\nQuestion regarding the challenge\nCan you cut the equal numbers of values?",
+    "crumbs": [
+      "Lesson 3: Raster Data"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html",
+    "href": "sections/D2P4.html",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Videos Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn how to perform some of basic GIS operations using sf package in R.\n\n\n\nHow to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.\n\n\n\n\n\n\n\n\nHow to know how many buildings there are?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\nShould we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question\n\n\n\n\nUsing the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question\n\n\n\n\n\nUnion operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question\n\n\n\n\n\nst_centroid function is introduced\n\n\n\n\n\n\n\n\n\nWhy doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nHow do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question\n\n\n\n\n\n\n\n\ngroup_by() function\n\n\n\n\nst_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone\n\n\n\n\nst_area() and st_units() functions\n\n\n\n\nChallenge Description\n\nFurther description\n\nChallenge solution\n\n\n\n\nWrap Up",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#conservation-in-brielle-nl",
+    "href": "sections/D2P4.html#conservation-in-brielle-nl",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "How to select the features in an old school way?\n\nWhat would be the 2nd step after selecting the buildings?\n\nWhat would be the biggest impact of conservation, and how to prioritize the buildings to be conserved?\n\nShould the conservation have an offset (i.e., distance)?\n\n\n\nThe count of buildings within a zone with densities would be good measure since there are small and big buildings.",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#conservation-pt.-2",
+    "href": "sections/D2P4.html#conservation-pt.-2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "How to know how many buildings there are?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#buffers",
+    "href": "sections/D2P4.html#buffers",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Should we work in meters in terms of the projection?\n\nAnswer to the question\n\nThere’s a second answer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#buffers-pt.-2",
+    "href": "sections/D2P4.html#buffers-pt.-2",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Using the st_buffer() function\n\n\n\nDoes the st_buffer creates the buffer from the edges and not from the central points?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#union",
+    "href": "sections/D2P4.html#union",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Union operation is explained.\n\nHow to create a new variable?\n\n\n\nWhy are we using crs or why should we use st_crs to define crs in st_transform?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#centroids",
+    "href": "sections/D2P4.html#centroids",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "st_centroid function is introduced",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#centroids-pt.-3",
+    "href": "sections/D2P4.html#centroids-pt.-3",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Why doesn’t it make sense to put the data in ggplot straight away?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join",
+    "href": "sections/D2P4.html#intersection-join",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "How do you intersect something using sf?\n\nAnswer to the question\n\nAnother answer to the question",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join-pt.-3",
+    "href": "sections/D2P4.html#intersection-join-pt.-3",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "group_by() function",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#intersection-join-pt.-4",
+    "href": "sections/D2P4.html#intersection-join-pt.-4",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "st_join to join the attributes to the geometries\n\nShould we convert the layer into a data frame?\n\nAnswer to the question\n\nAlternative answer\n\n\n\nMap the number of buildings per zone",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#area-density-calculation",
+    "href": "sections/D2P4.html#area-density-calculation",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "st_area() and st_units() functions",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#challenge-change-of-the-rules",
+    "href": "sections/D2P4.html#challenge-change-of-the-rules",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Challenge Description\n\nFurther description\n\nChallenge solution",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P4.html#outro",
+    "href": "sections/D2P4.html#outro",
+    "title": "Lesson 4 : OSM Data & GIS Operations in R Part 2",
+    "section": "",
+    "text": "Wrap Up",
+    "crumbs": [
+      "Lesson 4 : OSM Data & GIS Operations in R Part 2"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html",
+    "href": "sections/D2P3.html",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Videos Credits: Clémentine Cottineau, Ignacio Urria Yáñez\nIn this episode, you’re about to learn about the OpenStreetMap (OSM) server and how to collect and use its data in R.\n\nA recap of what you’ve gone through so far\n\nLO\n\n\n\nLearn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions\n\n\n\n\n\n\n\n\n\n\n\n\nInstallation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.\n\n\n\n\n\nExtract the Features\n\n\n\nCheck the Documentation Link\n\n\n\n\n\nCheck the instructions for using the Overpass API.\n\n\n\n\n\n\n\n\nLearn about the objects\n\n\n\n\nCheck the Projections via the link\n\n\n\n\nfilter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question\n\n\n\n\n\n\n\n\n\n\n\nHow to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?\n\n\n\n\n\n\nWhy do we have a contrast in the map?\n\n\n\n\n\n\n\n\nHow can we replicate the same plot and map?\n\n\n\n\n\n\n\nCan I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question\n\n\n\n\n\n\n\n\nWhere can we store the function?\n\n\n\n\nWhen do we use curly brackets?\n\n\n\n\n\nClosure\n\n\n\n\nChallenge description\n\n\n\n\n\n\n\n\nDiscussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution\n\n\n\n\n\nChallenge solution and leaflets\n\nWrap UP",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#what-is-openstreetmap",
+    "href": "sections/D2P3.html#what-is-openstreetmap",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Learn more about OSM.\n\nHow does OSM work?\n\nAnswers to the questions",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#osm-in-r",
+    "href": "sections/D2P3.html#osm-in-r",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Installation and data extraction\n\n\n\n\nUsing getbb() function\n\n\n\n\nThere are locations with the same names. Be aware of it.",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#extracting-features",
+    "href": "sections/D2P3.html#extracting-features",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Extract the Features\n\n\n\nCheck the Documentation Link",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#overpass-query",
+    "href": "sections/D2P3.html#overpass-query",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Check the instructions for using the Overpass API.",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#structure-of-objects",
+    "href": "sections/D2P3.html#structure-of-objects",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Learn about the objects",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#mapping",
+    "href": "sections/D2P3.html#mapping",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Check the Projections via the link",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization",
+    "href": "sections/D2P3.html#visualization",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "filter() function is used\n\nWhat is the difference between AES and buil_date?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization-pt.-2",
+    "href": "sections/D2P3.html#visualization-pt.-2",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "How to should we make it color friendly?\n\nAnswer to the question\n\n\n\n\nBritish or American syntax for visualization?",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#visualization-pt.-3",
+    "href": "sections/D2P3.html#visualization-pt.-3",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Why do we have a contrast in the map?",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability",
+    "href": "sections/D2P3.html#replicability",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "How can we replicate the same plot and map?",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-2",
+    "href": "sections/D2P3.html#replicability-pt.-2",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Can I run the code but use the CRS instead of city names in a row?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-3",
+    "href": "sections/D2P3.html#replicability-pt.-3",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Where can we store the function?\n\n\n\n\nWhen do we use curly brackets?",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#replicability-pt.-4",
+    "href": "sections/D2P3.html#replicability-pt.-4",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Closure",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive",
+    "href": "sections/D2P3.html#going-interactive",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Challenge description",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive-pt.-3",
+    "href": "sections/D2P3.html#going-interactive-pt.-3",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Discussing the challenge maps\n\n\n\nWhy do we have to reproject the buildings?\n\n\n\n\nCan we do the replicability example by changing the city name with the interactive mapping?\n\n\n\n\naddfile as a solution",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D2P3.html#going-interactive-pt.-4",
+    "href": "sections/D2P3.html#going-interactive-pt.-4",
+    "title": "Lesson 4: OSM Data & GIS Operations in R",
+    "section": "",
+    "text": "Challenge solution and leaflets\n\nWrap UP",
+    "crumbs": [
+      "Lesson 4: OSM Data & GIS Operations in R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html",
+    "href": "sections/D1P2.html",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Videos Credits: Claudiu Forgaci (Introduction), Javier San Millán Tejedor, Aleksandra Wilczynska\nIn this episode you’re going to start learning about the data structures such as Vectors in the R environment.\n\n\nHere the data vectors are explained.\n\n\n\n\nHere the character vectors are explained.\n\n\n\n\nstr() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question\n\n\n\n\n\nThe combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?\n\n\n\n\n\nVectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?\n\n\n\n\n\nThere will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3\n\n\n\n\n\nFactor is another important data structure.\n\n\n\n\nHere’s how to create factors.\n\n\n\n\nThe levels() function is introduced.\n\n\n\nA tip on using the summary() function\n\n\n\n\n\nfct_relevel() function is explained.\n\n\n\n\n\n\nWhat is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#vectors",
+    "href": "sections/D1P2.html#vectors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Here the data vectors are explained.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#character-vectors",
+    "href": "sections/D1P2.html#character-vectors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Here the character vectors are explained.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#str-vectors",
+    "href": "sections/D1P2.html#str-vectors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "str() function is explained.\n\n\n\nWhat does structure function do?\n\nAnswer to the question",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#combining-vectors",
+    "href": "sections/D1P2.html#combining-vectors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "The combine function, c(), is introduced here.\n\n\n\nTip on Mixed Vectors and str()\n\nAdditional tips on the Mixed Vectors\n\n\n\n\nWhat is the underlying rule behind it?",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#logical-values",
+    "href": "sections/D1P2.html#logical-values",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Vectors can also have logical values.\n\n\n\nWhat happens when we mix two different types of values?",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#missing-values",
+    "href": "sections/D1P2.html#missing-values",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "There will be missing values.\n\n\n\nMissing Values Part 2\n\nMissing Values Part 3",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#factors",
+    "href": "sections/D1P2.html#factors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Factor is another important data structure.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#creating-factors",
+    "href": "sections/D1P2.html#creating-factors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "Here’s how to create factors.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#inspect-factors",
+    "href": "sections/D1P2.html#inspect-factors",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "The levels() function is introduced.\n\n\n\nA tip on using the summary() function",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#reorder-levels",
+    "href": "sections/D1P2.html#reorder-levels",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "fct_relevel() function is explained.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#questions-regarding-the-syntax",
+    "href": "sections/D1P2.html#questions-regarding-the-syntax",
+    "title": "Lesson 1: Intro to R",
+    "section": "",
+    "text": "What is the use of an exclamation mark inside the syntax?\n\nIs it okay to have whitespaces or new lines in R programming?",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "href": "sections/D1P2.html#dataframe-manipulation-with-dplyr",
+    "title": "Lesson 1: Intro to R",
+    "section": "Dataframe manipulation with dplyr",
+    "text": "Dataframe manipulation with dplyr\n\nSelect function\nIntroducing the select function.\n\n\nTip: select function errors\nWhen choosing the select function, you may face error saying tidyverse is not installed.\n\n\n\nPipes\nIntroducing the pipe\n\n\n\nTip: read indentations when using pipes\nA tip when you’re using pipes is to read your code with indentations.\n\n\n\nQuestion about the pipe\nWhy use a pipe instead of doing things step by step?\n\n\n\nFilter\nIntroduction to filter\n\n\n\nQuestion about the order operation\nWhat is the order of operation if we write it based on that structure?\n\nA follow-up question from the previous question\n\n\n\nChallenge: Filtered data frame\nChallenge description\n\nChallenge solution\n\nYou can also check the alternative solution\n\n\nQuestion about the challenge\nhow to get all info about a country?",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#group-and-summarize",
+    "href": "sections/D1P2.html#group-and-summarize",
+    "title": "Lesson 1: Intro to R",
+    "section": "Group and summarize",
+    "text": "Group and summarize\nCheck the detailed descriptions from the carpentries regarding group and summarize with a challenge.\n\n\nMultiple groups and summary variables",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#frequencies",
+    "href": "sections/D1P2.html#frequencies",
+    "title": "Lesson 1: Intro to R",
+    "section": "Frequencies",
+    "text": "Frequencies\nIntroduction to frequencies",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#mutate",
+    "href": "sections/D1P2.html#mutate",
+    "title": "Lesson 1: Intro to R",
+    "section": "Mutate",
+    "text": "Mutate\nMutate function",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#data-visualization",
+    "href": "sections/D1P2.html#data-visualization",
+    "title": "Lesson 1: Intro to R",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nIntroduction to data visualization\n\nDon’t forget to take a quick look at the cheatsheet\n\nSecond part of the data visualization\n\nThird part of the data visualization. Creating a summary plot for the data using the mutate function.\n\n\nQuestion about a continent in the dataset\nHow did we know there’s the continent of America in the dataset?\n\nfourth part of data visualization, coloring.\n\n\n\nColor scale\nColor scale and viridis function",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#writing-data",
+    "href": "sections/D1P2.html#writing-data",
+    "title": "Lesson 1: Intro to R",
+    "section": "Writing data",
+    "text": "Writing data\nSaving the plot\nUsing help documentation",
+    "crumbs": [
+      "Lesson 1: Intro to R"
+    ]
+  },
+  {
+    "objectID": "sections/D1P2.html#saving-the-data",
+    "href": "sections/D1P2.html#saving-the-data",
+    "title": "Lesson 1: Intro to R",
+    "section": "Saving the data",
+    "text": "Saving the data\nwrite.csv function description.\nAlso, check the cheatsheet.",
+    "crumbs": [
+      "Lesson 1: Intro to R"
     ]
   }
 ]
