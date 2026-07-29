@@ -601,7 +601,7 @@
     "href": "sections/D1P3.html#import-shapefiles",
     "title": "Lesson 2: Vector Data",
     "section": "Import shapefiles",
-    "text": "Import shapefiles\nImport the shp files and opening them using st_read()\n\n\nQuestion about shapefile metadata\nWhat was the mistake in importing shp?\nloading the wrong dataset\n\n\n\nAssign Data to Object\nWe can assign the existing data to an object in R",
+    "text": "Import shapefiles\nImport the shp files and opening them using st_read()\n\n\nQuestion about shapefile metadata\nWhat was the mistake in importing shp?\nloading the wrong dataset\n\n\n\nAssign Data to an Object\nWe can assign the existing data to an object in R",
     "crumbs": [
       "Lesson 2: Vector Data"
     ]
