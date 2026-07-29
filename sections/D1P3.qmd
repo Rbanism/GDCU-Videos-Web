@@ -104,7 +104,7 @@ A description of [geometry in QGIS & R](https://carpentries-incubator.github.io/
 
 ### Question about shapefile metadata
 
-What was the mistake in importing shp? \
+What was the mistake in importing shp?\
 loading the wrong dataset
 
 ```{=html}
@@ -113,7 +113,7 @@ loading the wrong dataset
 
 ### Assign Data to Object
 
-We can assign the existing data to an object in R
+We can [assign the existing data to an object in R](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#:~:text=boundary%5FDelft%20%3C%2D%20st%5Fread%28%22data%2Fdelft%2Dboundary%2Eshp%22%2C%20quiet%20%3D%20TRUE%29)
 
 ```{=html}
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e4419d613f2642418665972d5e80e0a81d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
