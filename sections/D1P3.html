@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7e462b68550b93e95c1625bbce22e1a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-fbc5b4e29cc3cf7a21410927c5af7b66.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -184,12 +187,25 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#episode-6-open-and-plot-vector-layers" id="toc-episode-6-open-and-plot-vector-layers" class="nav-link" data-scroll-target="#episode-6-open-and-plot-vector-layers">Episode 6: Open and Plot Vector Layers</a>
   <ul class="collapse">
   <li><a href="#sf-package-introduction" id="toc-sf-package-introduction" class="nav-link" data-scroll-target="#sf-package-introduction">SF package introduction</a></li>
-  <li><a href="#import-shapefiles" id="toc-import-shapefiles" class="nav-link" data-scroll-target="#import-shapefiles">Import shapefiles</a></li>
+  <li><a href="#geometry-in-qgis-and-r" id="toc-geometry-in-qgis-and-r" class="nav-link" data-scroll-target="#geometry-in-qgis-and-r">Geometry in QGIS and R</a></li>
+  <li><a href="#import-shapefiles" id="toc-import-shapefiles" class="nav-link" data-scroll-target="#import-shapefiles">Import shapefiles</a>
+  <ul class="collapse">
+  <li><a href="#question-about-shapefile-metadata" id="toc-question-about-shapefile-metadata" class="nav-link" data-scroll-target="#question-about-shapefile-metadata">Question about shapefile metadata</a></li>
+  <li><a href="#assign-data-to-object" id="toc-assign-data-to-object" class="nav-link" data-scroll-target="#assign-data-to-object">Assign Data to Object</a></li>
+  </ul></li>
+  <li><a href="#spatial-metadata" id="toc-spatial-metadata" class="nav-link" data-scroll-target="#spatial-metadata">Spatial Metadata</a>
+  <ul class="collapse">
+  <li><a href="#question-about-changing-the-crs" id="toc-question-about-changing-the-crs" class="nav-link" data-scroll-target="#question-about-changing-the-crs">Question about changing the CRS</a></li>
+  </ul></li>
+  <li><a href="#st_transform-bbox-functions" id="toc-st_transform-bbox-functions" class="nav-link" data-scroll-target="#st_transform-bbox-functions">st_transform &amp; bbox functions</a></li>
   <li><a href="#plot-a-vector-layer" id="toc-plot-a-vector-layer" class="nav-link" data-scroll-target="#plot-a-vector-layer">Plot a vector layer</a>
   <ul class="collapse">
   <li><a href="#question-about-the-output" id="toc-question-about-the-output" class="nav-link" data-scroll-target="#question-about-the-output">Question about the output</a></li>
-  <li><a href="#plot-the-vector-layer-pt.-2" id="toc-plot-the-vector-layer-pt.-2" class="nav-link" data-scroll-target="#plot-the-vector-layer-pt.-2">Plot the vector layer pt.&nbsp;2</a></li>
+  </ul></li>
+  <li><a href="#plot-the-vector-layer-pt.-2" id="toc-plot-the-vector-layer-pt.-2" class="nav-link" data-scroll-target="#plot-the-vector-layer-pt.-2">Plot the vector layer Pt. 2</a>
+  <ul class="collapse">
   <li><a href="#challenge-import-line-and-point-vector-layers" id="toc-challenge-import-line-and-point-vector-layers" class="nav-link" data-scroll-target="#challenge-import-line-and-point-vector-layers">Challenge: Import line and point vector layers</a></li>
+  <li><a href="#question-about-the-gui" id="toc-question-about-the-gui" class="nav-link" data-scroll-target="#question-about-the-gui">Question about the GUI</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#episode-7-explore-and-plot-by-vector-layer-attributes" id="toc-episode-7-explore-and-plot-by-vector-layer-attributes" class="nav-link" data-scroll-target="#episode-7-explore-and-plot-by-vector-layer-attributes">Episode 7: Explore and plot by vector layer attributes</a>
@@ -296,11 +312,45 @@ ul.task-list li input[type="checkbox"] {
 <section id="sf-package-introduction" class="level2">
 <h2 class="anchored" data-anchor-id="sf-package-introduction">SF package introduction</h2>
 <p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html">sf package introduction and installation</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f283aab223e74570bc8714cf9a8d97681d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="geometry-in-qgis-and-r" class="level2">
+<h2 class="anchored" data-anchor-id="geometry-in-qgis-and-r">Geometry in QGIS and R</h2>
+<p>A description of <a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#spatial-metadata">geometry in QGIS &amp; R</a></p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/f7619c7de4b546d388c4e0b3072e122b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
 <section id="import-shapefiles" class="level2">
 <h2 class="anchored" data-anchor-id="import-shapefiles">Import shapefiles</h2>
-<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#spatial-metadata"><strong>Geometry in QGIS and R</strong></a></p>
-<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/c4abfc62d8b6438296b3a0fc264f3da41d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#import-shapefiles">Import the shp files</a> and opening them using st_read()</p>
+<iframe title="GDCU_D1P3_Import_shp" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/9db16df5374f4de0b1b90e885d6d4fef1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-shapefile-metadata" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-shapefile-metadata">Question about shapefile metadata</h3>
+<p>What was the mistake in importing shp?<br>
+loading the wrong dataset</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d5096f0631b44d0e90051d2d9a19becf1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+<section id="assign-data-to-object" class="level3">
+<h3 class="anchored" data-anchor-id="assign-data-to-object">Assign Data to Object</h3>
+<p>We can assign the existing data to an object in R</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e4419d613f2642418665972d5e80e0a81d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="spatial-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="spatial-metadata">Spatial Metadata</h2>
+<p>Here you can use the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#spatial-metadata">st_geometry_type()</a> to read the geometry</p>
+<iframe title="GDCU_D1P3_st_Geometry_Type" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/bd2b9d5fb4244e568b3e1bf1c19b0a791d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<p>With the <a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#:~:text=st%5Fcrs%28%29"><strong>st_crs() function</strong></a> you can read the CRS of your data</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/37d2c5c98ca44a09ba93396a951c13411d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+<section id="question-about-changing-the-crs" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-changing-the-crs">Question about changing the CRS</h3>
+<p>Can we change the CRS of a shapefile?</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/69c783ed4a814d38975d1958b7811fbd1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
+</section>
+</section>
+<section id="st_transform-bbox-functions" class="level2">
+<h2 class="anchored" data-anchor-id="st_transform-bbox-functions">st_transform &amp; bbox functions</h2>
+<p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#:~:text=st%5Ftransform%28%29">st_transform()</a> and <a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#:~:text=st%5Fbbox%28%29">st_bbox()</a> functions are introduced</p>
+<iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/80b9658c92734811a9fbbaee0a4a41f01d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
 <section id="plot-a-vector-layer" class="level2">
 <h2 class="anchored" data-anchor-id="plot-a-vector-layer">Plot a vector layer</h2>
@@ -311,24 +361,24 @@ ul.task-list li input[type="checkbox"] {
 <p>Is the output in British?</p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/e65a9f5d7b69408183737ec27f8807191d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 </section>
-<section id="plot-the-vector-layer-pt.-2" class="level3">
-<h3 class="anchored" data-anchor-id="plot-the-vector-layer-pt.-2">Plot the vector layer pt.&nbsp;2</h3>
+</section>
+<section id="plot-the-vector-layer-pt.-2" class="level2">
+<h2 class="anchored" data-anchor-id="plot-the-vector-layer-pt.-2">Plot the vector layer Pt. 2</h2>
 <p><a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#plot-a-vector-layer"><strong>Plot the vector part 2</strong></a></p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/36fb8fae8e1844edb6dc5f83d923ea901d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
 <section id="challenge-import-line-and-point-vector-layers" class="level3">
 <h3 class="anchored" data-anchor-id="challenge-import-line-and-point-vector-layers">Challenge: Import line and point vector layers</h3>
 <p>Challenge <a href="https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#plot-a-vector-layer:~:text=IMPORT%20LINE%20AND%20POINT%20VECTOR%20LAYERS">described</a></p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/a23d5a31ccfa4810b42c31768dd8806b1d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 <p>Challenge solution explained</p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/8a55014ece9f43a5a6488524bbf46b461d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-<section id="question-about-the-gui" class="level4">
-<h4 class="anchored" data-anchor-id="question-about-the-gui">Question about the GUI</h4>
+</section>
+<section id="question-about-the-gui" class="level3">
+<h3 class="anchored" data-anchor-id="question-about-the-gui">Question about the GUI</h3>
 <p>Does it make a difference to open (double-click) a file using the GUI?</p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d35b9712c52347bab7f5ec2e1e1e57751d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
 <p>Solution part 2</p>
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/6641de1cd9e94d6f949f096521d938761d" allowfullscreen="" msallowfullscreen="" allow="fullscreen"></iframe>
-</section>
 </section>
 </section>
 </section>
