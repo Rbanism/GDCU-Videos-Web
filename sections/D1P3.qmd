@@ -111,7 +111,7 @@ loading the wrong dataset
 <iframe title="" width="700" height="500" frameborder="0" scrolling="auto" marginheight="0" marginwidth="0" src="https://collegerama.tudelft.nl/Mediasite/Play/d5096f0631b44d0e90051d2d9a19becf1d" allowfullscreen msallowfullscreen allow="fullscreen"></iframe>
 ```
 
-### Assign Data to Object
+### Assign Data to an Object
 
 We can [assign the existing data to an object in R](https://carpentries-incubator.github.io/r-geospatial-urban/06-open-and-plot-vector-layers.html#:~:text=boundary%5FDelft%20%3C%2D%20st%5Fread%28%22data%2Fdelft%2Dboundary%2Eshp%22%2C%20quiet%20%3D%20TRUE%29)
 
