@@ -3,7 +3,7 @@ title: "Introduction"
 format: html
 ---
 
-# Geospatial Data Carpentry for Urbanism with R
+# Gesopatial Data Carpentry for Urbanism with R
 
 This package is meant to help you learn how to apply geospatial analysis in the urban context using RStudio as an open-source and powerful software for automation, rescalability and reproducibility.
 
